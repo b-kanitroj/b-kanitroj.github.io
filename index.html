@@ -76,7 +76,7 @@
                 I take this chart from the created function in the EconomicsObservatory. It is the chart of Thailand Unemployment data.
             </p>
         </div>
-        <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="ThaiUnemp"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
 
     </section>
 
@@ -109,8 +109,7 @@
         let figure_3_spec = "wk1_comparing_economies.json"
         vegaEmbed("#Location3", figure_3_spec)
 
-        let figure_4_spec = "wk2_Thailand_unemployment.json"
-        vegaEmbed("#Location4", figure_4_spec)
+        vegaEmbed("#ThaiUnemp", 'wk2_Thailand_unemployment.json')
 
 
     </script>
