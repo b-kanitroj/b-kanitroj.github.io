@@ -67,6 +67,36 @@
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>Section 2: Declining Population</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here I have copy the chart about declining population from rdeconomist.github.io/library
+            </p>
+        </div>
+        <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Section 3: Comparing 4 Economies</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here I have copy the chart comparing four economies from rdeconomist.github.io/library
+            </p>
+        </div>
+        <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section></section>
+        <div class="chart-description">
+            <h2>Section 4: Isotype chart of animals in UK and US</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here I have copy the chart comparing four economies from rdeconomist.github.io/library
+            </p>
+        </div>
+        <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -87,6 +117,15 @@
         // e.g. 
         // let figure_3_spec = ...
         // vegaEmbed('#Location3', figure_3_spec)
+
+        let figure_2_spec = "Declining_population.json"
+        vegaEmbed("#Location2", figure_2_spec)
+
+        let figure_3_spec = "comparing_economies.json"
+        vegaEmbed("#Location3", figure_3_spec)
+
+        let figure_4_spec = "isotype.json"
+        vegaEmbed("#Location4", figure_4_spec)
 
 
     </script>
