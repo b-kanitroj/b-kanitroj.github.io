@@ -52,15 +52,15 @@
             href="https://b-kanitroj.github.io">GitHub</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
+        This page houses my portfolio tasks, with 10 coding challenges.
     </h3>
 
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Week 1: Creating personal website</h2>
+            <h2>Week 1: Hosting. Display charts in your own site.</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                This week, we learned how to creaet our website and try to attatch some pre-made charts
+                I have created a github account and live page. Here I added three charts using the vegaembed function.
             </p>
         </div>
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -71,12 +71,14 @@
 
     <section>
         <div class="chart-description">
-            <h2>Week 2: Attatching edited chart from API</h2>
+            <h2>Week 2: Building. Create your own visualisations</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I take this chart from the created function in the EconomicsObservatory. It is the chart of Thailand Unemployment data.
+                I take this chart from the create function in teh EconomicsObservatory. It is a chart of Thailand's unemployment data. 
+                This week I also learned about using "container" as a size for a chart, and how to code that up in the format of the site.
             </p>
         </div>
         <figure id="ThaiUnemp"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="Vicespending"></figure>
 
     </section>
 
@@ -110,6 +112,7 @@
         vegaEmbed("#Location3", figure_3_spec)
 
         vegaEmbed("#ThaiUnemp", 'wk2_Thailand_unemployment.json')
+        vegaEmbed("#Vicespending", 'wk2_vicespending.json')
 
 
     </script>
