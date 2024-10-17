@@ -1,0 +1,69 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/desirable_health_behavior.csv"
+    },
+    "title": {
+      "text": "60+ Population with desirable healthy behaviors in 2021, by region",
+      "fontSize": 15,
+      "subtitle": [
+        "Reported desirable healthy lifestyle: meaning regulary exercise, daily intake of fruits and vegetables",
+        "",
+        "drinking more/equal to 8 glasses of water and do not consume alcoholic drink nor smoking",
+        "",
+        "Source:NSO Thailand",
+        ""
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 300,
+    "height": 300,
+    "transform": [
+      {"calculate": "datum.value / 1000000", "as": "value_in_millions"},
+      {
+        "joinaggregate": [
+          {"op": "sum", "field": "value", "as": "total_by_region"}
+        ],
+        "groupby": ["region"]
+      },
+      {
+        "calculate": "datum.value / datum.total_by_region * 100",
+        "as": "percentage"
+      },
+      {
+        "calculate": "datum.desirable_health_behaviors + ' ' + format(datum.value, ',.0f') + ' ' + '('+ format(datum.percentage, '.1f') + '%' + ')'",
+        "as": "behavior_tooltip"
+      }
+    ],
+    "mark": {"type": "bar", "strokeWidth": 2, "opacity": 1},
+    "encoding": {
+      "x": {
+        "field": "region",
+        "title": null,
+        "type": "nominal",
+        "axis": {
+          "grid": false,
+          "labelAngle": 0,
+          "labelAlign": "center",
+          "labelBaseline": "middle"
+        }
+      },
+      "y": {
+        "field": "value_in_millions",
+        "title": "Number of people (millions)",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "desirable_health_behaviors",
+        "title": "Desirable Health Behaviors",
+        "scale": {
+          "domain": ["YES", "NO", "Don't know"],
+          "range": ["#1f77b4", "#d62728", "#7f7f7f"]
+        }
+      },
+      "tooltip": {"field": "behavior_tooltip"}
+    }
+  }

@@ -17,8 +17,8 @@
         {"fold":["Kenya", "Congo_DR", "UK", "Japan"], "as": ["country", "GDP"]}
         ],
           
-    "height": 120,
-    "width": 120,   
+    "height": 150,
+    "width": 150,   
     
     "mark": {   
             "type":"line",

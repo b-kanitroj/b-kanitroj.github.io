@@ -80,6 +80,15 @@
         <figure id="ThaiUnemp"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         <figure id="Vicespending"></figure>
 
+        <div class="chart-description"></div>
+            <p> 
+                I take the data from the National Statistics Office of Thailand, about the number of people the age of 60 with desirable health behavior.
+                There is still problems with this chart. By using stack bar chart, the number of people in other region with desirable health outcome seem like a larger share than those in Bangkok.
+                However, despite bigger numbers, they have much lower share compare to the whole population in the region. Therefore I want to try to use other chart type.
+            </p>
+        </div>
+        <figure id="DesirableHealth"></figure>
+
     </section>
 
     
@@ -113,6 +122,7 @@
 
         vegaEmbed("#ThaiUnemp", 'wk2_Thailand_unemployment.json')
         vegaEmbed("#Vicespending", 'wk2_vicespending.json')
+        vegaEmbed("#DesirableHealth", 'wk2_desirable_behavior.json')
 
 
     </script>
