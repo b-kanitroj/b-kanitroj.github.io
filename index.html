@@ -1,227 +1,51 @@
-<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
-<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
-<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
-<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
-
-<!-- Take a look around and make your own copy to adapt for your own use. -->
-
-<!-- This is a comment -->
-<!-- Comments are not displayed in the browser -->
-<!-- They can be used to leave notes in the code -->
-
 <!DOCTYPE html>
-<html> 
-    <!-- HTML is heirarchial: tags like this define elements on the page. 
-    Each tag does something different. For example:
-        - The <html> tag defines the whole document.
-        - The <h1> tag defines a large heading
-        - The <p> tag defines a paragraph
-        - Tags appear as an opening <div> and closing </div> pair
-    -->
-
+<html>
 <head>    
-    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+    <link rel="stylesheet" type="text/css" href="format.css">
+    <title>My Portfolio</title> 
 
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
-    <link rel="stylesheet" type="text/css" href="Format3.css">
-    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
-
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-    <style>
-        #chartGrid {
-            display: flex;
-        }
-        
-    </style>
 </head>
 
 <body> 
-<!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
-        <!-- This is a header, it is the largest text on the page -->
+    <h1 class="big" style="margin-bottom: 0px;">
         Binya K.
     </h1>
-    <p style="margin-top: 0px; color: darkblue">
-        <!-- we're setting the margin to 0px so the header and authour name are close together -->
+    <p style="margin-top: 0px;" class="small"> <!-- Styled using "small" class -->
         Binya Kanitroj | 
-        <a href="https://www.linkedin.com/in/binya-kanitroj/"> LinkedIn</a> | 
-        <a href="https://b-kanitroj.github.io"> GitHub</a> | 
-        <a href="https://b-kanitroj.github.io/portfolio"> Portfolio </a> | 
-        <a href="https://b-kanitroj.github.io/project"> Project </a>
-        
+        <a href="https://www.linkedin.com/in/binya-kanitroj/">LinkedIn</a> | 
+        <a href="https://b-kanitroj.github.io">GitHub</a>
     </p>
     <p class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This page presents my portfolio of 10 coding challenges, each designed to demonstrate a range of data science skills, including data visualization, web development, and analysis. From building interactive charts and maps to implementing machine learning models and data scrapers, each task highlights a unique aspect of practical data analysis applied to real-world economic and policy topics.
+        I am a Policy and Planning Analyst at the Ministry of Social Development and Human Security in Thailand, 
+        currently pursuing a Master of Public Administration (MPA) at the London School of Economics and Political Science. 
+        This page is part of the PP434: Automated Data Visualization for Policymaking. You can see my work here:
     </p>
 
-    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
-    <section> <!-- WEEK1 -->
-        <div class="chart-description"> 
-            <h2>CC 1: Hosting. Display charts in your own site.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I have created a github account and live page. Here I added three charts using the vegaembed function, they are taken from 
-                <a href="https://rdeconomist.github.io/library"> Chart Library</a>
-                
-            </p>
 
-        </div>
-        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-            <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-            <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        
-    </section>
-
-    <section> <!-- WEEK2 -->
-        <div class="chart-description">  <!-- WEEK2 -->
-            <h2>CC 2: Building. Create your own visualisations</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I take this chart from the create function in the <a href="https://www.economicsobservatory.com/explore"> EconomicsObservatory</a>. It is a chart of Thailand's unemployment data. 
-                This week I also learned about using "container" as a size for a chart, and how to code that up in the format of the site.
-            </p>
-        </div>
-        <figure id="ThaiUnemp"></figure> 
-        <figure id="VietUnemp"></figure>
-        <div class="chart-description">
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I take Thailand and Vietnam unemployment data from the EconomicsObservatory 
-                 and try to use "layer" to combine it into one chart.
-            </p>
-        <figure id="THVNUnemp"></figure>
-        <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-            I also try to create chart from scratch with data in csv format, and I will adapt that to the data of my choice in the next chart.
-        </p>
-        <figure id="Vicespending"></figure>
-
-        <div class="chart-description"></div>
-            <p> 
-                I take the data from the National Statistics Office of Thailand through the website <a href="https://data.go.th/dataset/0704_01_0009"> Open Government Data of Thailand</a> , about the number of people the age of 60 with desirable health behavior.
-                There are still problems with this chart. By using stack bar chart, the number of people in other region with desirable health outcome seem like a larger share than those in Bangkok.
-                However, despite bigger numbers, they have much lower share compare to the whole population in the region. Therefore I want to try to use other chart type.
-            </p>
-        </div>
-        <figure id="DesirableHealth"></figure>
-
-    </section>
-
-    <section> <!-- WEEK3 -->
-        <div class="chart-description">  <!-- WEEK3 -->
-            <h2>CC 3: Debating. Use a visualisation in economic/policy commentary</h2>
+    <section> <!-- Project Section -->
+        <div class="small">  
+            <a href="https://b-kanitroj.github.io/Project" class="button">Project</a>
             <p>
-                Produce two charts that support or refute a topic discussed at the Festival of Economics and comment on your findings.
+                Project description
             </p>
         </div>
+    </section>
 
-        <figure id = "AnscombeQuartet"></figure>
-        <figure id = "goodservices"></figure>
-    </section>    
+    <section> 
+        <div class="small"> 
+            <a href="https://b-kanitroj.github.io/Portfolio" class="button">Portfolio Tasks</a>
+            <p>
+                10 coding challenges, each designed to demonstrate a range of data science skills, 
+                including data visualization, web development, and analysis. From building interactive charts and maps 
+                to implementing machine learning models and data scrapers, each task highlights a unique aspect 
+                of practical data analysis applied to real-world economic and policy topics.
+            </p>
+        </div>
+    </section>
+  
     
-    <section> <!-- WEEK4 -->
-        <div class="chart-description">  <!-- WEEK4 -->
-            <h2>CC 4: Replication. Re-create, then improve, someone else’s chart</h2>
-            <p>
-                Replicate a chart from a journalist, think tank, or company, then improve it. Explain the changes made.
-            </p>
-        </div>
-    </section>
-    
-    <section> <!-- WEEK5 -->
-        <div class="chart-description">  <!-- WEEK5 -->
-            <h2>CC 5: Scraper. Implement a data scraper of your own</h2>
-            <p>
-                Use a Python notebook to scrape data from a website, clean and normalize the data, and build a chart from it.
-            </p>
-        </div>
-    </section>
-
-    <section> <!-- WEEK6 -->
-        <div class="chart-description">  <!-- WEEK6 -->
-            <h2>CC 6: Loops. Build a dashboard</h2>
-            <p>
-                Batch download data using a loop from the ONS API and create a dashboard with at least nine charts.
-            </p>
-        </div>
-    </section>
-
-    <section> <!-- WEEK7 -->
-        <div class="chart-description">  <!-- WEEK7 -->
-            <h2>CC 7: Maps. Base maps and choropleths</h2>
-            <p>
-                Create a base map with tooltips and a choropleth map using the lookup transform to show geographic data.
-            </p>
-        </div>
-    </section>
-
-    <section> <!-- WEEK8 -->
-        <div class="chart-description">  <!-- WEEK8 -->
-            <h2>CC 8: Analytics Charts</h2>
-            <p>
-                Produce two charts using advanced analytics techniques like scatter, bubble, or heat maps.
-            </p>
-        </div>
-    </section>
-    
-    <section> <!-- WEEK9 -->
-        <div class="chart-description">  <!-- WEEK9 -->
-            <h2>CC 9: Big Data. Extracting a story from millions of prices</h2>
-            <p>
-                Produce two charts using UK price data and explain the story behind the data.
-            </p>
-        </div>
-    </section>
-    
-    <section> <!-- WEEK10 -->
-        <div class="chart-description">  <!-- WEEK10 -->
-            <h2>CC 10: Machine Learning or Interactive Visualisations</h2>
-            <p>
-                Either apply two machine learning techniques (supervised and unsupervised learning) or create two interactive visualizations.
-            </p>
-        </div>
-    </section>
-    
-
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
-
-
-    <!-- This is a script, it's a way to run JavaScript code on the page -->
-    <script>
-        // This is a comment in JavaScript - it's a different language to HTML and CSS
-
-        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
-                                                                                                                    // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
-
-        // Do you want to add more graphs?
-        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
-        // e.g. 
-        // let figure_3_spec = ...
-        // vegaEmbed('#Location3', figure_3_spec)
-
-        let figure_2_spec = "wk1_Declining_population.json"
-        vegaEmbed("#Location2", figure_2_spec)
-
-        let figure_3_spec = "wk1_comparing_economies.json"
-        vegaEmbed("#Location3", figure_3_spec)
-
-        vegaEmbed("#ThaiUnemp", 'wk2_Thailand_unemployment.json')
-        vegaEmbed("#Vicespending", 'wk2_vicespending.json')
-        vegaEmbed("#DesirableHealth", 'wk2_desirable_behavior.json')
-        vegaEmbed("#VietUnemp", 'wk2_Vietnam_unemployment.json')
-        vegaEmbed("#THVNUnemp", 'wk2_thvn_unemployment.json')
-        vegaEmbed("#AnscombeQuartet", "wk3_AnscombeQuartet.json")
-        vegaEmbed("#goodservices", 'wk3_goods_services2.json')
-
-
-    </script>
-
 </body>
-    
 </html>
