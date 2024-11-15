@@ -1,44 +1,216 @@
-Country,Housing Type,Percentage,IsEU
-Romania,Own outright,93.6,true
-Slovak Republic,Own outright,71.3,true
-Croatia,Own outright,85.8,true
-Hungary,Own outright,75.1,true
-Lithuania,Own outright,76.2,true
-Bulgaria,Own outright,83.5,true
-Poland,Own outright,72.1,true
-Latvia,Own outright,71.3,true
-Malta,Own outright,57.9,true
-Estonia,Own outright,57.9,true
-Spain,Own outright,49.9,true
-Portugal,Own outright,45.7,true
-Slovenia,Own outright,61.4,true
-EU,Own outright,56.2,true
-Costa Rica,Own outright,65.8,false
-Czechia,Own outright,58.4,true
-Italy,Own outright,61.4,true
-Norway,Own outright,22.2,false
-Greece,Own outright,63.0,true
-OECD,Own outright,46.2,false
-Luxembourg,Own outright,33.7,true
-Mexico,Own outright,61.8,false
-Canada,Own outright,31.2,false
-Ireland,Own outright,41.5,true
-United Kingdom,Own outright,39.3,false
-Iceland,Own outright,18.7,false
-Belgium,Own outright,32.5,true
-New Zealand,Own outright,31.2,false
-United States,Own outright,25.3,false
-Cyprus,Own outright,48.0,true
-Finland,Own outright,33.9,true
-Australia,Own outright,31.4,false
-France,Own outright,37.6,true
-Chile,Own outright,49.4,false
-Netherlands,Own outright,10.7,true
-Sweden,Own outright,16.6,true
-Korea,Own outright,58.0,false
-Türkiye,Own outright,55.7,false
-Denmark,Own outright,13.4,true
-Austria,Own outright,28.7,true
-Germany,Own outright,25.3,true
-Switzerland,Own outright,4.5,false
-Colombia,Own outright,32.1,false
+Country,Housing Type,Percentage,EU
+Romania,Own outright,93.6,Yes
+Slovak Republic,Own outright,71.3,Yes
+Croatia,Own outright,85.8,Yes
+Hungary,Own outright,75.1,Yes
+Lithuania,Own outright,76.2,Yes
+Bulgaria,Own outright,83.5,Yes
+Poland,Own outright,72.1,Yes
+Latvia,Own outright,71.3,Yes
+Malta,Own outright,57.9,Yes
+Estonia,Own outright,57.9,Yes
+Spain,Own outright,49.9,Yes
+Portugal,Own outright,45.7,Yes
+Slovenia,Own outright,61.4,Yes
+EU,Own outright,56.2,No
+Costa Rica,Own outright,65.8,No
+Czechia,Own outright,58.4,Yes
+Italy,Own outright,61.4,Yes
+Norway,Own outright,22.2,No
+Greece,Own outright,63.0,Yes
+OECD,Own outright,46.2,No
+Luxembourg,Own outright,33.7,Yes
+Mexico,Own outright,61.8,No
+Canada,Own outright,31.2,No
+Ireland,Own outright,41.5,Yes
+United Kingdom,Own outright,39.3,No
+Iceland,Own outright,18.7,No
+Belgium,Own outright,32.5,No
+New Zealand,Own outright,31.2,No
+United States,Own outright,25.3,No
+Cyprus,Own outright,48.0,Yes
+Finland,Own outright,33.9,Yes
+Australia,Own outright,31.4,No
+France,Own outright,37.6,Yes
+Chile,Own outright,49.4,No
+Netherlands,Own outright,10.7,Yes
+Sweden,Own outright,16.6,Yes
+Korea,Own outright,58.0,No
+Türkiye,Own outright,55.7,No
+Denmark,Own outright,13.4,Yes
+Austria,Own outright,28.7,Yes
+Germany,Own outright,25.3,Yes
+Switzerland,Own outright,4.5,No
+Colombia,Own outright,32.1,No
+Romania,Owner with mortgage,1.1,Yes
+Slovak Republic,Owner with mortgage,21.2,Yes
+Croatia,Owner with mortgage,5.2,Yes
+Hungary,Owner with mortgage,14.0,Yes
+Lithuania,Owner with mortgage,11.9,Yes
+Bulgaria,Owner with mortgage,1.8,Yes
+Poland,Owner with mortgage,12.0,Yes
+Latvia,Owner with mortgage,9.9,Yes
+Malta,Owner with mortgage,21.0,Yes
+Estonia,Owner with mortgage,19.0,Yes
+Spain,Owner with mortgage,26.1,Yes
+Portugal,Owner with mortgage,30.2,Yes
+Slovenia,Owner with mortgage,13.8,Yes
+EU,Owner with mortgage,18.8,No
+Costa Rica,Owner with mortgage,8.3,No
+Czechia,Owner with mortgage,15.2,Yes
+Italy,Owner with mortgage,11.7,Yes
+Norway,Owner with mortgage,50.8,No
+Greece,Owner with mortgage,8.5,Yes
+OECD,Owner with mortgage,24.7,No
+Luxembourg,Owner with mortgage,36.1,Yes
+Mexico,Owner with mortgage,7.8,No
+Canada,Owner with mortgage,38.4,No
+Ireland,Owner with mortgage,27.2,Yes
+United Kingdom,Owner with mortgage,28.4,No
+Iceland,Owner with mortgage,48.6,No
+Belgium,Owner with mortgage,34.5,No
+New Zealand,Owner with mortgage,34.3,No
+United States,Owner with mortgage,40.1,No
+Cyprus,Owner with mortgage,15.1,Yes
+Finland,Owner with mortgage,29.0,Yes
+Australia,Owner with mortgage,31.3,No
+France,Owner with mortgage,22.9,Yes
+Chile,Owner with mortgage,11.0,No
+Netherlands,Owner with mortgage,47.7,Yes
+Sweden,Owner with mortgage,41.6,Yes
+Korea,Owner with mortgage,,No
+Türkiye,Owner with mortgage,,No
+Denmark,Owner with mortgage,37.4,Yes
+Austria,Owner with mortgage,16.5,Yes
+Germany,Owner with mortgage,15.5,Yes
+Switzerland,Owner with mortgage,33.0,No
+Colombia,Owner with mortgage,5.1,No
+Romania,Rent (private),1.7,Yes
+Slovak Republic,Rent (private),5.1,Yes
+Croatia,Rent (private),1.4,Yes
+Hungary,Rent (private),4.2,Yes
+Lithuania,Rent (private),2.0,Yes
+Bulgaria,Rent (private),2.4,Yes
+Poland,Rent (private),4.2,Yes
+Latvia,Rent (private),7.1,Yes
+Malta,Rent (private),9.8,Yes
+Estonia,Rent (private),5.9,Yes
+Spain,Rent (private),14.9,Yes
+Portugal,Rent (private),12.0,Yes
+Slovenia,Rent (private),6.4,Yes
+EU,Rent (private),12.4,No
+Costa Rica,Rent (private),18.2,No
+Czechia,Rent (private),18.1,Yes
+Italy,Rent (private),17.3,Yes
+Norway,Rent (private),23.4,No
+Greece,Rent (private),21.3,Yes
+OECD,Rent (private),16.2,No
+Luxembourg,Rent (private),17.2,Yes
+Mexico,Rent (private),15.0,No
+Canada,Rent (private),30.4,No
+Ireland,Rent (private),12.3,Yes
+United Kingdom,Rent (private),11.2,No
+Iceland,Rent (private),16.7,No
+Belgium,Rent (private),22.9,No
+New Zealand,Rent (private),32.4,No
+United States,Rent (private),32.9,No
+Cyprus,Rent (private),16.8,Yes
+Finland,Rent (private),19.4,Yes
+Australia,Rent (private),31.7,No
+France,Rent (private),18.4,Yes
+Chile,Rent (private),21.9,No
+Netherlands,Rent (private),4.9,Yes
+Sweden,Rent (private),38.6,Yes
+Korea,Rent (private),32.9,No
+Türkiye,Rent (private),28.8,No
+Denmark,Rent (private),49.1,Yes
+Austria,Rent (private),46.8,Yes
+Germany,Rent (private),51.6,Yes
+Switzerland,Rent (private),56.5,No
+Colombia,Rent (private),39.2,No
+Romania,Rent (subsidised),1.3,Yes
+Slovak Republic,Rent (subsidised),0.9,Yes
+Croatia,Rent (subsidised),1.2,Yes
+Hungary,Rent (subsidised),3.4,Yes
+Lithuania,Rent (subsidised),1.3,Yes
+Bulgaria,Rent (subsidised),1.5,Yes
+Poland,Rent (subsidised),1.0,Yes
+Latvia,Rent (subsidised),4.4,Yes
+Malta,Rent (subsidised),7.5,Yes
+Estonia,Rent (subsidised),4.5,Yes
+Spain,Rent (subsidised),2.9,Yes
+Portugal,Rent (subsidised),3.4,Yes
+Slovenia,Rent (subsidised),3.8,Yes
+EU,Rent (subsidised),6.4,No
+Costa Rica,Rent (subsidised),,No
+Czechia,Rent (subsidised),1.6,Yes
+Italy,Rent (subsidised),2.4,Yes
+Norway,Rent (subsidised),1.1,No
+Greece,Rent (subsidised),0.4,Yes
+OECD,Rent (subsidised),7.8,No
+Luxembourg,Rent (subsidised),10.8,Yes
+Mexico,Rent (subsidised),,No
+Canada,Rent (subsidised),,No
+Ireland,Rent (subsidised),16.8,Yes
+United Kingdom,Rent (subsidised),20.0,No
+Iceland,Rent (subsidised),12.7,No
+Belgium,Rent (subsidised),8.4,No
+New Zealand,Rent (subsidised),,No
+United States,Rent (subsidised),,No
+Cyprus,Rent (subsidised),0.9,Yes
+Finland,Rent (subsidised),16.8,Yes
+Australia,Rent (subsidised),,No
+France,Rent (subsidised),18.8,Yes
+Chile,Rent (subsidised),,No
+Netherlands,Rent (subsidised),35.6,Yes
+Sweden,Rent (subsidised),,Yes
+Korea,Rent (subsidised),5.4,No
+Türkiye,Rent (subsidised),,No
+Denmark,Rent (subsidised),,Yes
+Austria,Rent (subsidised),,Yes
+Germany,Rent (subsidised),3.0,Yes
+Switzerland,Rent (subsidised),5.2,No
+Colombia,Rent (subsidised),,No
+Romania,"Other, unknown",2.4,Yes
+Slovak Republic,"Other, unknown",1.5,Yes
+Croatia,"Other, unknown",6.3,Yes
+Hungary,"Other, unknown",3.3,Yes
+Lithuania,"Other, unknown",8.6,Yes
+Bulgaria,"Other, unknown",10.8,Yes
+Poland,"Other, unknown",10.7,Yes
+Latvia,"Other, unknown",7.2,Yes
+Malta,"Other, unknown",3.9,Yes
+Estonia,"Other, unknown",12.7,Yes
+Spain,"Other, unknown",6.2,Yes
+Portugal,"Other, unknown",8.7,Yes
+Slovenia,"Other, unknown",14.6,Yes
+EU,"Other, unknown",6.3,No
+Costa Rica,"Other, unknown",7.8,No
+Czechia,"Other, unknown",6.7,Yes
+Italy,"Other, unknown",7.3,Yes
+Norway,"Other, unknown",2.5,No
+Greece,"Other, unknown",6.7,Yes
+OECD,"Other, unknown",5.1,No
+Luxembourg,"Other, unknown",2.1,Yes
+Mexico,"Other, unknown",15.4,No
+Canada,"Other, unknown",,No
+Ireland,"Other, unknown",2.1,Yes
+United Kingdom,"Other, unknown",1.1,No
+Iceland,"Other, unknown",3.4,No
+Belgium,"Other, unknown",1.6,No
+New Zealand,"Other, unknown",2.1,No
+United States,"Other, unknown",1.7,No
+Cyprus,"Other, unknown",19.1,Yes
+Finland,"Other, unknown",0.9,Yes
+Australia,"Other, unknown",5.6,No
+France,"Other, unknown",2.3,Yes
+Chile,"Other, unknown",17.7,No
+Netherlands,"Other, unknown",1.1,Yes
+Sweden,"Other, unknown",3.1,Yes
+Korea,"Other, unknown",3.6,No
+Türkiye,"Other, unknown",15.4,No
+Denmark,"Other, unknown",0.1,Yes
+Austria,"Other, unknown",7.9,Yes
+Germany,"Other, unknown",4.6,Yes
+Switzerland,"Other, unknown",0.7,No
+Colombia,"Other, unknown",23.6,No
