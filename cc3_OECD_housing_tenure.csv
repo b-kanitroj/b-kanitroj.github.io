@@ -23,7 +23,7 @@ Luxembourg,Own outright,33.7,Yes
 Mexico,Own outright,61.8,No
 Canada,Own outright,31.2,No
 Ireland,Own outright,41.5,Yes
-United Kingdom,Own outright,39.3,No
+United Kingdom,Own outright,39.3,Yes
 Iceland,Own outright,18.7,No
 Belgium,Own outright,32.5,No
 New Zealand,Own outright,31.2,No
@@ -66,7 +66,7 @@ Luxembourg,Owner with mortgage,36.1,Yes
 Mexico,Owner with mortgage,7.8,No
 Canada,Owner with mortgage,38.4,No
 Ireland,Owner with mortgage,27.2,Yes
-United Kingdom,Owner with mortgage,28.4,No
+United Kingdom,Owner with mortgage,28.4,Yes
 Iceland,Owner with mortgage,48.6,No
 Belgium,Owner with mortgage,34.5,No
 New Zealand,Owner with mortgage,34.3,No
@@ -109,7 +109,7 @@ Luxembourg,Rent (private),17.2,Yes
 Mexico,Rent (private),15.0,No
 Canada,Rent (private),30.4,No
 Ireland,Rent (private),12.3,Yes
-United Kingdom,Rent (private),11.2,No
+United Kingdom,Rent (private),11.2,Yes
 Iceland,Rent (private),16.7,No
 Belgium,Rent (private),22.9,No
 New Zealand,Rent (private),32.4,No
@@ -152,7 +152,7 @@ Luxembourg,Rent (subsidised),10.8,Yes
 Mexico,Rent (subsidised),,No
 Canada,Rent (subsidised),,No
 Ireland,Rent (subsidised),16.8,Yes
-United Kingdom,Rent (subsidised),20.0,No
+United Kingdom,Rent (subsidised),20.0,Yes
 Iceland,Rent (subsidised),12.7,No
 Belgium,Rent (subsidised),8.4,No
 New Zealand,Rent (subsidised),,No
@@ -195,7 +195,7 @@ Luxembourg,"Other, unknown",2.1,Yes
 Mexico,"Other, unknown",15.4,No
 Canada,"Other, unknown",,No
 Ireland,"Other, unknown",2.1,Yes
-United Kingdom,"Other, unknown",1.1,No
+United Kingdom,"Other, unknown",1.1,Yes
 Iceland,"Other, unknown",3.4,No
 Belgium,"Other, unknown",1.6,No
 New Zealand,"Other, unknown",2.1,No
