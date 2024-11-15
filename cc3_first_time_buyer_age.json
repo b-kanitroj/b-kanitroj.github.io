@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "When is it our time to buy?",
+      "subtitle": [
+        "Average age of recent first time buyers, 2003-04 to 2022-23",
+        "Source: English Housing Survey 2022 to 2023: headline report"
+      ],
+      "subtitleFont": "Arial",
+      "subtitleFontStyle": "normal",
+      "subtitleFontSize": 10,
+      "subtitleColor": "#4d4d4d",
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 500,
+    "height": 300,
+    "mark": {"type": "line", "smooth": false, "strokeWidth": 2, "opacity": 1},
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/cc3_average_age_first_time_buyers.csv"
+    },
+    "transform": [{"filter": "datum.Category == 'All First Time Buyers'"}],
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal", "title": null},
+      "y": {
+        "field": "Value",
+        "type": "quantitative",
+        "title": null,
+        "scale": {"domainMin": 30}
+      }
+      }
+    }

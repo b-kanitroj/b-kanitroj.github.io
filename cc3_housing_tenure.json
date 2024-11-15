@@ -1,0 +1,70 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/cc3_OECD_housing_tenure.csv"
+    },
+    "width": 500,
+    "height": 300,
+    "title": {
+      "text": "Housing Tenure",
+      "subtitle": [
+        "Share of households where they own outright or owner with mortgage, in percent, 2022 or latest year available",
+        "source: OECD (2024), OECD Affordable Housing Database - indicator HM1.3 Housing tenures, https://oe.cd/ahd.",
+        ""
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "transform": [
+      {"filter": "datum.EU === 'Yes'"},
+      {
+        "filter": "(datum['Housing Type'] === 'Own outright') || (datum['Housing Type'] === 'Owner with mortgage')"
+      }
+    ],
+    "layer": [
+      {
+        "mark": "bar",
+        "encoding": {
+          "y": {
+            "field": "Country",
+            "type": "nominal",
+            "title": null,
+            "sort": {"field": "Percentage", "order": "descending"}
+          },
+          "x": {
+            "field": "Percentage",
+            "type": "quantitative",
+            "title": null,
+            "scale": {"domainMax": 100}
+          },
+          "color": {
+            "condition": [
+              {
+                "test": "datum.Country === 'United Kingdom' && datum['Housing Type'] === 'Own outright'",
+                "value": "#ff3333"
+              },
+              {
+                "test": "datum.Country === 'United Kingdom' && datum['Housing Type'] === 'Owner with mortgage'",
+                "value": "pink"
+              }
+            ],
+            "field": "Housing Type",
+            "type": "nominal",
+            "legend": {"orient": "bottom"},
+            "scale": {
+              "domain": ["Own outright", "Owner with mortgage"],
+              "range": ["#6699cc", "#b3d9ff"]
+            },
+            "title": "Housing Type:"
+          },
+          "tooltip": [
+            {"field": "Country", "type": "nominal", "title": "Country"},
+            {"field": "Housing Type", "type": "nominal", "title": "Housing Type"},
+            {"field": "Percentage", "type": "quantitative", "title":"Percentage"}
+          ]
+        }
+      }
+    ]
+  }
