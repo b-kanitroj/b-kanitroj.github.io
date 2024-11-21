@@ -118,11 +118,28 @@
     <section> <!-- WEEK4 -->
         <div class="chart-description">  <!-- WEEK4 -->
             <h2>CC 4: Replication. Re-create, then improve, someone else’s chart</h2>
+
+            <img src="cc4_bad_chart.png" alt="Screenshot of the chart from the report" height="300" width="350">
             <p>
-                Replicate a chart from a journalist, think tank, or company, then improve it. Explain the changes made.
+                This is a graph showing Thailand’s budget appropriation by budget structure from fiscal year 2010 - 2024, 
+                taken from the <a href="https://www.bb.go.th/topic-detail.php?id=16974&mid=312&catID=0">“Thailand’s Budget in Brief FY2024”</a> document. 
+                The budget in brief is an annual report written by the Budget Bureau with the goal to 
+                “clearly provide readers with an overall picture of the budget allocation in different perspectives
+                which are easy to understand, and convenient for further study and research”
+
             </p>
-            
+    
+            <figure id="cc4_bad_chart"></figure>
+            <p> This is the chart I recreated in VegaLite.</p>
+
+            <figure id="cc4_good_chart"></figure>
+            <p> I improve this chart by changing it to normalized stack bar chart to show the porportion of the budget.
+                I also use the color to call out to the interesting, but small changes in the data in 2022 which is the only year with 
+                budget allocated to Replenishment of Reserve Fund. And I add tooltip to make it easier for reader to still tell the percentage of each category.
+            </p>
+               
         </div>
+
     </section>
     
     <section> <!-- WEEK5 -->
@@ -216,6 +233,8 @@
         vegaEmbed("#goodservices", 'wk3_goods_services2.json')
         vegaEmbed("#Firsttimebuyer", 'cc3_first_time_buyer_age.json')
         vegaEmbed("#HousingTenure",'cc3_housing_tenure.json')
+        vegaEmbed("#cc4_bad_chart",'cc4_bad_chart.json')
+        vegaEmbed("#cc4_good_chart",'cc4_good_chart.json')
 
 
     </script>

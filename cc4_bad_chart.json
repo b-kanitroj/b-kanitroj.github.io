@@ -1,0 +1,109 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Budget Appropriation by Budget Structure FY 2010 - 2024",
+    "width": 300,
+    "height": 250,
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/cc4_thailand_budget_in_brief2024.csv"
+    },
+    "title": {
+      "text": [
+        "Figure III-2",
+        "Budget Appropriation by Budget Structure",
+        "FY 2010 - 2024"
+      ]
+    },
+    "config": {"background": "#EFF5E9"},
+    "layer": [
+      {
+        "mark": {"type": "rect", "opacity": 0.2, "color": "#ffcccc1c"},
+        "encoding": {
+          "x": {"value": 0},
+          "x2": {"value": 300},
+          "y": {"value": 0},
+          "y2": {"value": 250}
+        }
+      },
+      {
+        "mark": "line",
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal",
+            "title": null,
+            "axis": {"grid": false}
+          },
+          "y": {
+            "field": "Percentage",
+            "type": "quantitative",
+            "title": "Percent",
+            "axis": {
+              "gridColor": "black",
+              "tickCount": 6,
+              "titlePadding": 10,
+              "titleAnchor": "middle",
+              "titleAngle": 0,
+              "titleBaseline": "top",
+              "titleX": -20,
+              "titleY": -20
+            },
+            "scale": {"domain": [0, 100]}
+          },
+          "color": {
+            "field": "Category",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Current Expenditures",
+                "Capital Expenditures",
+                "Replenishment of Treasury Account Balance",
+                "Principal Repayments",
+                "Replenishment of Reserve Fund"
+              ],
+              "range": ["#3C7EBA", "#662A7F", "#F1BB40", "#42944B", "#B85091"]
+            },
+            "legend": null
+          }
+        }
+      },
+      {
+        "data": {
+          "values": [
+            {"x": "2017", "y": 81, "label": "Current Expenditures"},
+            {"x": "2017", "y": 25, "label": "Capital Expenditures"},
+            {"x": "2011", "y": 12, "label": "Replenishment of Treasury Account Balance"},
+            {"x": "2017", "y": 8, "label": "Principal Repayments"},
+            {"x": "2017", "y": 4, "label": "Replenishment of Reserve Fund"}
+          ]
+        },
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": 5,
+          "dy": -5,
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "x": {"field": "x", "type": "temporal"},
+          "y": {"field": "y", "type": "quantitative"},
+          "text": {"field": "label", "type": "nominal"},
+          "color": {
+            "field": "label",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Current Expenditures",
+                "Capital Expenditures",
+                "Replenishment of Treasury Account Balance",
+                "Principal Repayments",
+                "Replenishment of Reserve Fund"
+              ],
+              "range": ["#3C7EBA", "#662A7F", "#F1BB40", "#42944B", "#B85091"]
+            }
+          }
+        }
+      }
+    ]
+  }
+  
