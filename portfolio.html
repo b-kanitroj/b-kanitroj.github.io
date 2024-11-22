@@ -146,8 +146,20 @@
         <div class="chart-description">  <!-- WEEK5 -->
             <h2>CC 5: Scraper. Implement a data scraper of your own</h2>
             <p>
-                Use a Python notebook to scrape data from a website, clean and normalize the data, and build a chart from it.
+                I have scraped item name and price data from <a href="https://www.bigc.co.th/t">BigC Online</a>  
+                from products under the section “Mom and baby” and the section “Elderly”. I build the scraper by generating links
+                to access different pages, and then use beautiful soup to parse and extract the data. 
+                I choose this site because it has interesting and large number of data points. 
+                It’s also organized the product into pages with clear url structure, while another main online grocery store used dynamic scrolling.
+                You can see my Google Colab python notebook  <a href="https://colab.research.google.com/drive/1xm8JauWjj6VWnNhpAjMGawilktR4VrZN?usp=sharing">here.</a> 
             </p>
+
+            <figure id="cc5_bigC"></figure>
+
+            <p>This chart shows the price density plot of the essentials for diaper, and formula both are the essential items to both age group. 
+                I choose to use the density plot instead of histogram because the number of products for baby is much larger than that of the elderly’s.
+                We can see that the price for baby's items are more dense in the lower end of the range. This could be because there are more product and more competition in the market.
+             </p>
         </div>
     </section>
 
@@ -235,7 +247,7 @@
         vegaEmbed("#HousingTenure",'cc3_housing_tenure.json')
         vegaEmbed("#cc4_bad_chart",'cc4_bad_chart.json')
         vegaEmbed("#cc4_good_chart",'cc4_good_chart.json')
-
+        vegaEmbed("#cc5_bigC",'cc5_pricedensity_bigc.json') 
 
     </script>
 

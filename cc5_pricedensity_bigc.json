@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Diapers and Formula",
+      "subtitle": [
+        "Price density plot of the essentials for baby and elderly (THB)",
+        "Source: Big C Online",
+        ""
+      ],
+      "subtitleColor": "gray"
+    },
+    "width": 400,
+    "height": 80,
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/cc5_bigcscrape.csv"
+    },
+    "transform": [
+      {"filter": {"selection": "chooseItem"}},
+      {"filter": {"field": "subcategory", "oneOf": ["diaper", "food_formula"]}},
+      {"density": "price", "groupby": ["category"], "extent": [0, 3000]},
+      {
+        "calculate": "datum.category === 'elderly' ? 'Elderly' : datum.category === 'mom-baby' ? 'Baby' : datum.category",
+        "as": "renamed_category"
+      }
+    ],
+    "selection": {
+      "chooseItem": {
+        "type": "single",
+        "init": {"subcategory": "diaper"},
+        "fields": ["subcategory"],
+        "bind": {
+          "input": "select",
+          "options": ["diaper", "food_formula"],
+          "name": "Pick an item: "
+        }
+      }
+    },
+    "mark": "area",
+    "encoding": {
+      "x": {"field": "value", "type": "quantitative", "title": "Price (THB)"},
+      "y": {
+        "field": "density",
+        "type": "quantitative",
+        "stack": "zero",
+        "title": null,
+        "axis": null
+      },
+      "row": {
+        "field": "renamed_category",
+        "title": null,
+        "header": {"labelFontWeight": "bold"}
+      },
+      "color": {
+        "field": "renamed_category",
+        "type": "nominal",
+        "legend": null,
+        "scale": {"scheme": "observable10"}
+      }
+    }
+  }
