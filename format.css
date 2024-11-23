@@ -1,35 +1,123 @@
-/* General styles */
+/* General styles for the body */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #333;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: #f9f9f9; /* Light gray background for contrast */
   margin: 0 auto;
   max-width: 800px;
-  padding-top: 60px;
+  padding: 60px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for card-like look */
+  border-radius: 8px; /* Rounded corners for modern styling */
 }
 
-/* Headings */
-h2 {
-  font-size: 1.75em;
+/* Paragraph styles */
+p {
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+  line-height: 1.8; /* Ensure readability */
+  color: #444; /* Slightly lighter text color for softer look */
+}
+
+p:first-of-type {
+  font-weight: bold; /* Bold the first paragraph */
+  font-size: 1.1em; /* Slightly increase font size for emphasis */
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
+  line-height: 1.3;
+  color: #222; /* Darker heading color for emphasis */
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+/* Resize images without centering */
+.image {
+  width: 300px; /* Specify the exact width */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 20px 0; /* Add spacing above and below */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: light shadow for styling */
+  border-radius: 4px; /* Optional: rounded corners */
+}
+
+/* Resize charts without centering */
+figure {
+  margin: 20px 0; /* Add spacing above and below */
+  width: 100%; /* Allow charts to span full container width */
+}
+
+/* Chart descriptions */
+.chart-description {
+  margin-bottom: 20px; /* Add spacing between descriptions and charts */
 }
 
 /* Links */
 a {
   color: #065f46;
   text-decoration: none;
+  font-weight: 500; /* Slightly bolder links */
 }
 
 a:hover {
   text-decoration: underline;
+  color: #003d33; /* Darker green on hover */
 }
 
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+/* Blockquote styling */
+blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #065f46;
+  padding-left: 16px;
+  margin: 20px 0;
 }
 
+/* List styles */
+ul, ol {
+  margin: 20px 0;
+  padding-left: 40px;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+button {
+  background-color: #065f46;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003d33;
+}
+
+/* Grid layout for charts */
+#chartGrid {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for multiple charts */
+  gap: 20px; /* Add space between charts */
+  align-items: flex-start; /* Ensure charts align naturally at the top */
+}

@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<html> 
-    <!-- HTML is heirarchial: tags like this define elements on the page. 
-    Each tag does something different. For example:
-        - The <html> tag defines the whole document.
-        - The <h1> tag defines a large heading
-        - The <p> tag defines a paragraph
-        - Tags appear as an opening <div> and closing </div> pair
-    -->
+<html>
 
-<head>    
+<head>
     <link rel="stylesheet" type="text/css" href="Format3.css">
-    <title>My Portfolio</title> 
+    <title>My Portfolio</title>
 
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <!-- Link to Vega and Vega-Lite for embedding charts -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -20,157 +13,145 @@
     <style>
         #chartGrid {
             display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
         }
-        
     </style>
 </head>
 
-<body> 
-<!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
-        <!-- This is a header, it is the largest text on the page -->
-        Portfolio
-    </h1>
-    <p class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+<body>
+    <!-- Main Content -->
+    <h1 class="big">Portfolio</h1>
+    <p class="small">
         This page presents my portfolio of 10 coding challenges, each designed to demonstrate a range of data science skills, including data visualization, web development, and analysis. From building interactive charts and maps to implementing machine learning models and data scrapers, each task highlights a unique aspect of practical data analysis applied to real-world economic and policy topics.
     </p>
 
-    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
-    <section> <!-- WEEK1 -->
-        <div class="chart-description"> 
-            <h2>CC 1: Hosting. Display charts in your own site.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I have created a github account and live page. Here I added three charts using the vegaembed function, they are taken from 
-                <a href="https://rdeconomist.github.io/library"> Chart Library</a>
-                
-            </p>
-
-        </div>
-        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-            <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-            <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        
-    </section>
-
-    <section> <!-- WEEK2 -->
-        <div class="chart-description">  <!-- WEEK2 -->
-            <h2>CC 2: Building. Create your own visualisations</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I take this chart from the create function in the <a href="https://www.economicsobservatory.com/explore"> EconomicsObservatory</a>. It is a chart of Thailand's unemployment data. 
-                This week I also learned about using "container" as a size for a chart, and how to code that up in the format of the site.
-            </p>
-        </div>
-        <figure id="ThaiUnemp"></figure> 
-        <figure id="VietUnemp"></figure>
+    <!-- Week 1 -->
+    <section>
         <div class="chart-description">
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I take Thailand and Vietnam unemployment data from the EconomicsObservatory 
-                 and try to use "layer" to combine it into one chart.
-            </p>
-        <figure id="THVNUnemp"></figure>
-        <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-            I also try to create chart from scratch with data in csv format, and I will adapt that to the data of my choice in the next chart.
-        </p>
-        <figure id="Vicespending"></figure>
-
-        <div class="chart-description"></div>
-            <p> 
-                I take the data from the National Statistics Office of Thailand through the website <a href="https://data.go.th/dataset/0704_01_0009"> Open Government Data of Thailand</a> , about the number of people the age of 60 with desirable health behavior.
-                There are still problems with this chart. By using stack bar chart, the number of people in other region with desirable health outcome seem like a larger share than those in Bangkok.
-                However, despite bigger numbers, they have much lower share compare to the whole population in the region. Therefore I want to try to use other chart type.
+            <h2>CC 1: Hosting. Display charts in your own site.</h2>
+            <p>
+                I have created a GitHub account and live page. Here I added three charts using the vegaEmbed function, taken from 
+                <a href="https://rdeconomist.github.io/library">Chart Library</a>.
             </p>
         </div>
-        <figure id="DesirableHealth"></figure>
-
+        <div id="chartGrid">
+            <figure id="Location1"></figure>
+            <figure id="Location2"></figure>
+            <figure id="Location3"></figure>
+        </div>
     </section>
 
-    <section> <!-- WEEK3 -->
-        <div class="chart-description">  <!-- WEEK3 -->
-            <h2>CC 3: Debating. Use a visualisation in economic/policy commentary</h2>
+    <!-- Week 2 -->
+    <section>
+        <div class="chart-description">
+            <h2>CC 2: Building. Create your own visualisations</h2>
             <p>
-                <a href="https://www.economicsobservatory.com/festival-of-economics-2024">Festival of Economics 2024</a> invites economists and experts to address critical economic questions, 
-                such as: What can we do to boost Britain’s productivity? and How is the recently elected Labour government performing? 
-            </p>
-
-            <p>
-                Among the topics explored is social mobility. The panel titled "(Not) Moving on Up: How Can We Increase Social Mobility?" 
-                is chaired by Mehreen Khan (The Times) and features Lou Davies (Bedminster Down School), Lindsey Macmillan (University College London and the Centre for Education Policy and Equalising Opportunities), 
-                Suzanne Rolt (Arnolfini), and David Sturrock (Institute for Fiscal Studies). Together, they highlights key factors influencing social mobility, 
-                including education, housing and wealth inequality, labor market challenges, and gaps in policy. Discover more details here: <a href="https://www.economicsobservatory.com/not-moving-on-up-how-can-we-increase-social-mobilityo">(Not) Moving on up: How can we increase social mobility?</a>
-            </p>
-
-            <p>
-                Here I have created two charts to support the discussion that Wealth, particularly in housing, has become more critical issues as the difficulty of entering the housing market has reinforced disparities. 
+                I take this chart from the create function in the <a href="https://www.economicsobservatory.com/explore">Economics Observatory</a>. It is a chart of Thailand's unemployment data. This week I also learned about using "container" as a size for a chart and how to code that up in the format of the site.
             </p>
         </div>
-
-        <figure id = "Firsttimebuyer"></figure>
-        <p>
-            The average age of first-time buyers shows an upward trend, reaching 33.5 years in 2022-23, highlighting growing challenges for young people entering the housing market.
-        </p>
-
-        <figure id = "HousingTenure"></figure>
-        <p>
-            To put it in perspective, the U.K. ranks 18th out of 27 countries in the percentage of households that own their homes as of 2022.
-        </p>
-    </section>    
-    
-    <section> <!-- WEEK4 -->
-        <div class="chart-description">  <!-- WEEK4 -->
-            <h2>CC 4: Replication. Re-create, then improve, someone else’s chart</h2>
-
-            <img src="cc4_bad_chart.png" alt="Screenshot of the chart from the report" height="300" width="350">
-            <p>
-                This is a graph showing Thailand’s budget appropriation by budget structure from fiscal year 2010 - 2024, 
-                taken from the <a href="https://www.bb.go.th/topic-detail.php?id=16974&mid=312&catID=0">“Thailand’s Budget in Brief FY2024”</a> document. 
-                The budget in brief is an annual report written by the Budget Bureau with the goal to 
-                “clearly provide readers with an overall picture of the budget allocation in different perspectives
-                which are easy to understand, and convenient for further study and research”
-
-            </p>
-    
-            <figure id="cc4_bad_chart"></figure>
-            <p> This is the chart I recreated in VegaLite.</p>
-
-            <figure id="cc4_good_chart"></figure>
-            <p> I improve this chart by changing it to normalized stack bar chart to show the porportion of the budget.
-                I also use the color to call out to the interesting, but small changes in the data in 2022 which is the only year with 
-                budget allocated to Replenishment of Reserve Fund. And I add tooltip to make it easier for reader to still tell the percentage of each category.
-            </p>
-               
+        <div id="chartGrid">
+            <figure id="ThaiUnemp"></figure>
+            <figure id="VietUnemp"></figure>
         </div>
-
+        <div class="chart-description">
+            <p>
+                I took Thailand and Vietnam unemployment data from the Economics Observatory and tried to use "layer" to combine it into one chart.
+            </p>
+            <figure id="THVNUnemp"></figure>
+            <p>
+                I also created a chart from scratch with data in CSV format, which I adapted to the data of my choice for the next chart.
+            </p>
+            <figure id="Vicespending"></figure>
+        </div>
     </section>
-    
-    <section> <!-- WEEK5 -->
-        <div class="chart-description">  <!-- WEEK5 -->
+
+    <!-- Week 3 -->
+    <section>
+        <div class="chart-description">
+            <h2>CC 3: Debating. Use a visualization in economic/policy commentary</h2>
+            <p>
+                <a href="https://www.economicsobservatory.com/festival-of-economics-2024">Festival of Economics 2024</a> invites economists and experts to address critical economic questions, such as: What can we do to boost Britain’s productivity? and How is the recently elected Labour government performing?
+            </p>
+            <p>
+                Here I have created two charts to support the discussion that wealth, particularly in housing, has become a more critical issue as the difficulty of entering the housing market has reinforced disparities.
+            </p>
+        </div>
+        <div id="chartGrid">
+            <figure id="Firsttimebuyer"></figure>
+            <figure id="HousingTenure"></figure>
+        </div>
+    </section>
+
+   <!-- Week 4 -->
+   <section>
+    <div class="chart-description">
+        <h2>CC 4: Replication. Re-create, then improve, someone else’s chart</h2>
+        <div class="image-container">
+            <img src="cc4_bad_chart.png" alt="Screenshot of the chart from the report" style="width: 300px; height: auto; margin: 20px auto; display: block;">
+        </div>
+        <p>
+            This is a graph showing Thailand’s budget appropriation by budget structure from fiscal year 2010–2024, taken from the 
+            <a href="https://www.bb.go.th/topic-detail.php?id=16974&mid=312&catID=0">“Thailand’s Budget in Brief FY2024”</a> document.
+        </p>
+    </div>
+    <div id="chartGrid">
+        
+        <figure id="cc4_bad_chart"></figure>
+        <figure id="cc4_good_chart"></figure>
+    </div>
+</section>
+
+
+    <!-- Week 5 -->
+    <section>
+        <div class="chart-description">
             <h2>CC 5: Scraper. Implement a data scraper of your own</h2>
             <p>
-                I have scraped item name and price data from <a href="https://www.bigc.co.th/t">BigC Online</a>  
-                from products under the section “Mom and baby” and the section “Elderly”. I build the scraper by generating links
-                to access different pages, and then use beautiful soup to parse and extract the data. 
-                I choose this site because it has interesting and large number of data points. 
-                It’s also organized the product into pages with clear url structure, while another main online grocery store used dynamic scrolling.
-                You can see my Google Colab python notebook  <a href="https://colab.research.google.com/drive/1xm8JauWjj6VWnNhpAjMGawilktR4VrZN?usp=sharing">here.</a> 
+                I have scraped item name and price data from <a href="https://www.bigc.co.th/t">BigC Online</a>, focusing on products under the sections “Mom and baby” and “Elderly.” I built the scraper by generating links to access different pages, then used Beautiful Soup to parse and extract the data.
             </p>
-
-            <figure id="cc5_bigC"></figure>
-
-            <p>This chart shows the price density plot of the essentials for diaper, and formula both are the essential items to both age group. 
-                I choose to use the density plot instead of histogram because the number of products for baby is much larger than that of the elderly’s.
-                We can see that the price for baby's items are more dense in the lower end of the range. This could be because there are more product and more competition in the market.
-             </p>
         </div>
+        <figure id="cc5_bigC"></figure>
+        <p>
+            This chart shows the price density plot for diapers and formula, essential items for both age groups. The price for baby items tends to cluster at the lower end of the range, possibly due to higher competition in the market.
+        </p>
     </section>
 
     <section> <!-- WEEK6 -->
-        <div class="chart-description">  <!-- WEEK6 -->
-            <h2>CC 6: Loops. Build a dashboard</h2>
+        <div class="chart-description">
+            <h2>CC 6: Loops. Build a Dashboard</h2>
             <p>
-                Batch download data using a loop from the ONS API and create a dashboard with at least nine charts.
+                I used the World Bank’s API to batch download Thailand’s data on poverty and inequality from the 
+                <a href="https://datatopics.worldbank.org/world-development-indicators/themes/poverty-and-inequality.html">World Development Indicators (WDI)</a>. 
+                I also used Altair to batch-create these charts. You can see my Colab notebook 
+                <a href="https://colab.research.google.com/drive/1N1H4R-VDUwT22ueXtijGFJqxz2PYrm9N?usp=sharing">here</a>.                
             </p>
+    
+            <p><strong>How is Thailand doing according to international standards?</strong></p>
+            <p><em>Percent of population in poverty according to different international poverty lines:</em></p>
+            <div id="chartGrid">
+                <figure id="cc6_1below215"></figure>
+                <figure id="cc6_2below365"></figure>
+                <figure id="cc6_3below685"></figure>
+            </div>
+    
+            <p><em>Poverty gap at different international poverty lines:</em></p>
+            <div id="chartGrid">
+                <figure id="cc6_5gap215"></figure>
+                <figure id="cc6_6gap356"></figure>
+                <figure id="cc6_7gap685"></figure>
+            </div>
+    
+            <p><strong>What about within the country’s standards?</strong></p>
+            <div id="chartGrid">
+                <figure id="cc6_4belownat"></figure>
+                <figure id="cc6_8high10"></figure>
+                <figure id="cc6_9highfourth"></figure>
+            </div>
+
         </div>
     </section>
+    
 
     <section> <!-- WEEK7 -->
         <div class="chart-description">  <!-- WEEK7 -->
@@ -248,9 +229,17 @@
         vegaEmbed("#cc4_bad_chart",'cc4_bad_chart.json')
         vegaEmbed("#cc4_good_chart",'cc4_good_chart.json')
         vegaEmbed("#cc5_bigC",'cc5_pricedensity_bigc.json') 
+        vegaEmbed("#cc6_1below215","cc6_below215_chart.json")
+        vegaEmbed("#cc6_2below365","cc6_below365_chart.json")
+        vegaEmbed("#cc6_3below685","cc6_below685_chart.json")
+        vegaEmbed("#cc6_4belownat","cc6_belownat_chart.json")
+        vegaEmbed("#cc6_5gap215","cc6_gap215_chart.json")
+        vegaEmbed("#cc6_6gap356","cc6_gap356_chart.json")
+        vegaEmbed("#cc6_7gap685","cc6_gap685_chart.json")
+        vegaEmbed("#cc6_8high10","cc6_high10share_chart.json")
+        vegaEmbed("#cc6_9highfourth","cc6_highfourth20_chart.json")
 
     </script>
-
 </body>
-    
+
 </html>

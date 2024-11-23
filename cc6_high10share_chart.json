@@ -1,0 +1,164 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 400,
+            "continuousHeight": 300
+        }
+    },
+    "data": {
+        "name": "data-1498b3885c1de824e4cb76549a4402e7"
+    },
+    "mark": "line",
+    "encoding": {
+        "tooltip": [
+            {
+                "field": "date",
+                "format": "%Y",
+                "title": "Year",
+                "type": "temporal"
+            },
+            {
+                "field": "high10share",
+                "title": "Value",
+                "type": "quantitative"
+            }
+        ],
+        "x": {
+            "axis": {
+                "format": "%Y",
+                "grid": true,
+                "tickCount": "year",
+                "title": null
+            },
+            "field": "date",
+            "type": "temporal"
+        },
+        "y": {
+            "axis": {
+                "title": "income share"
+            },
+            "field": "high10share",
+            "type": "quantitative"
+        }
+    },
+    "height": 100,
+    "title": [
+        "Thailand Income share held by highest 10%",
+        "Source: World Bank"
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "datasets": {
+        "data-1498b3885c1de824e4cb76549a4402e7": [
+            {
+                "economy": "THA",
+                "date": "1996-01-01T00:00:00",
+                "high10share": 34.3
+            },
+            {
+                "economy": "THA",
+                "date": "1998-01-01T00:00:00",
+                "high10share": 32.3
+            },
+            {
+                "economy": "THA",
+                "date": "1999-01-01T00:00:00",
+                "high10share": 34.0
+            },
+            {
+                "economy": "THA",
+                "date": "2000-01-01T00:00:00",
+                "high10share": 33.7
+            },
+            {
+                "economy": "THA",
+                "date": "2002-01-01T00:00:00",
+                "high10share": 33.2
+            },
+            {
+                "economy": "THA",
+                "date": "2004-01-01T00:00:00",
+                "high10share": 33.8
+            },
+            {
+                "economy": "THA",
+                "date": "2006-01-01T00:00:00",
+                "high10share": 32.5
+            },
+            {
+                "economy": "THA",
+                "date": "2007-01-01T00:00:00",
+                "high10share": 30.8
+            },
+            {
+                "economy": "THA",
+                "date": "2008-01-01T00:00:00",
+                "high10share": 31.1
+            },
+            {
+                "economy": "THA",
+                "date": "2009-01-01T00:00:00",
+                "high10share": 30.6
+            },
+            {
+                "economy": "THA",
+                "date": "2010-01-01T00:00:00",
+                "high10share": 30.7
+            },
+            {
+                "economy": "THA",
+                "date": "2011-01-01T00:00:00",
+                "high10share": 29.9
+            },
+            {
+                "economy": "THA",
+                "date": "2012-01-01T00:00:00",
+                "high10share": 30.4
+            },
+            {
+                "economy": "THA",
+                "date": "2013-01-01T00:00:00",
+                "high10share": 29.2
+            },
+            {
+                "economy": "THA",
+                "date": "2014-01-01T00:00:00",
+                "high10share": 28.7
+            },
+            {
+                "economy": "THA",
+                "date": "2015-01-01T00:00:00",
+                "high10share": 28.4
+            },
+            {
+                "economy": "THA",
+                "date": "2016-01-01T00:00:00",
+                "high10share": 28.9
+            },
+            {
+                "economy": "THA",
+                "date": "2017-01-01T00:00:00",
+                "high10share": 28.3
+            },
+            {
+                "economy": "THA",
+                "date": "2018-01-01T00:00:00",
+                "high10share": 28.1
+            },
+            {
+                "economy": "THA",
+                "date": "2019-01-01T00:00:00",
+                "high10share": 27.2
+            },
+            {
+                "economy": "THA",
+                "date": "2020-01-01T00:00:00",
+                "high10share": 27.0
+            },
+            {
+                "economy": "THA",
+                "date": "2021-01-01T00:00:00",
+                "high10share": 27.1
+            }
+        ]
+    }
+}

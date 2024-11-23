@@ -1,0 +1,164 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 400,
+            "continuousHeight": 300
+        }
+    },
+    "data": {
+        "name": "data-c8612e80067540959caa551206af7d4f"
+    },
+    "mark": "line",
+    "encoding": {
+        "tooltip": [
+            {
+                "field": "date",
+                "format": "%Y",
+                "title": "Year",
+                "type": "temporal"
+            },
+            {
+                "field": "below685",
+                "title": "Value",
+                "type": "quantitative"
+            }
+        ],
+        "x": {
+            "axis": {
+                "format": "%Y",
+                "grid": true,
+                "tickCount": "year",
+                "title": null
+            },
+            "field": "date",
+            "type": "temporal"
+        },
+        "y": {
+            "axis": {
+                "title": "percent"
+            },
+            "field": "below685",
+            "type": "quantitative"
+        }
+    },
+    "height": 100,
+    "title": [
+        "Thailand Poverty headcount ratio at $6.85 a day (2017 PPP) (% of population)",
+        "Source: World Bank"
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "datasets": {
+        "data-c8612e80067540959caa551206af7d4f": [
+            {
+                "economy": "THA",
+                "date": "1996-01-01T00:00:00",
+                "below685": 56.1
+            },
+            {
+                "economy": "THA",
+                "date": "1998-01-01T00:00:00",
+                "below685": 54.1
+            },
+            {
+                "economy": "THA",
+                "date": "1999-01-01T00:00:00",
+                "below685": 58.3
+            },
+            {
+                "economy": "THA",
+                "date": "2000-01-01T00:00:00",
+                "below685": 59.0
+            },
+            {
+                "economy": "THA",
+                "date": "2002-01-01T00:00:00",
+                "below685": 50.8
+            },
+            {
+                "economy": "THA",
+                "date": "2004-01-01T00:00:00",
+                "below685": 44.3
+            },
+            {
+                "economy": "THA",
+                "date": "2006-01-01T00:00:00",
+                "below685": 36.9
+            },
+            {
+                "economy": "THA",
+                "date": "2007-01-01T00:00:00",
+                "below685": 34.8
+            },
+            {
+                "economy": "THA",
+                "date": "2008-01-01T00:00:00",
+                "below685": 32.7
+            },
+            {
+                "economy": "THA",
+                "date": "2009-01-01T00:00:00",
+                "below685": 29.8
+            },
+            {
+                "economy": "THA",
+                "date": "2010-01-01T00:00:00",
+                "below685": 27.4
+            },
+            {
+                "economy": "THA",
+                "date": "2011-01-01T00:00:00",
+                "below685": 22.9
+            },
+            {
+                "economy": "THA",
+                "date": "2012-01-01T00:00:00",
+                "below685": 22.5
+            },
+            {
+                "economy": "THA",
+                "date": "2013-01-01T00:00:00",
+                "below685": 19.5
+            },
+            {
+                "economy": "THA",
+                "date": "2014-01-01T00:00:00",
+                "below685": 18.7
+            },
+            {
+                "economy": "THA",
+                "date": "2015-01-01T00:00:00",
+                "below685": 14.6
+            },
+            {
+                "economy": "THA",
+                "date": "2016-01-01T00:00:00",
+                "below685": 15.7
+            },
+            {
+                "economy": "THA",
+                "date": "2017-01-01T00:00:00",
+                "below685": 15.1
+            },
+            {
+                "economy": "THA",
+                "date": "2018-01-01T00:00:00",
+                "below685": 15.6
+            },
+            {
+                "economy": "THA",
+                "date": "2019-01-01T00:00:00",
+                "below685": 13.1
+            },
+            {
+                "economy": "THA",
+                "date": "2020-01-01T00:00:00",
+                "below685": 13.2
+            },
+            {
+                "economy": "THA",
+                "date": "2021-01-01T00:00:00",
+                "below685": 12.2
+            }
+        ]
+    }
+}
