@@ -93,6 +93,8 @@
         <p>
             This is a graph showing Thailand’s budget appropriation by budget structure from fiscal year 2010–2024, taken from the 
             <a href="https://www.bb.go.th/topic-detail.php?id=16974&mid=312&catID=0">“Thailand’s Budget in Brief FY2024”</a> document.
+            The budget in brief is an annual report written by the Budget Bureau with the goal to “clearly provide readers with an overall 
+            picture of the budget allocation in different perspectives which are easy to understand, and convenient for further study and research”
         </p>
     </div>
     <div id="chartGrid">
@@ -100,6 +102,20 @@
         <figure id="cc4_bad_chart"></figure>
         <figure id="cc4_good_chart"></figure>
     </div>
+    <p>
+        This chart aims to show the percentage of each spending type according to budget structure: current expenditures, 
+        capital expenditures, replenishment of treasury accounts balance, principal repayments, and replenishment of reserve fund. 
+        Knowing this appropriations would give the reader an overview of the government spending, giving insight into the priority, 
+        objectives, and financial strategies. 
+        
+        The current chart is not very informative as the current expenditures take up the majority of the budget every year, 
+        making it hard to see the changes in other spending categories. Additionally, the legend calling out the name of the 
+        categories are also in the way making the already to sparse scale hard to read.
+
+        I improved the chart by converting it into a stacked bar chart to visually represent the composition of the budget across different years. 
+        This format makes it easier to compare categories over time. Additionally, I added tooltips to improve readability and provide precise values on hover. 
+        To draw attention to critical areas, I highlighted specific categories in red, emphasizing the need for closer examination.
+    </p>
 </section>
 
 
@@ -152,48 +168,60 @@
         </div>
     </section>
     
-
     <section> <!-- WEEK7 -->
-        <div class="chart-description">  <!-- WEEK7 -->
+        <div class="chart-description">
             <h2>CC 7: Maps. Base maps and choropleths</h2>
             <p>
                 Create a base map with tooltips and a choropleth map using the lookup transform to show geographic data.
             </p>
         </div>
+        <div id="chartGrid">
+            <figure id="baseMap"></figure>
+            <figure id="choroplethMap"></figure>
+        </div>
     </section>
-
+    
     <section> <!-- WEEK8 -->
-        <div class="chart-description">  <!-- WEEK8 -->
+        <div class="chart-description">
             <h2>CC 8: Analytics Charts</h2>
             <p>
                 Produce two charts using advanced analytics techniques like scatter, bubble, or heat maps.
             </p>
         </div>
+        <div id="chartGrid">
+            <figure id="scatterPlot"></figure>
+            <figure id="heatMap"></figure>
+        </div>
     </section>
     
     <section> <!-- WEEK9 -->
-        <div class="chart-description">  <!-- WEEK9 -->
+        <div class="chart-description">
             <h2>CC 9: Big Data. Extracting a story from millions of prices</h2>
             <p>
                 Produce two charts using UK price data and explain the story behind the data.
             </p>
         </div>
+        <div id="chartGrid">
+            <figure id="bigDataChart1"></figure>
+            <figure id="bigDataChart2"></figure>
+        </div>
     </section>
     
     <section> <!-- WEEK10 -->
-        <div class="chart-description">  <!-- WEEK10 -->
-            <h2>CC 10: Machine Learning or Interactive Visualisations</h2>
+        <div class="chart-description">
+            <h2>CC 10: Machine Learning or Interactive Visualizations</h2>
             <p>
                 Either apply two machine learning techniques (supervised and unsupervised learning) or create two interactive visualizations.
             </p>
         </div>
+        <div id="chartGrid">
+            <figure id="mlChart1"></figure>
+            <figure id="mlChart2"></figure>
+        </div>
     </section>
     
+    
 
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
 
 
     <!-- This is a script, it's a way to run JavaScript code on the page -->
