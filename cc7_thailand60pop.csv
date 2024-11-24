@@ -25,7 +25,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2013-01-01,ยโสธร,จังหวัดยโสธร,male,32966,12.25,Yasothon,True
 2013-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,73745,13.24,Chaiyaphum,True
 2013-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,21175,11.4,Amnat Charoen,True
-2013-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,20994,10.09,Beung Kan,True
+2013-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,20994,10.09,Bueng Kan,True
 2013-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,26288,10.43,Nong Bua Lam Phu,True
 2013-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,111665,12.78,Khon Kaen,True
 2013-01-01,อุดรธานี,จังหวัดอุดรธานี,male,80092,10.47,Udon Thani,True
@@ -102,7 +102,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2014-01-01,ยโสธร,จังหวัดยโสธร,male,34175,12.69,Yasothon,True
 2014-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,76799,13.77,Chaiyaphum,True
 2014-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,22037,11.85,Amnat Charoen,True
-2014-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,21847,10.44,Beung Kan,True
+2014-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,21847,10.44,Bueng Kan,True
 2014-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,27713,10.96,Nong Bua Lam Phu,True
 2014-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,116391,13.28,Khon Kaen,True
 2014-01-01,อุดรธานี,จังหวัดอุดรธานี,male,83881,10.93,Udon Thani,True
@@ -179,7 +179,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2015-01-01,ยโสธร,จังหวัดยโสธร,male,35506,13.19,Yasothon,True
 2015-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,79884,14.31,Chaiyaphum,True
 2015-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,22970,12.35,Amnat Charoen,True
-2015-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,22853,10.87,Beung Kan,True
+2015-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,22853,10.87,Bueng Kan,True
 2015-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,28954,11.44,Nong Bua Lam Phu,True
 2015-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,121118,13.76,Khon Kaen,True
 2015-01-01,อุดรธานี,จังหวัดอุดรธานี,male,87925,11.43,Udon Thani,True
@@ -256,7 +256,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2016-01-01,ยโสธร,จังหวัดยโสธร,male,36949,13.74,Yasothon,True
 2016-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,82665,14.82,Chaiyaphum,True
 2016-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,24127,12.95,Amnat Charoen,True
-2016-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,23976,11.38,Beung Kan,True
+2016-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,23976,11.38,Bueng Kan,True
 2016-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,30462,12.03,Nong Bua Lam Phu,True
 2016-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,125594,14.26,Khon Kaen,True
 2016-01-01,อุดรธานี,จังหวัดอุดรธานี,male,91756,11.91,Udon Thani,True
@@ -333,7 +333,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2017-01-01,ยโสธร,จังหวัดยโสธร,male,38546,14.36,Yasothon,True
 2017-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,86034,15.42,Chaiyaphum,True
 2017-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,25143,13.46,Amnat Charoen,True
-2017-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,24933,11.82,Beung Kan,True
+2017-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,24933,11.82,Bueng Kan,True
 2017-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,31959,12.62,Nong Bua Lam Phu,True
 2017-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,130642,14.81,Khon Kaen,True
 2017-01-01,อุดรธานี,จังหวัดอุดรธานี,male,96147,12.46,Udon Thani,True
@@ -410,7 +410,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2018-01-01,ยโสธร,จังหวัดยโสธร,male,40051,14.96,Yasothon,True
 2018-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,89128,16.02,Chaiyaphum,True
 2018-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,26167,14.01,Amnat Charoen,True
-2018-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,26026,12.33,Beung Kan,True
+2018-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,26026,12.33,Bueng Kan,True
 2018-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,33545,13.25,Nong Bua Lam Phu,True
 2018-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,136087,15.45,Khon Kaen,True
 2018-01-01,อุดรธานี,จังหวัดอุดรธานี,male,100801,13.05,Udon Thani,True
@@ -487,7 +487,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2019-01-01,ยโสธร,จังหวัดยโสธร,male,41677,15.62,Yasothon,True
 2019-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,92449,16.65,Chaiyaphum,True
 2019-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,27348,14.65,Amnat Charoen,True
-2019-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,27181,12.88,Beung Kan,True
+2019-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,27181,12.88,Bueng Kan,True
 2019-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,35337,13.95,Nong Bua Lam Phu,True
 2019-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,141834,16.14,Khon Kaen,True
 2019-01-01,อุดรธานี,จังหวัดอุดรธานี,male,105892,13.74,Udon Thani,True
@@ -564,7 +564,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2020-01-01,ยโสธร,จังหวัดยโสธร,male,43339,16.28,Yasothon,True
 2020-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,96354,17.39,Chaiyaphum,True
 2020-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,28568,15.3,Amnat Charoen,True
-2020-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,28317,13.43,Beung Kan,True
+2020-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,28317,13.43,Bueng Kan,True
 2020-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,37063,14.63,Nong Bua Lam Phu,True
 2020-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,147513,16.81,Khon Kaen,True
 2020-01-01,อุดรธานี,จังหวัดอุดรธานี,male,110883,14.4,Udon Thani,True
@@ -641,7 +641,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2021-01-01,ยโสธร,จังหวัดยโสธร,male,44962,16.96,Yasothon,True
 2021-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,99868,18.08,Chaiyaphum,True
 2021-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,29735,15.94,Amnat Charoen,True
-2021-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,29247,13.91,Beung Kan,True
+2021-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,29247,13.91,Bueng Kan,True
 2021-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,38699,15.3,Nong Bua Lam Phu,True
 2021-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,152794,17.47,Khon Kaen,True
 2021-01-01,อุดรธานี,จังหวัดอุดรธานี,male,115705,15.06,Udon Thani,True
@@ -718,7 +718,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2022-01-01,ยโสธร,จังหวัดยโสธร,male,46283,17.54,Yasothon,True
 2022-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,103019,18.75,Chaiyaphum,True
 2022-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,30885,16.61,Amnat Charoen,True
-2022-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,30411,14.49,Beung Kan,True
+2022-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,30411,14.49,Bueng Kan,True
 2022-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,40314,15.97,Nong Bua Lam Phu,True
 2022-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,158108,18.16,Khon Kaen,True
 2022-01-01,อุดรธานี,จังหวัดอุดรธานี,male,120537,15.76,Udon Thani,True
@@ -795,7 +795,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2023-01-01,ยโสธร,จังหวัดยโสธร,male,48013,18.3,Yasothon,True
 2023-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,male,106247,19.43,Chaiyaphum,True
 2023-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,male,32222,17.39,Amnat Charoen,True
-2023-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,31648,15.14,Beung Kan,True
+2023-01-01,บึงกาฬ,จังหวัดบึงกาฬ,male,31648,15.14,Bueng Kan,True
 2023-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,male,41910,16.67,Nong Bua Lam Phu,True
 2023-01-01,ขอนแก่น,จังหวัดขอนแก่น,male,163550,18.86,Khon Kaen,True
 2023-01-01,อุดรธานี,จังหวัดอุดรธานี,male,125343,16.45,Udon Thani,True
@@ -872,7 +872,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2013-01-01,ยโสธร,จังหวัดยโสธร,female,39723,14.82,Yasothon,True
 2013-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,88836,15.73,Chaiyaphum,True
 2013-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,25441,13.7,Amnat Charoen,True
-2013-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,23570,11.5,Beung Kan,True
+2013-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,23570,11.5,Bueng Kan,True
 2013-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,31249,12.49,Nong Bua Lam Phu,True
 2013-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,134093,14.97,Khon Kaen,True
 2013-01-01,อุดรธานี,จังหวัดอุดรธานี,female,96702,12.53,Udon Thani,True
@@ -949,7 +949,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2014-01-01,ยโสธร,จังหวัดยโสธร,female,40946,15.29,Yasothon,True
 2014-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,92153,16.29,Chaiyaphum,True
 2014-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,26407,14.19,Amnat Charoen,True
-2014-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,24535,11.91,Beung Kan,True
+2014-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,24535,11.91,Bueng Kan,True
 2014-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,32813,13.07,Nong Bua Lam Phu,True
 2014-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,139550,15.5,Khon Kaen,True
 2014-01-01,อุดรธานี,จังหวัดอุดรธานี,female,101399,13.08,Udon Thani,True
@@ -1026,7 +1026,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2015-01-01,ยโสธร,จังหวัดยโสธร,female,42277,15.79,Yasothon,True
 2015-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,95579,16.88,Chaiyaphum,True
 2015-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,27352,14.67,Amnat Charoen,True
-2015-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,25523,12.33,Beung Kan,True
+2015-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,25523,12.33,Bueng Kan,True
 2015-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,34310,13.62,Nong Bua Lam Phu,True
 2015-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,144972,16.02,Khon Kaen,True
 2015-01-01,อุดรธานี,จังหวัดอุดรธานี,female,106387,13.67,Udon Thani,True
@@ -1103,7 +1103,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2016-01-01,ยโสธร,จังหวัดยโสธร,female,43997,16.43,Yasothon,True
 2016-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,98924,17.44,Chaiyaphum,True
 2016-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,28547,15.27,Amnat Charoen,True
-2016-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,26786,12.9,Beung Kan,True
+2016-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,26786,12.9,Bueng Kan,True
 2016-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,35933,14.23,Nong Bua Lam Phu,True
 2016-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,150435,16.57,Khon Kaen,True
 2016-01-01,อุดรธานี,จังหวัดอุดรธานี,female,111310,14.26,Udon Thani,True
@@ -1180,7 +1180,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2017-01-01,ยโสธร,จังหวัดยโสธร,female,45763,17.09,Yasothon,True
 2017-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,102840,18.11,Chaiyaphum,True
 2017-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,29757,15.86,Amnat Charoen,True
-2017-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,28072,13.45,Beung Kan,True
+2017-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,28072,13.45,Bueng Kan,True
 2017-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,37631,14.85,Nong Bua Lam Phu,True
 2017-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,156731,17.21,Khon Kaen,True
 2017-01-01,อุดรธานี,จังหวัดอุดรธานี,female,116721,14.9,Udon Thani,True
@@ -1257,7 +1257,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2018-01-01,ยโสธร,จังหวัดยโสธร,female,47583,17.77,Yasothon,True
 2018-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,106656,18.75,Chaiyaphum,True
 2018-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,31075,16.52,Amnat Charoen,True
-2018-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,29358,14.02,Beung Kan,True
+2018-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,29358,14.02,Bueng Kan,True
 2018-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,39475,15.55,Nong Bua Lam Phu,True
 2018-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,163552,17.94,Khon Kaen,True
 2018-01-01,อุดรธานี,จังหวัดอุดรธานี,female,122477,15.59,Udon Thani,True
@@ -1334,7 +1334,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2019-01-01,ยโสธร,จังหวัดยโสธร,female,49401,18.49,Yasothon,True
 2019-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,110788,19.49,Chaiyaphum,True
 2019-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,32514,17.29,Amnat Charoen,True
-2019-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,30711,14.65,Beung Kan,True
+2019-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,30711,14.65,Bueng Kan,True
 2019-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,41386,16.27,Nong Bua Lam Phu,True
 2019-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,171099,18.79,Khon Kaen,True
 2019-01-01,อุดรธานี,จังหวัดอุดรธานี,female,128401,16.33,Udon Thani,True
@@ -1411,7 +1411,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2020-01-01,ยโสธร,จังหวัดยโสธร,female,51456,19.26,Yasothon,True
 2020-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,115544,20.34,Chaiyaphum,True
 2020-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,33924,18.02,Amnat Charoen,True
-2020-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,32072,15.28,Beung Kan,True
+2020-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,32072,15.28,Bueng Kan,True
 2020-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,43370,17.02,Nong Bua Lam Phu,True
 2020-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,178540,19.62,Khon Kaen,True
 2020-01-01,อุดรธานี,จังหวัดอุดรธานี,female,134460,17.08,Udon Thani,True
@@ -1488,7 +1488,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2021-01-01,ยโสธร,จังหวัดยโสธร,female,53361,19.98,Yasothon,True
 2021-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,119640,21.1,Chaiyaphum,True
 2021-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,35351,18.74,Amnat Charoen,True
-2021-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,33214,15.85,Beung Kan,True
+2021-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,33214,15.85,Bueng Kan,True
 2021-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,45250,17.75,Nong Bua Lam Phu,True
 2021-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,185524,20.42,Khon Kaen,True
 2021-01-01,อุดรธานี,จังหวัดอุดรธานี,female,140310,17.82,Udon Thani,True
@@ -1565,7 +1565,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2022-01-01,ยโสธร,จังหวัดยโสธร,female,55129,20.69,Yasothon,True
 2022-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,123426,21.82,Chaiyaphum,True
 2022-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,36647,19.47,Amnat Charoen,True
-2022-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,34643,16.53,Beung Kan,True
+2022-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,34643,16.53,Bueng Kan,True
 2022-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,47145,18.52,Nong Bua Lam Phu,True
 2022-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,192516,21.24,Khon Kaen,True
 2022-01-01,อุดรธานี,จังหวัดอุดรธานี,female,146352,18.6,Udon Thani,True
@@ -1642,7 +1642,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2023-01-01,ยโสธร,จังหวัดยโสธร,female,57217,21.56,Yasothon,True
 2023-01-01,ชัยภูมิ,จังหวัดชัยภูมิ,female,127127,22.57,Chaiyaphum,True
 2023-01-01,อำนาจเจริญ,จังหวัดอำนาจเจริญ,female,38191,20.35,Amnat Charoen,True
-2023-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,36118,17.27,Beung Kan,True
+2023-01-01,บึงกาฬ,จังหวัดบึงกาฬ,female,36118,17.27,Bueng Kan,True
 2023-01-01,หนองบัวลำภู,จังหวัดหนองบัวลำภู,female,48972,19.28,Nong Bua Lam Phu,True
 2023-01-01,ขอนแก่น,จังหวัดขอนแก่น,female,199617,22.07,Khon Kaen,True
 2023-01-01,อุดรธานี,จังหวัดอุดรธานี,female,152072,19.37,Udon Thani,True
