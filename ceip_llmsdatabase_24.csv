@@ -1,0 +1,25 @@
+Country/Region,Name/Developer,Release Year,Base,Base Model Origin
+Indonesia,IndoBERT / University of Melbourne & Queensland,2020,BERT,U.S.
+Vietnamese,PhoBERT / VinAI Research,2020,BERT,U.S.
+Thailand,WangchanBERTa,2021,RoBERTa,U.S.
+Indonesia,SundaBERT / Wilson Wongso, et al.,2022,BERT,U.S.
+Indonesia,Sundanese GPT-2 / Wilson Wongso, et al.,2022,GPT-2,U.S.
+Indonesia,SundaRoBERTa/Wilson Wongso, et al.,2022,RoBERTa,U.S.
+Regional,SEA-Lion v1 / AI Singapore,2023,Trained from scratch,SEA
+Regional,SeaLLM / DAMO Academy, Alibaba,2023,LLaMA,U.S.
+Thailand,Typhoon / SCB 10X AI Team,2023,Mistral,France
+Vietnamese,PhoGPT / VinAI Research,2023,Trained from scratch,SEA
+Vietnamese,Vietcuna / Virtual Interactive,2023,BLOOMZ,Independent
+Vietnamese,VinaLLaMA / Virtual Interactive,2023,LLaMA,U.S.
+Indonesia,Cendol / INDO NLP Initiative,2024,LLaMA,U.S.
+Indonesia,Compass / Shopee LLM Team,2024,LLaMA,U.S.
+Malaysia,MaLLaM / Mesolitica,2024,Trained from scratch,SEA
+Regional,Sailor / Sea AI Lab & SUTD,2024,Qwen,China
+Regional,SEA-Lion v2 / AI Singapore,2024,LLaMA,U.S.
+Regional,SEA-Lion v3 / AI Singapore,2024,Gemma,U.S.
+Regional,SeaLLM3 / DAMO Academy, Alibaba,2024,Qwen,China
+Thailand,OpenThaiGPT / AI Entrepreneurs Association of Thailand,2024,LLaMA,U.S.
+Thailand,THaLLE / KBTG Labs,2024,Qwen,China
+Thailand,WangchanLion / PyThaiNLP & VISTEC-depa AI Research Institute,2024,SEA-LION,SEA
+Vietnamese,LaVy / Hanoi University of Science and Technology,2024,LLaVA,U.S.
+Vietnamese,Vi-Mistral-X / AgileSoDA,2024,Mistral,France
