@@ -69,7 +69,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2013-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,55011,10.95,Surat Thani,True
 2013-01-01,ระนอง,จังหวัดระนอง,male,9744,11.32,Ranong,True
 2013-01-01,ชุมพร,จังหวัดชุมพร,male,31404,12.88,Chumphon,True
-2013-01-01,สงขลา,จังหวัดสงขลา,male,77786,11.7,Songkhla (Songkhla Lake),True
+2013-01-01,สงขลา,จังหวัดสงขลา,male,77786,11.7,Songkhla,True
 2013-01-01,สตูล,จังหวัดสตูล,male,15097,9.88,Satun,True
 2013-01-01,ตรัง,จังหวัดตรัง,male,34623,11.23,Trang,True
 2013-01-01,พัทลุง,จังหวัดพัทลุง,male,34196,13.63,Phatthalung,True
@@ -146,7 +146,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2014-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,57235,11.31,Surat Thani,True
 2014-01-01,ระนอง,จังหวัดระนอง,male,10202,11.77,Ranong,True
 2014-01-01,ชุมพร,จังหวัดชุมพร,male,32573,13.32,Chumphon,True
-2014-01-01,สงขลา,จังหวัดสงขลา,male,80303,11.99,Songkhla (Songkhla Lake),True
+2014-01-01,สงขลา,จังหวัดสงขลา,male,80303,11.99,Songkhla,True
 2014-01-01,สตูล,จังหวัดสตูล,male,15574,10.1,Satun,True
 2014-01-01,ตรัง,จังหวัดตรัง,male,36078,11.66,Trang,True
 2014-01-01,พัทลุง,จังหวัดพัทลุง,male,35429,14.06,Phatthalung,True
@@ -223,7 +223,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2015-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,59105,11.62,Surat Thani,True
 2015-01-01,ระนอง,จังหวัดระนอง,male,10685,12.22,Ranong,True
 2015-01-01,ชุมพร,จังหวัดชุมพร,male,33762,13.72,Chumphon,True
-2015-01-01,สงขลา,จังหวัดสงขลา,male,82799,12.3,Songkhla (Songkhla Lake),True
+2015-01-01,สงขลา,จังหวัดสงขลา,male,82799,12.3,Songkhla,True
 2015-01-01,สตูล,จังหวัดสตูล,male,16102,10.34,Satun,True
 2015-01-01,ตรัง,จังหวัดตรัง,male,37012,11.93,Trang,True
 2015-01-01,พัทลุง,จังหวัดพัทลุง,male,36284,14.35,Phatthalung,True
@@ -300,7 +300,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2016-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,61043,11.96,Surat Thani,True
 2016-01-01,ระนอง,จังหวัดระนอง,male,11105,12.58,Ranong,True
 2016-01-01,ชุมพร,จังหวัดชุมพร,male,34746,14.07,Chumphon,True
-2016-01-01,สงขลา,จังหวัดสงขลา,male,85151,12.59,Songkhla (Songkhla Lake),True
+2016-01-01,สงขลา,จังหวัดสงขลา,male,85151,12.59,Songkhla,True
 2016-01-01,สตูล,จังหวัดสตูล,male,16491,10.53,Satun,True
 2016-01-01,ตรัง,จังหวัดตรัง,male,38272,12.31,Trang,True
 2016-01-01,พัทลุง,จังหวัดพัทลุง,male,37360,14.74,Phatthalung,True
@@ -377,7 +377,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2017-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,63548,12.39,Surat Thani,True
 2017-01-01,ระนอง,จังหวัดระนอง,male,11659,13.16,Ranong,True
 2017-01-01,ชุมพร,จังหวัดชุมพร,male,36064,14.57,Chumphon,True
-2017-01-01,สงขลา,จังหวัดสงขลา,male,88082,12.97,Songkhla (Songkhla Lake),True
+2017-01-01,สงขลา,จังหวัดสงขลา,male,88082,12.97,Songkhla,True
 2017-01-01,สตูล,จังหวัดสตูล,male,17085,10.85,Satun,True
 2017-01-01,ตรัง,จังหวัดตรัง,male,39834,12.8,Trang,True
 2017-01-01,พัทลุง,จังหวัดพัทลุง,male,38539,15.18,Phatthalung,True
@@ -454,7 +454,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2018-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,66279,12.87,Surat Thani,True
 2018-01-01,ระนอง,จังหวัดระนอง,male,12205,13.73,Ranong,True
 2018-01-01,ชุมพร,จังหวัดชุมพร,male,37550,15.14,Chumphon,True
-2018-01-01,สงขลา,จังหวัดสงขลา,male,91365,13.38,Songkhla (Songkhla Lake),True
+2018-01-01,สงขลา,จังหวัดสงขลา,male,91365,13.38,Songkhla,True
 2018-01-01,สตูล,จังหวัดสตูล,male,17755,11.21,Satun,True
 2018-01-01,ตรัง,จังหวัดตรัง,male,41546,13.35,Trang,True
 2018-01-01,พัทลุง,จังหวัดพัทลุง,male,39729,15.66,Phatthalung,True
@@ -531,7 +531,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2019-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,69536,13.45,Surat Thani,True
 2019-01-01,ระนอง,จังหวัดระนอง,male,12716,14.23,Ranong,True
 2019-01-01,ชุมพร,จังหวัดชุมพร,male,39220,15.82,Chumphon,True
-2019-01-01,สงขลา,จังหวัดสงขลา,male,94942,13.87,Songkhla (Songkhla Lake),True
+2019-01-01,สงขลา,จังหวัดสงขลา,male,94942,13.87,Songkhla,True
 2019-01-01,สตูล,จังหวัดสตูล,male,18586,11.66,Satun,True
 2019-01-01,ตรัง,จังหวัดตรัง,male,43460,13.96,Trang,True
 2019-01-01,พัทลุง,จังหวัดพัทลุง,male,41159,16.22,Phatthalung,True
@@ -608,7 +608,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2020-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,72974,14.06,Surat Thani,True
 2020-01-01,ระนอง,จังหวัดระนอง,male,13362,14.86,Ranong,True
 2020-01-01,ชุมพร,จังหวัดชุมพร,male,41036,16.51,Chumphon,True
-2020-01-01,สงขลา,จังหวัดสงขลา,male,99342,14.47,Songkhla (Songkhla Lake),True
+2020-01-01,สงขลา,จังหวัดสงขลา,male,99342,14.47,Songkhla,True
 2020-01-01,สตูล,จังหวัดสตูล,male,19488,12.17,Satun,True
 2020-01-01,ตรัง,จังหวัดตรัง,male,45728,14.67,Trang,True
 2020-01-01,พัทลุง,จังหวัดพัทลุง,male,42928,16.89,Phatthalung,True
@@ -685,7 +685,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2021-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,76307,14.67,Surat Thani,True
 2021-01-01,ระนอง,จังหวัดระนอง,male,13920,15.48,Ranong,True
 2021-01-01,ชุมพร,จังหวัดชุมพร,male,42739,17.21,Chumphon,True
-2021-01-01,สงขลา,จังหวัดสงขลา,male,102578,14.93,Songkhla (Songkhla Lake),True
+2021-01-01,สงขลา,จังหวัดสงขลา,male,102578,14.93,Songkhla,True
 2021-01-01,สตูล,จังหวัดสตูล,male,20210,12.59,Satun,True
 2021-01-01,ตรัง,จังหวัดตรัง,male,47801,15.36,Trang,True
 2021-01-01,พัทลุง,จังหวัดพัทลุง,male,44443,17.53,Phatthalung,True
@@ -762,7 +762,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2022-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,79536,15.29,Surat Thani,True
 2022-01-01,ระนอง,จังหวัดระนอง,male,14442,16.08,Ranong,True
 2022-01-01,ชุมพร,จังหวัดชุมพร,male,44115,17.78,Chumphon,True
-2022-01-01,สงขลา,จังหวัดสงขลา,male,105993,15.45,Songkhla (Songkhla Lake),True
+2022-01-01,สงขลา,จังหวัดสงขลา,male,105993,15.45,Songkhla,True
 2022-01-01,สตูล,จังหวัดสตูล,male,20934,13.03,Satun,True
 2022-01-01,ตรัง,จังหวัดตรัง,male,49743,16.04,Trang,True
 2022-01-01,พัทลุง,จังหวัดพัทลุง,male,45707,18.08,Phatthalung,True
@@ -839,7 +839,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2023-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,male,83121,15.97,Surat Thani,True
 2023-01-01,ระนอง,จังหวัดระนอง,male,15085,16.79,Ranong,True
 2023-01-01,ชุมพร,จังหวัดชุมพร,male,45765,18.45,Chumphon,True
-2023-01-01,สงขลา,จังหวัดสงขลา,male,110267,16.05,Songkhla (Songkhla Lake),True
+2023-01-01,สงขลา,จังหวัดสงขลา,male,110267,16.05,Songkhla,True
 2023-01-01,สตูล,จังหวัดสตูล,male,21944,13.65,Satun,True
 2023-01-01,ตรัง,จังหวัดตรัง,male,52115,16.85,Trang,True
 2023-01-01,พัทลุง,จังหวัดพัทลุง,male,47252,18.74,Phatthalung,True
@@ -916,7 +916,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2013-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,71024,13.75,Surat Thani,True
 2013-01-01,ระนอง,จังหวัดระนอง,female,10756,12.78,Ranong,True
 2013-01-01,ชุมพร,จังหวัดชุมพร,female,38980,15.69,Chumphon,True
-2013-01-01,สงขลา,จังหวัดสงขลา,female,99615,14.21,Songkhla (Songkhla Lake),True
+2013-01-01,สงขลา,จังหวัดสงขลา,female,99615,14.21,Songkhla,True
 2013-01-01,สตูล,จังหวัดสตูล,female,17700,11.45,Satun,True
 2013-01-01,ตรัง,จังหวัดตรัง,female,45674,14.19,Trang,True
 2013-01-01,พัทลุง,จังหวัดพัทลุง,female,45354,17.26,Phatthalung,True
@@ -993,7 +993,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2014-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,73847,14.19,Surat Thani,True
 2014-01-01,ระนอง,จังหวัดระนอง,female,11323,13.32,Ranong,True
 2014-01-01,ชุมพร,จังหวัดชุมพร,female,40423,16.19,Chumphon,True
-2014-01-01,สงขลา,จังหวัดสงขลา,female,103468,14.65,Songkhla (Songkhla Lake),True
+2014-01-01,สงขลา,จังหวัดสงขลา,female,103468,14.65,Songkhla,True
 2014-01-01,สตูล,จังหวัดสตูล,female,18469,11.83,Satun,True
 2014-01-01,ตรัง,จังหวัดตรัง,female,47742,14.77,Trang,True
 2014-01-01,พัทลุง,จังหวัดพัทลุง,female,47031,17.81,Phatthalung,True
@@ -1070,7 +1070,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2015-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,75862,14.5,Surat Thani,True
 2015-01-01,ระนอง,จังหวัดระนอง,female,11858,13.81,Ranong,True
 2015-01-01,ชุมพร,จังหวัดชุมพร,female,41817,16.64,Chumphon,True
-2015-01-01,สงขลา,จังหวัดสงขลา,female,107098,15.07,Songkhla (Songkhla Lake),True
+2015-01-01,สงขลา,จังหวัดสงขลา,female,107098,15.07,Songkhla,True
 2015-01-01,สตูล,จังหวัดสตูล,female,19074,12.1,Satun,True
 2015-01-01,ตรัง,จังหวัดตรัง,female,49017,15.12,Trang,True
 2015-01-01,พัทลุง,จังหวัดพัทลุง,female,48267,18.19,Phatthalung,True
@@ -1147,7 +1147,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2016-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,78049,14.85,Surat Thani,True
 2016-01-01,ระนอง,จังหวัดระนอง,female,12438,14.36,Ranong,True
 2016-01-01,ชุมพร,จังหวัดชุมพร,female,43205,17.13,Chumphon,True
-2016-01-01,สงขลา,จังหวัดสงขลา,female,110388,15.46,Songkhla (Songkhla Lake),True
+2016-01-01,สงขลา,จังหวัดสงขลา,female,110388,15.46,Songkhla,True
 2016-01-01,สตูล,จังหวัดสตูล,female,19710,12.42,Satun,True
 2016-01-01,ตรัง,จังหวัดตรัง,female,50537,15.56,Trang,True
 2016-01-01,พัทลุง,จังหวัดพัทลุง,female,49631,18.63,Phatthalung,True
@@ -1224,7 +1224,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2017-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,80944,15.31,Surat Thani,True
 2017-01-01,ระนอง,จังหวัดระนอง,female,13022,14.96,Ranong,True
 2017-01-01,ชุมพร,จังหวัดชุมพร,female,44869,17.71,Chumphon,True
-2017-01-01,สงขลา,จังหวัดสงขลา,female,114714,15.99,Songkhla (Songkhla Lake),True
+2017-01-01,สงขลา,จังหวัดสงขลา,female,114714,15.99,Songkhla,True
 2017-01-01,สตูล,จังหวัดสตูล,female,20486,12.82,Satun,True
 2017-01-01,ตรัง,จังหวัดตรัง,female,52623,16.17,Trang,True
 2017-01-01,พัทลุง,จังหวัดพัทลุง,female,51231,19.18,Phatthalung,True
@@ -1301,7 +1301,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2018-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,84317,15.86,Surat Thani,True
 2018-01-01,ระนอง,จังหวัดระนอง,female,13629,15.59,Ranong,True
 2018-01-01,ชุมพร,จังหวัดชุมพร,female,46770,18.4,Chumphon,True
-2018-01-01,สงขลา,จังหวัดสงขลา,female,119556,16.58,Songkhla (Songkhla Lake),True
+2018-01-01,สงขลา,จังหวัดสงขลา,female,119556,16.58,Songkhla,True
 2018-01-01,สตูล,จังหวัดสตูล,female,21301,13.25,Satun,True
 2018-01-01,ตรัง,จังหวัดตรัง,female,54753,16.82,Trang,True
 2018-01-01,พัทลุง,จังหวัดพัทลุง,female,52931,19.79,Phatthalung,True
@@ -1378,7 +1378,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2019-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,87944,16.47,Surat Thani,True
 2019-01-01,ระนอง,จังหวัดระนอง,female,14248,16.19,Ranong,True
 2019-01-01,ชุมพร,จังหวัดชุมพร,female,48806,19.16,Chumphon,True
-2019-01-01,สงขลา,จังหวัดสงขลา,female,124530,17.22,Songkhla (Songkhla Lake),True
+2019-01-01,สงขลา,จังหวัดสงขลา,female,124530,17.22,Songkhla,True
 2019-01-01,สตูล,จังหวัดสตูล,female,22310,13.82,Satun,True
 2019-01-01,ตรัง,จังหวัดตรัง,female,57071,17.52,Trang,True
 2019-01-01,พัทลุง,จังหวัดพัทลุง,female,54774,20.49,Phatthalung,True
@@ -1455,7 +1455,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2020-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,91964,17.12,Surat Thani,True
 2020-01-01,ระนอง,จังหวัดระนอง,female,14927,16.83,Ranong,True
 2020-01-01,ชุมพร,จังหวัดชุมพร,female,50708,19.85,Chumphon,True
-2020-01-01,สงขลา,จังหวัดสงขลา,female,130338,17.97,Songkhla (Songkhla Lake),True
+2020-01-01,สงขลา,จังหวัดสงขลา,female,130338,17.97,Songkhla,True
 2020-01-01,สตูล,จังหวัดสตูล,female,23360,14.42,Satun,True
 2020-01-01,ตรัง,จังหวัดตรัง,female,59899,18.37,Trang,True
 2020-01-01,พัทลุง,จังหวัดพัทลุง,female,57180,21.36,Phatthalung,True
@@ -1532,7 +1532,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2021-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,95810,17.75,Surat Thani,True
 2021-01-01,ระนอง,จังหวัดระนอง,female,15640,17.57,Ranong,True
 2021-01-01,ชุมพร,จังหวัดชุมพร,female,52679,20.61,Chumphon,True
-2021-01-01,สงขลา,จังหวัดสงขลา,female,134958,18.56,Songkhla (Songkhla Lake),True
+2021-01-01,สงขลา,จังหวัดสงขลา,female,134958,18.56,Songkhla,True
 2021-01-01,สตูล,จังหวัดสตูล,female,24388,15.01,Satun,True
 2021-01-01,ตรัง,จังหวัดตรัง,female,62490,19.17,Trang,True
 2021-01-01,พัทลุง,จังหวัดพัทลุง,female,58978,22.04,Phatthalung,True
@@ -1609,7 +1609,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2022-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,99802,18.46,Surat Thani,True
 2022-01-01,ระนอง,จังหวัดระนอง,female,16306,18.27,Ranong,True
 2022-01-01,ชุมพร,จังหวัดชุมพร,female,54483,21.3,Chumphon,True
-2022-01-01,สงขลา,จังหวัดสงขลา,female,139839,19.22,Songkhla (Songkhla Lake),True
+2022-01-01,สงขลา,จังหวัดสงขลา,female,139839,19.22,Songkhla,True
 2022-01-01,สตูล,จังหวัดสตูล,female,25321,15.56,Satun,True
 2022-01-01,ตรัง,จังหวัดตรัง,female,64888,19.95,Trang,True
 2022-01-01,พัทลุง,จังหวัดพัทลุง,female,60717,22.72,Phatthalung,True
@@ -1686,7 +1686,7 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2023-01-01,สุราษฎร์ธานี,จังหวัดสุราษฎร์ธานี,female,104133,19.22,Surat Thani,True
 2023-01-01,ระนอง,จังหวัดระนอง,female,17004,19.06,Ranong,True
 2023-01-01,ชุมพร,จังหวัดชุมพร,female,56391,22.06,Chumphon,True
-2023-01-01,สงขลา,จังหวัดสงขลา,female,145717,19.99,Songkhla (Songkhla Lake),True
+2023-01-01,สงขลา,จังหวัดสงขลา,female,145717,19.99,Songkhla,True
 2023-01-01,สตูล,จังหวัดสตูล,female,26539,16.3,Satun,True
 2023-01-01,ตรัง,จังหวัดตรัง,female,67540,20.8,Trang,True
 2023-01-01,พัทลุง,จังหวัดพัทลุง,female,62904,23.58,Phatthalung,True
