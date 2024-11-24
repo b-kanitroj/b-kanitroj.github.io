@@ -1,11 +1,11 @@
 year,name_th,district,sex,count,percent,name_en,is_first
-2013,กรุงเทพมหานคร,กรุงเทพมหานคร,male,342548,13.18,Bangkok,True
+2013,กรุงเทพมหานคร,กรุงเทพมหานคร,male,342548,13.18,Bangkok Metropolis,True
 2013,สมุทรปราการ,จังหวัดสมุทรปราการ,male,63211,10.79,Samut Prakan,True
 2013,นนทบุรี,จังหวัดนนทบุรี,male,72451,13.58,Nonthaburi,True
 2013,ปทุมธานี,จังหวัดปทุมธานี,male,50115,10.16,Pathum Thani,True
 2013,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,51238,13.48,Phra Nakhon Si Ayutthaya,True
 2013,อ่างทอง,จังหวัดอ่างทอง,male,21038,15.63,Ang Thong,True
-2013,ลพบุรี,จังหวัดลพบุรี,male,50183,13.59,Loburi,True
+2013,ลพบุรี,จังหวัดลพบุรี,male,50183,13.59,Lop Buri,True
 2013,สิงห์บุรี,จังหวัดสิงห์บุรี,male,16954,16.96,Sing Buri,True
 2013,ชัยนาท,จังหวัดชัยนาท,male,26198,16.51,Chai Nat,True
 2013,สระบุรี,จังหวัดสระบุรี,male,36334,11.95,Saraburi,True
@@ -76,13 +76,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2013,ปัตตานี,จังหวัดปัตตานี,male,33211,10.03,Pattani,True
 2013,ยะลา,จังหวัดยะลา,male,24860,10.04,Yala,True
 2013,นราธิวาส,จังหวัดนราธิวาส,male,35047,9.4,Narathiwat,True
-2014,กรุงเทพมหานคร,กรุงเทพมหานคร,male,359481,13.85,Bangkok,True
+2014,กรุงเทพมหานคร,กรุงเทพมหานคร,male,359481,13.85,Bangkok Metropolis,True
 2014,สมุทรปราการ,จังหวัดสมุทรปราการ,male,66950,11.27,Samut Prakan,True
 2014,นนทบุรี,จังหวัดนนทบุรี,male,76429,14.13,Nonthaburi,True
 2014,ปทุมธานี,จังหวัดปทุมธานี,male,53289,10.61,Pathum Thani,True
 2014,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,53275,13.92,Phra Nakhon Si Ayutthaya,True
 2014,อ่างทอง,จังหวัดอ่างทอง,male,21700,16.12,Ang Thong,True
-2014,ลพบุรี,จังหวัดลพบุรี,male,52045,14.09,Loburi,True
+2014,ลพบุรี,จังหวัดลพบุรี,male,52045,14.09,Lop Buri,True
 2014,สิงห์บุรี,จังหวัดสิงห์บุรี,male,17496,17.53,Sing Buri,True
 2014,ชัยนาท,จังหวัดชัยนาท,male,27106,17.12,Chai Nat,True
 2014,สระบุรี,จังหวัดสระบุรี,male,37690,12.32,Saraburi,True
@@ -153,13 +153,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2014,ปัตตานี,จังหวัดปัตตานี,male,33933,10.12,Pattani,True
 2014,ยะลา,จังหวัดยะลา,male,25596,10.21,Yala,True
 2014,นราธิวาส,จังหวัดนราธิวาส,male,36023,9.55,Narathiwat,True
-2015,กรุงเทพมหานคร,กรุงเทพมหานคร,male,375406,14.49,Bangkok,True
+2015,กรุงเทพมหานคร,กรุงเทพมหานคร,male,375406,14.49,Bangkok Metropolis,True
 2015,สมุทรปราการ,จังหวัดสมุทรปราการ,male,70247,11.7,Samut Prakan,True
 2015,นนทบุรี,จังหวัดนนทบุรี,male,80661,14.7,Nonthaburi,True
 2015,ปทุมธานี,จังหวัดปทุมธานี,male,56140,10.99,Pathum Thani,True
 2015,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,54647,14.22,Phra Nakhon Si Ayutthaya,True
 2015,อ่างทอง,จังหวัดอ่างทอง,male,22257,16.57,Ang Thong,True
-2015,ลพบุรี,จังหวัดลพบุรี,male,53679,14.52,Loburi,True
+2015,ลพบุรี,จังหวัดลพบุรี,male,53679,14.52,Lop Buri,True
 2015,สิงห์บุรี,จังหวัดสิงห์บุรี,male,17814,17.91,Sing Buri,True
 2015,ชัยนาท,จังหวัดชัยนาท,male,27710,17.55,Chai Nat,True
 2015,สระบุรี,จังหวัดสระบุรี,male,38969,12.68,Saraburi,True
@@ -230,13 +230,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2015,ปัตตานี,จังหวัดปัตตานี,male,34474,10.18,Pattani,True
 2015,ยะลา,จังหวัดยะลา,male,26177,10.32,Yala,True
 2015,นราธิวาส,จังหวัดนราธิวาส,male,36770,9.66,Narathiwat,True
-2016,กรุงเทพมหานคร,กรุงเทพมหานคร,male,391177,15.14,Bangkok,True
+2016,กรุงเทพมหานคร,กรุงเทพมหานคร,male,391177,15.14,Bangkok Metropolis,True
 2016,สมุทรปราการ,จังหวัดสมุทรปราการ,male,73344,12.1,Samut Prakan,True
 2016,นนทบุรี,จังหวัดนนทบุรี,male,84419,15.17,Nonthaburi,True
 2016,ปทุมธานี,จังหวัดปทุมธานี,male,59208,11.43,Pathum Thani,True
 2016,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,56133,14.56,Phra Nakhon Si Ayutthaya,True
 2016,อ่างทอง,จังหวัดอ่างทอง,male,22688,16.95,Ang Thong,True
-2016,ลพบุรี,จังหวัดลพบุรี,male,55185,14.96,Loburi,True
+2016,ลพบุรี,จังหวัดลพบุรี,male,55185,14.96,Lop Buri,True
 2016,สิงห์บุรี,จังหวัดสิงห์บุรี,male,18172,18.34,Sing Buri,True
 2016,ชัยนาท,จังหวัดชัยนาท,male,28324,18.01,Chai Nat,True
 2016,สระบุรี,จังหวัดสระบุรี,male,40342,13.09,Saraburi,True
@@ -307,13 +307,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2016,ปัตตานี,จังหวัดปัตตานี,male,34625,10.12,Pattani,True
 2016,ยะลา,จังหวัดยะลา,male,26250,10.25,Yala,True
 2016,นราธิวาส,จังหวัดนราธิวาส,male,37190,9.69,Narathiwat,True
-2017,กรุงเทพมหานคร,กรุงเทพมหานคร,male,407759,15.83,Bangkok,True
+2017,กรุงเทพมหานคร,กรุงเทพมหานคร,male,407759,15.83,Bangkok Metropolis,True
 2017,สมุทรปราการ,จังหวัดสมุทรปราการ,male,77273,12.62,Samut Prakan,True
 2017,นนทบุรี,จังหวัดนนทบุรี,male,89094,15.81,Nonthaburi,True
 2017,ปทุมธานี,จังหวัดปทุมธานี,male,62734,11.94,Pathum Thani,True
 2017,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,58073,15,Phra Nakhon Si Ayutthaya,True
 2017,อ่างทอง,จังหวัดอ่างทอง,male,23386,17.56,Ang Thong,True
-2017,ลพบุรี,จังหวัดลพบุรี,male,57577,15.62,Loburi,True
+2017,ลพบุรี,จังหวัดลพบุรี,male,57577,15.62,Lop Buri,True
 2017,สิงห์บุรี,จังหวัดสิงห์บุรี,male,18756,18.98,Sing Buri,True
 2017,ชัยนาท,จังหวัดชัยนาท,male,29190,18.61,Chai Nat,True
 2017,สระบุรี,จังหวัดสระบุรี,male,42149,13.65,Saraburi,True
@@ -384,13 +384,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2017,ปัตตานี,จังหวัดปัตตานี,male,35070,10.13,Pattani,True
 2017,ยะลา,จังหวัดยะลา,male,26813,10.36,Yala,True
 2017,นราธิวาส,จังหวัดนราธิวาส,male,37835,9.78,Narathiwat,True
-2018,กรุงเทพมหานคร,กรุงเทพมหานคร,male,424908,16.54,Bangkok,True
+2018,กรุงเทพมหานคร,กรุงเทพมหานคร,male,424908,16.54,Bangkok Metropolis,True
 2018,สมุทรปราการ,จังหวัดสมุทรปราการ,male,81268,13.13,Samut Prakan,True
 2018,นนทบุรี,จังหวัดนนทบุรี,male,94005,16.48,Nonthaburi,True
 2018,ปทุมธานี,จังหวัดปทุมธานี,male,66441,12.47,Pathum Thani,True
 2018,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,60411,15.55,Phra Nakhon Si Ayutthaya,True
 2018,อ่างทอง,จังหวัดอ่างทอง,male,24165,18.18,Ang Thong,True
-2018,ลพบุรี,จังหวัดลพบุรี,male,59862,16.18,Loburi,True
+2018,ลพบุรี,จังหวัดลพบุรี,male,59862,16.18,Lop Buri,True
 2018,สิงห์บุรี,จังหวัดสิงห์บุรี,male,19303,19.63,Sing Buri,True
 2018,ชัยนาท,จังหวัดชัยนาท,male,30012,19.23,Chai Nat,True
 2018,สระบุรี,จังหวัดสระบุรี,male,44145,14.23,Saraburi,True
@@ -461,13 +461,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2018,ปัตตานี,จังหวัดปัตตานี,male,36097,10.31,Pattani,True
 2018,ยะลา,จังหวัดยะลา,male,27711,10.6,Yala,True
 2018,นราธิวาส,จังหวัดนราธิวาส,male,38912,9.97,Narathiwat,True
-2019,กรุงเทพมหานคร,กรุงเทพมหานคร,male,441903,17.28,Bangkok,True
+2019,กรุงเทพมหานคร,กรุงเทพมหานคร,male,441903,17.28,Bangkok Metropolis,True
 2019,สมุทรปราการ,จังหวัดสมุทรปราการ,male,86062,13.73,Samut Prakan,True
 2019,นนทบุรี,จังหวัดนนทบุรี,male,98852,17.09,Nonthaburi,True
 2019,ปทุมธานี,จังหวัดปทุมธานี,male,70748,13.07,Pathum Thani,True
 2019,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,62860,16.12,Phra Nakhon Si Ayutthaya,True
 2019,อ่างทอง,จังหวัดอ่างทอง,male,24957,18.85,Ang Thong,True
-2019,ลพบุรี,จังหวัดลพบุรี,male,62469,16.99,Loburi,True
+2019,ลพบุรี,จังหวัดลพบุรี,male,62469,16.99,Lop Buri,True
 2019,สิงห์บุรี,จังหวัดสิงห์บุรี,male,19957,20.38,Sing Buri,True
 2019,ชัยนาท,จังหวัดชัยนาท,male,30944,19.93,Chai Nat,True
 2019,สระบุรี,จังหวัดสระบุรี,male,46160,14.87,Saraburi,True
@@ -538,13 +538,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2019,ปัตตานี,จังหวัดปัตตานี,male,36845,10.43,Pattani,True
 2019,ยะลา,จังหวัดยะลา,male,28550,10.83,Yala,True
 2019,นราธิวาส,จังหวัดนราธิวาส,male,40142,10.21,Narathiwat,True
-2020,กรุงเทพมหานคร,กรุงเทพมหานคร,male,459810,18.1,Bangkok,True
+2020,กรุงเทพมหานคร,กรุงเทพมหานคร,male,459810,18.1,Bangkok Metropolis,True
 2020,สมุทรปราการ,จังหวัดสมุทรปราการ,male,91024,14.43,Samut Prakan,True
 2020,นนทบุรี,จังหวัดนนทบุรี,male,98824,17.05,Nonthaburi,True
 2020,ปทุมธานี,จังหวัดปทุมธานี,male,75339,13.72,Pathum Thani,True
 2020,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,65667,16.78,Phra Nakhon Si Ayutthaya,True
 2020,อ่างทอง,จังหวัดอ่างทอง,male,25914,19.66,Ang Thong,True
-2020,ลพบุรี,จังหวัดลพบุรี,male,65281,17.81,Loburi,True
+2020,ลพบุรี,จังหวัดลพบุรี,male,65281,17.81,Lop Buri,True
 2020,สิงห์บุรี,จังหวัดสิงห์บุรี,male,20699,21.22,Sing Buri,True
 2020,ชัยนาท,จังหวัดชัยนาท,male,31845,20.6,Chai Nat,True
 2020,สระบุรี,จังหวัดสระบุรี,male,48306,15.54,Saraburi,True
@@ -615,13 +615,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2020,ปัตตานี,จังหวัดปัตตานี,male,37851,10.62,Pattani,True
 2020,ยะลา,จังหวัดยะลา,male,29427,11.08,Yala,True
 2020,นราธิวาส,จังหวัดนราธิวาส,male,41494,10.49,Narathiwat,True
-2021,กรุงเทพมหานคร,กรุงเทพมหานคร,male,471132,18.79,Bangkok,True
+2021,กรุงเทพมหานคร,กรุงเทพมหานคร,male,471132,18.79,Bangkok Metropolis,True
 2021,สมุทรปราการ,จังหวัดสมุทรปราการ,male,94328,14.92,Samut Prakan,True
 2021,นนทบุรี,จังหวัดนนทบุรี,male,102939,17.63,Nonthaburi,True
 2021,ปทุมธานี,จังหวัดปทุมธานี,male,79244,14.28,Pathum Thani,True
 2021,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,67845,17.33,Phra Nakhon Si Ayutthaya,True
 2021,อ่างทอง,จังหวัดอ่างทอง,male,26657,20.38,Ang Thong,True
-2021,ลพบุรี,จังหวัดลพบุรี,male,67204,18.46,Loburi,True
+2021,ลพบุรี,จังหวัดลพบุรี,male,67204,18.46,Lop Buri,True
 2021,สิงห์บุรี,จังหวัดสิงห์บุรี,male,21274,21.98,Sing Buri,True
 2021,ชัยนาท,จังหวัดชัยนาท,male,32717,21.36,Chai Nat,True
 2021,สระบุรี,จังหวัดสระบุรี,male,49767,16.06,Saraburi,True
@@ -692,13 +692,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2021,ปัตตานี,จังหวัดปัตตานี,male,38401,10.73,Pattani,True
 2021,ยะลา,จังหวัดยะลา,male,30132,11.27,Yala,True
 2021,นราธิวาส,จังหวัดนราธิวาส,male,42208,10.61,Narathiwat,True
-2022,กรุงเทพมหานคร,กรุงเทพมหานคร,male,485958,19.53,Bangkok,True
+2022,กรุงเทพมหานคร,กรุงเทพมหานคร,male,485958,19.53,Bangkok Metropolis,True
 2022,สมุทรปราการ,จังหวัดสมุทรปราการ,male,98880,15.61,Samut Prakan,True
 2022,นนทบุรี,จังหวัดนนทบุรี,male,106795,18.25,Nonthaburi,True
 2022,ปทุมธานี,จังหวัดปทุมธานี,male,83888,14.99,Pathum Thani,True
 2022,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,70389,17.99,Phra Nakhon Si Ayutthaya,True
 2022,อ่างทอง,จังหวัดอ่างทอง,male,27426,21.14,Ang Thong,True
-2022,ลพบุรี,จังหวัดลพบุรี,male,69491,19.22,Loburi,True
+2022,ลพบุรี,จังหวัดลพบุรี,male,69491,19.22,Lop Buri,True
 2022,สิงห์บุรี,จังหวัดสิงห์บุรี,male,21947,22.86,Sing Buri,True
 2022,ชัยนาท,จังหวัดชัยนาท,male,33674,22.15,Chai Nat,True
 2022,สระบุรี,จังหวัดสระบุรี,male,51851,16.75,Saraburi,True
@@ -769,13 +769,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2022,ปัตตานี,จังหวัดปัตตานี,male,39349,10.94,Pattani,True
 2022,ยะลา,จังหวัดยะลา,male,31263,11.62,Yala,True
 2022,นราธิวาส,จังหวัดนราธิวาส,male,43814,10.96,Narathiwat,True
-2023,กรุงเทพมหานคร,กรุงเทพมหานคร,male,502077,20.3,Bangkok,True
+2023,กรุงเทพมหานคร,กรุงเทพมหานคร,male,502077,20.3,Bangkok Metropolis,True
 2023,สมุทรปราการ,จังหวัดสมุทรปราการ,male,103781,16.25,Samut Prakan,True
 2023,นนทบุรี,จังหวัดนนทบุรี,male,111505,18.92,Nonthaburi,True
 2023,ปทุมธานี,จังหวัดปทุมธานี,male,88643,15.62,Pathum Thani,True
 2023,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,male,72962,18.63,Phra Nakhon Si Ayutthaya,True
 2023,อ่างทอง,จังหวัดอ่างทอง,male,28347,22,Ang Thong,True
-2023,ลพบุรี,จังหวัดลพบุรี,male,71525,20,Loburi,True
+2023,ลพบุรี,จังหวัดลพบุรี,male,71525,20,Lop Buri,True
 2023,สิงห์บุรี,จังหวัดสิงห์บุรี,male,22555,23.68,Sing Buri,True
 2023,ชัยนาท,จังหวัดชัยนาท,male,34480,22.84,Chai Nat,True
 2023,สระบุรี,จังหวัดสระบุรี,male,54088,17.48,Saraburi,True
@@ -846,13 +846,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2023,ปัตตานี,จังหวัดปัตตานี,male,40889,11.3,Pattani,True
 2023,ยะลา,จังหวัดยะลา,male,32628,12.04,Yala,True
 2023,นราธิวาส,จังหวัดนราธิวาส,male,46029,11.44,Narathiwat,True
-2013,กรุงเทพมหานคร,กรุงเทพมหานคร,female,475305,16.29,Bangkok,True
+2013,กรุงเทพมหานคร,กรุงเทพมหานคร,female,475305,16.29,Bangkok Metropolis,True
 2013,สมุทรปราการ,จังหวัดสมุทรปราการ,female,84674,13.3,Samut Prakan,True
 2013,นนทบุรี,จังหวัดนนทบุรี,female,93033,15.32,Nonthaburi,True
 2013,ปทุมธานี,จังหวัดปทุมธานี,female,65763,12.01,Pathum Thani,True
 2013,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,70270,17.14,Phra Nakhon Si Ayutthaya,True
 2013,อ่างทอง,จังหวัดอ่างทอง,female,29695,20.29,Ang Thong,True
-2013,ลพบุรี,จังหวัดลพบุรี,female,62941,16.91,Loburi,True
+2013,ลพบุรี,จังหวัดลพบุรี,female,62941,16.91,Lop Buri,True
 2013,สิงห์บุรี,จังหวัดสิงห์บุรี,female,23551,21.38,Sing Buri,True
 2013,ชัยนาท,จังหวัดชัยนาท,female,34774,20.4,Chai Nat,True
 2013,สระบุรี,จังหวัดสระบุรี,female,47616,15.19,Saraburi,True
@@ -923,13 +923,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2013,ปัตตานี,จังหวัดปัตตานี,female,43875,12.94,Pattani,True
 2013,ยะลา,จังหวัดยะลา,female,29811,11.82,Yala,True
 2013,นราธิวาส,จังหวัดนราธิวาส,female,42958,11.28,Narathiwat,True
-2014,กรุงเทพมหานคร,กรุงเทพมหานคร,female,499968,17.12,Bangkok,True
+2014,กรุงเทพมหานคร,กรุงเทพมหานคร,female,499968,17.12,Bangkok Metropolis,True
 2014,สมุทรปราการ,จังหวัดสมุทรปราการ,female,89700,13.87,Samut Prakan,True
 2014,นนทบุรี,จังหวัดนนทบุรี,female,98841,16.03,Nonthaburi,True
 2014,ปทุมธานี,จังหวัดปทุมธานี,female,70081,12.56,Pathum Thani,True
 2014,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,72972,17.68,Phra Nakhon Si Ayutthaya,True
 2014,อ่างทอง,จังหวัดอ่างทอง,female,30575,20.92,Ang Thong,True
-2014,ลพบุรี,จังหวัดลพบุรี,female,65420,17.57,Loburi,True
+2014,ลพบุรี,จังหวัดลพบุรี,female,65420,17.57,Lop Buri,True
 2014,สิงห์บุรี,จังหวัดสิงห์บุรี,female,24320,22.14,Sing Buri,True
 2014,ชัยนาท,จังหวัดชัยนาท,female,35954,21.12,Chai Nat,True
 2014,สระบุรี,จังหวัดสระบุรี,female,49727,15.75,Saraburi,True
@@ -1000,13 +1000,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2014,ปัตตานี,จังหวัดปัตตานี,female,44842,13.1,Pattani,True
 2014,ยะลา,จังหวัดยะลา,female,30872,12.11,Yala,True
 2014,นราธิวาส,จังหวัดนราธิวาส,female,44406,11.53,Narathiwat,True
-2015,กรุงเทพมหานคร,กรุงเทพมหานคร,female,523353,17.91,Bangkok,True
+2015,กรุงเทพมหานคร,กรุงเทพมหานคร,female,523353,17.91,Bangkok Metropolis,True
 2015,สมุทรปราการ,จังหวัดสมุทรปราการ,female,94497,14.43,Samut Prakan,True
 2015,นนทบุรี,จังหวัดนนทบุรี,female,104969,16.76,Nonthaburi,True
 2015,ปทุมธานี,จังหวัดปทุมธานี,female,73797,13,Pathum Thani,True
 2015,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,74938,18.04,Phra Nakhon Si Ayutthaya,True
 2015,อ่างทอง,จังหวัดอ่างทอง,female,31438,21.53,Ang Thong,True
-2015,ลพบุรี,จังหวัดลพบุรี,female,67534,18.13,Loburi,True
+2015,ลพบุรี,จังหวัดลพบุรี,female,67534,18.13,Lop Buri,True
 2015,สิงห์บุรี,จังหวัดสิงห์บุรี,female,24930,22.78,Sing Buri,True
 2015,ชัยนาท,จังหวัดชัยนาท,female,36916,21.72,Chai Nat,True
 2015,สระบุรี,จังหวัดสระบุรี,female,51678,16.26,Saraburi,True
@@ -1077,13 +1077,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2015,ปัตตานี,จังหวัดปัตตานี,female,45749,13.23,Pattani,True
 2015,ยะลา,จังหวัดยะลา,female,31710,12.29,Yala,True
 2015,นราธิวาส,จังหวัดนราธิวาส,female,45653,11.73,Narathiwat,True
-2016,กรุงเทพมหานคร,กรุงเทพมหานคร,female,545688,18.69,Bangkok,True
+2016,กรุงเทพมหานคร,กรุงเทพมหานคร,female,545688,18.69,Bangkok Metropolis,True
 2016,สมุทรปราการ,จังหวัดสมุทรปราการ,female,98896,14.93,Samut Prakan,True
 2016,นนทบุรี,จังหวัดนนทบุรี,female,111244,17.47,Nonthaburi,True
 2016,ปทุมธานี,จังหวัดปทุมธานี,female,77983,13.53,Pathum Thani,True
 2016,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,76657,18.4,Phra Nakhon Si Ayutthaya,True
 2016,อ่างทอง,จังหวัดอ่างทอง,female,32041,21.99,Ang Thong,True
-2016,ลพบุรี,จังหวัดลพบุรี,female,69518,18.69,Loburi,True
+2016,ลพบุรี,จังหวัดลพบุรี,female,69518,18.69,Lop Buri,True
 2016,สิงห์บุรี,จังหวัดสิงห์บุรี,female,25540,23.4,Sing Buri,True
 2016,ชัยนาท,จังหวัดชัยนาท,female,37772,22.28,Chai Nat,True
 2016,สระบุรี,จังหวัดสระบุรี,female,53587,16.78,Saraburi,True
@@ -1154,13 +1154,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2016,ปัตตานี,จังหวัดปัตตานี,female,46117,13.2,Pattani,True
 2016,ยะลา,จังหวัดยะลา,female,32036,12.33,Yala,True
 2016,นราธิวาส,จังหวัดนราธิวาส,female,46481,11.83,Narathiwat,True
-2017,กรุงเทพมหานคร,กรุงเทพมหานคร,female,570696,19.57,Bangkok,True
+2017,กรุงเทพมหานคร,กรุงเทพมหานคร,female,570696,19.57,Bangkok Metropolis,True
 2017,สมุทรปราการ,จังหวัดสมุทรปราการ,female,104430,15.56,Samut Prakan,True
 2017,นนทบุรี,จังหวัดนนทบุรี,female,118035,18.27,Nonthaburi,True
 2017,ปทุมธานี,จังหวัดปทุมธานี,female,82841,14.15,Pathum Thani,True
 2017,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,79486,19,Phra Nakhon Si Ayutthaya,True
 2017,อ่างทอง,จังหวัดอ่างทอง,female,33004,22.75,Ang Thong,True
-2017,ลพบุรี,จังหวัดลพบุรี,female,72265,19.42,Loburi,True
+2017,ลพบุรี,จังหวัดลพบุรี,female,72265,19.42,Lop Buri,True
 2017,สิงห์บุรี,จังหวัดสิงห์บุรี,female,26400,24.25,Sing Buri,True
 2017,ชัยนาท,จังหวัดชัยนาท,female,39037,23.07,Chai Nat,True
 2017,สระบุรี,จังหวัดสระบุรี,female,55839,17.41,Saraburi,True
@@ -1231,13 +1231,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2017,ปัตตานี,จังหวัดปัตตานี,female,46886,13.24,Pattani,True
 2017,ยะลา,จังหวัดยะลา,female,32931,12.56,Yala,True
 2017,นราธิวาส,จังหวัดนราธิวาส,female,47575,12,Narathiwat,True
-2018,กรุงเทพมหานคร,กรุงเทพมหานคร,female,596009,20.47,Bangkok,True
+2018,กรุงเทพมหานคร,กรุงเทพมหานคร,female,596009,20.47,Bangkok Metropolis,True
 2018,สมุทรปราการ,จังหวัดสมุทรปราการ,female,110136,16.22,Samut Prakan,True
 2018,นนทบุรี,จังหวัดนนทบุรี,female,124969,19.07,Nonthaburi,True
 2018,ปทุมธานี,จังหวัดปทุมธานี,female,87798,14.77,Pathum Thani,True
 2018,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,82457,19.62,Phra Nakhon Si Ayutthaya,True
 2018,อ่างทอง,จังหวัดอ่างทอง,female,33963,23.43,Ang Thong,True
-2018,ลพบุรี,จังหวัดลพบุรี,female,75144,20.2,Loburi,True
+2018,ลพบุรี,จังหวัดลพบุรี,female,75144,20.2,Lop Buri,True
 2018,สิงห์บุรี,จังหวัดสิงห์บุรี,female,27297,25.13,Sing Buri,True
 2018,ชัยนาท,จังหวัดชัยนาท,female,40248,23.88,Chai Nat,True
 2018,สระบุรี,จังหวัดสระบุรี,female,58437,18.15,Saraburi,True
@@ -1308,13 +1308,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2018,ปัตตานี,จังหวัดปัตตานี,female,48293,13.48,Pattani,True
 2018,ยะลา,จังหวัดยะลา,female,33953,12.84,Yala,True
 2018,นราธิวาส,จังหวัดนราธิวาส,female,49075,12.29,Narathiwat,True
-2019,กรุงเทพมหานคร,กรุงเทพมหานคร,female,621968,21.37,Bangkok,True
+2019,กรุงเทพมหานคร,กรุงเทพมหานคร,female,621968,21.37,Bangkok Metropolis,True
 2019,สมุทรปราการ,จังหวัดสมุทรปราการ,female,116573,16.93,Samut Prakan,True
 2019,นนทบุรี,จังหวัดนนทบุรี,female,132567,19.91,Nonthaburi,True
 2019,ปทุมธานี,จังหวัดปทุมธานี,female,93610,15.52,Pathum Thani,True
 2019,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,85582,20.3,Phra Nakhon Si Ayutthaya,True
 2019,อ่างทอง,จังหวัดอ่างทอง,female,35089,24.33,Ang Thong,True
-2019,ลพบุรี,จังหวัดลพบุรี,female,78216,21.08,Loburi,True
+2019,ลพบุรี,จังหวัดลพบุรี,female,78216,21.08,Lop Buri,True
 2019,สิงห์บุรี,จังหวัดสิงห์บุรี,female,28178,26.07,Sing Buri,True
 2019,ชัยนาท,จังหวัดชัยนาท,female,41684,24.85,Chai Nat,True
 2019,สระบุรี,จังหวัดสระบุรี,female,61084,18.92,Saraburi,True
@@ -1385,13 +1385,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2019,ปัตตานี,จังหวัดปัตตานี,female,49205,13.59,Pattani,True
 2019,ยะลา,จังหวัดยะลา,female,34938,13.11,Yala,True
 2019,นราธิวาส,จังหวัดนราธิวาส,female,50674,12.61,Narathiwat,True
-2020,กรุงเทพมหานคร,กรุงเทพมหานคร,female,649102,22.41,Bangkok,True
+2020,กรุงเทพมหานคร,กรุงเทพมหานคร,female,649102,22.41,Bangkok Metropolis,True
 2020,สมุทรปราการ,จังหวัดสมุทรปราการ,female,123217,17.72,Samut Prakan,True
 2020,นนทบุรี,จังหวัดนนทบุรี,female,140686,20.84,Nonthaburi,True
 2020,ปทุมธานี,จังหวัดปทุมธานี,female,100021,16.34,Pathum Thani,True
 2020,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,89476,21.12,Phra Nakhon Si Ayutthaya,True
 2020,อ่างทอง,จังหวัดอ่างทอง,female,36401,25.31,Ang Thong,True
-2020,ลพบุรี,จังหวัดลพบุรี,female,81526,22.02,Loburi,True
+2020,ลพบุรี,จังหวัดลพบุรี,female,81526,22.02,Lop Buri,True
 2020,สิงห์บุรี,จังหวัดสิงห์บุรี,female,29222,27.12,Sing Buri,True
 2020,ชัยนาท,จังหวัดชัยนาท,female,43056,25.76,Chai Nat,True
 2020,สระบุรี,จังหวัดสระบุรี,female,63951,19.75,Saraburi,True
@@ -1462,13 +1462,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2020,ปัตตานี,จังหวัดปัตตานี,female,50701,13.85,Pattani,True
 2020,ยะลา,จังหวัดยะลา,female,36119,13.43,Yala,True
 2020,นราธิวาส,จังหวัดนราธิวาส,female,52675,13,Narathiwat,True
-2021,กรุงเทพมหานคร,กรุงเทพมหานคร,female,669975,23.35,Bangkok,True
+2021,กรุงเทพมหานคร,กรุงเทพมหานคร,female,669975,23.35,Bangkok Metropolis,True
 2021,สมุทรปราการ,จังหวัดสมุทรปราการ,female,128503,18.39,Samut Prakan,True
 2021,นนทบุรี,จังหวัดนนทบุรี,female,147740,21.68,Nonthaburi,True
 2021,ปทุมธานี,จังหวัดปทุมธานี,female,105357,17.02,Pathum Thani,True
 2021,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,92423,21.77,Phra Nakhon Si Ayutthaya,True
 2021,อ่างทอง,จังหวัดอ่างทอง,female,37367,26.14,Ang Thong,True
-2021,ลพบุรี,จังหวัดลพบุรี,female,84348,22.87,Loburi,True
+2021,ลพบุรี,จังหวัดลพบุรี,female,84348,22.87,Lop Buri,True
 2021,สิงห์บุรี,จังหวัดสิงห์บุรี,female,30079,28.08,Sing Buri,True
 2021,ชัยนาท,จังหวัดชัยนาท,female,44435,26.79,Chai Nat,True
 2021,สระบุรี,จังหวัดสระบุรี,female,66037,20.43,Saraburi,True
@@ -1539,13 +1539,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2021,ปัตตานี,จังหวัดปัตตานี,female,51746,14.08,Pattani,True
 2021,ยะลา,จังหวัดยะลา,female,37191,13.75,Yala,True
 2021,นราธิวาส,จังหวัดนราธิวาส,female,54207,13.31,Narathiwat,True
-2022,กรุงเทพมหานคร,กรุงเทพมหานคร,female,694137,24.29,Bangkok,True
+2022,กรุงเทพมหานคร,กรุงเทพมหานคร,female,694137,24.29,Bangkok Metropolis,True
 2022,สมุทรปราการ,จังหวัดสมุทรปราการ,female,134785,19.2,Samut Prakan,True
 2022,นนทบุรี,จังหวัดนนทบุรี,female,154153,22.5,Nonthaburi,True
 2022,ปทุมธานี,จังหวัดปทุมธานี,female,111694,17.86,Pathum Thani,True
 2022,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,95939,22.58,Phra Nakhon Si Ayutthaya,True
 2022,อ่างทอง,จังหวัดอ่างทอง,female,38419,27.09,Ang Thong,True
-2022,ลพบุรี,จังหวัดลพบุรี,female,87366,23.81,Loburi,True
+2022,ลพบุรี,จังหวัดลพบุรี,female,87366,23.81,Lop Buri,True
 2022,สิงห์บุรี,จังหวัดสิงห์บุรี,female,30906,29.1,Sing Buri,True
 2022,ชัยนาท,จังหวัดชัยนาท,female,45670,27.7,Chai Nat,True
 2022,สระบุรี,จังหวัดสระบุรี,female,68642,21.25,Saraburi,True
@@ -1616,13 +1616,13 @@ year,name_th,district,sex,count,percent,name_en,is_first
 2022,ปัตตานี,จังหวัดปัตตานี,female,53049,14.37,Pattani,True
 2022,ยะลา,จังหวัดยะลา,female,38731,14.21,Yala,True
 2022,นราธิวาส,จังหวัดนราธิวาส,female,56240,13.73,Narathiwat,True
-2023,กรุงเทพมหานคร,กรุงเทพมหานคร,female,719656,25.23,Bangkok,True
+2023,กรุงเทพมหานคร,กรุงเทพมหานคร,female,719656,25.23,Bangkok Metropolis,True
 2023,สมุทรปราการ,จังหวัดสมุทรปราการ,female,141828,19.96,Samut Prakan,True
 2023,นนทบุรี,จังหวัดนนทบุรี,female,161557,23.33,Nonthaburi,True
 2023,ปทุมธานี,จังหวัดปทุมธานี,female,118182,18.61,Pathum Thani,True
 2023,พระนครศรีอยุธยา,จังหวัดพระนครศรีอยุธยา,female,99373,23.33,Phra Nakhon Si Ayutthaya,True
 2023,อ่างทอง,จังหวัดอ่างทอง,female,39505,28.05,Ang Thong,True
-2023,ลพบุรี,จังหวัดลพบุรี,female,90441,24.77,Loburi,True
+2023,ลพบุรี,จังหวัดลพบุรี,female,90441,24.77,Lop Buri,True
 2023,สิงห์บุรี,จังหวัดสิงห์บุรี,female,31797,30.14,Sing Buri,True
 2023,ชัยนาท,จังหวัดชัยนาท,female,46896,28.63,Chai Nat,True
 2023,สระบุรี,จังหวัดสระบุรี,female,71678,22.16,Saraburi,True
