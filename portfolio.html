@@ -31,14 +31,12 @@
         <div class="chart-description">
             <h2>CC 1: Hosting. Display charts in your own site.</h2>
             <p>
-                I have created a GitHub account and live page. Here I added three charts using the vegaEmbed function, taken from 
+                I have created a GitHub account and live page. Here I added a chart using the vegaEmbed, taken from 
                 <a href="https://rdeconomist.github.io/library">Chart Library</a>.
             </p>
         </div>
         <div id="chartGrid">
             <figure id="Location1"></figure>
-            <figure id="Location2"></figure>
-            <figure id="Location3"></figure>
         </div>
     </section>
 
@@ -59,10 +57,7 @@
                 I took Thailand and Vietnam unemployment data from the Economics Observatory and tried to use "layer" to combine it into one chart.
             </p>
             <figure id="THVNUnemp"></figure>
-            <p>
-                I also created a chart from scratch with data in CSV format, which I adapted to the data of my choice for the next chart.
-            </p>
-            <figure id="Vicespending"></figure>
+
         </div>
     </section>
 
@@ -132,7 +127,8 @@
             This chart shows the price density plot for diapers and formula, essential items for both age groups. The price for baby items tends to cluster at the lower end of the range, possibly due to higher competition in the market.
         </p>
     </section>
-
+    
+    <!-- WEEK6 -->
     <section> <!-- WEEK6 -->
         <div class="chart-description">
             <h2>CC 6: Loops. Build a Dashboard</h2>
@@ -172,12 +168,16 @@
         <div class="chart-description">
             <h2>CC 7: Maps. Base maps and choropleths</h2>
             <p>
-                Create a base map with tooltips and a choropleth map using the lookup transform to show geographic data.
+                This is the map of Thailand at the province level. 
+                The choropleths map show the percent of elderly citizen (over the age of 60) 
+                in each province according to national register in the year 2023. 
+                This show which province has more elderly people taken into account that some province like Bangkok
+                , the capital city, might have more citizen.
             </p>
         </div>
         <div id="chartGrid">
-            <figure id="baseMap"></figure>
-            <figure id="choroplethMap"></figure>
+            <figure id="cc7_basemap"></figure>
+            <figure id="cc7_elderlymap"></figure>
         </div>
     </section>
     
@@ -266,6 +266,8 @@
         vegaEmbed("#cc6_7gap685","cc6_gap685_chart.json")
         vegaEmbed("#cc6_8high10","cc6_high10share_chart.json")
         vegaEmbed("#cc6_9highfourth","cc6_highfourth20_chart.json")
+        vegaEmbed("#cc7_basemap","cc7_thailand_basemap.json")
+        vegaEmbed("#cc7_elderlymap","cc7_thailand_elderly2023.json")
 
     </script>
 </body>
