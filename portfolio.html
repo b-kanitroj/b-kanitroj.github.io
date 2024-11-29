@@ -111,7 +111,7 @@
         This format makes it easier to compare categories over time. Additionally, I added tooltips to improve readability and provide precise values on hover. 
         To draw attention to critical areas, I highlighted specific categories in red, emphasizing the need for closer examination.
     </p>
-</section>
+    </section>
 
 
     <!-- Week 5 -->
@@ -129,7 +129,7 @@
     </section>
     
     <!-- WEEK6 -->
-    <section> <!-- WEEK6 -->
+    <section> 
         <div class="chart-description">
             <h2>CC 6: Loops. Build a Dashboard</h2>
             <p>
@@ -164,7 +164,8 @@
         </div>
     </section>
     
-    <section> <!-- WEEK7 -->
+    <!-- WEEK7 -->
+    <section>
         <div class="chart-description">
             <h2>CC 7: Maps. Base maps and choropleths</h2>
             <p>
@@ -181,9 +182,38 @@
         </div>
     </section>
     
-    <section> <!-- WEEK8 -->
+    <!-- WEEK8 -->
+    <section> 
         <div class="chart-description">
-            <h2>CC 8: Analytics Charts</h2>
+            <h2>CC 8: Big Data. Extracting a story from millions of prices</h2>
+            <p>
+                A line chart illustrating the trend of the average price of baby powdered formula in the U.K. from 2010 to 2024, 
+                based on monthly data from the Long Run Price Database <a href="https://cep.lse.ac.uk/pubs/download/occasional/op055.pdf">(Davies, 2021)</a>. 
+                The y-axis scale is set between 7 and 13 to better highlight the variation in the data,
+                 as the observed average prices fall within this range.
+            </p>
+        </div>
+        <div id="chartGrid">
+            <figure id="cc8_babyformula_trend"></figure>
+        </div>
+
+        <div class="chart-description"></div>
+            <p>
+                Inspired by a chart shown in class, I want to visualize the price distribution of powdered baby formula by store. 
+                So I use the AutoCPI data filtered by product ID for powdered baby formula to show the distribution here.
+                More information about the AutoCPI data can be found in <a href="http://economicsobservatory.com/autocpi.pdf">Davies and McElvoy (2024)</a>. 
+       
+            </p>
+        </div>
+        <div id="chartGrid">
+            <figure id="cc8_babyformula_autoCPI"></figure>
+        </div>
+    </section>
+    
+    <!-- WEEK9 -->
+    <section> 
+        <div class="chart-description">
+            <h2>CC 9: Analytics Charts</h2>
             <p>
                 Produce two charts using advanced analytics techniques like scatter, bubble, or heat maps.
             </p>
@@ -193,20 +223,7 @@
             <figure id="heatMap"></figure>
         </div>
     </section>
-    
-    <section> <!-- WEEK9 -->
-        <div class="chart-description">
-            <h2>CC 9: Big Data. Extracting a story from millions of prices</h2>
-            <p>
-                Produce two charts using UK price data and explain the story behind the data.
-            </p>
-        </div>
-        <div id="chartGrid">
-            <figure id="bigDataChart1"></figure>
-            <figure id="bigDataChart2"></figure>
-        </div>
-    </section>
-    
+
     <section> <!-- WEEK10 -->
         <div class="chart-description">
             <h2>CC 10: Machine Learning or Interactive Visualizations</h2>
@@ -268,6 +285,8 @@
         vegaEmbed("#cc6_9highfourth","cc6_highfourth20_chart.json")
         vegaEmbed("#cc7_basemap","cc7_thailand_basemap.json")
         vegaEmbed("#cc7_elderlymap","cc7_thailand_elderly2023.json")
+        vegaEmbed("#cc8_babyformula_autoCPI","cc8_autoCPI_babyformula.json")
+        vegaEmbed("#cc8_babyformula_trend", "cc8_baby_formula_trend.json")
 
     </script>
 </body>

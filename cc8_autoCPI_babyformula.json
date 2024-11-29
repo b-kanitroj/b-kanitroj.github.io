@@ -1,0 +1,697 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 400,
+            "continuousHeight": 300
+        }
+    },
+    "data": {
+        "name": "data-638c59eaceb4c69321f956355238b59a"
+    },
+    "mark": {
+        "type": "circle",
+        "size": 100,
+        "opacity":0.5
+    },
+    "encoding": {
+        "color": {
+            "field": "store_id",
+            "legend": null,
+            "type": "nominal"
+        },
+        "x": {
+            "field": "price",
+            "title": "Price (\u00a3)",
+            "type": "quantitative"
+        },
+        "y": {
+            "field": "store_id",
+            "title": "",
+            "type": "nominal"
+        }
+    },
+    "height": 400,
+    "title": {
+        "text": "Powdered Baby Formula prices by store",
+        "subtitle": [
+            "Most recent price for each product from AutoCPI data Davies and McElvoy (2024)",
+            ""
+        ],
+        "anchor": "start"
+    },
+    "width": 500,
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "datasets": {
+        "data-638c59eaceb4c69321f956355238b59a": [
+            {
+                "date": "2023-08-06",
+                "price": 15.5,
+                "unit_price": " \u00a319.38/kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 36455.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2023-10-08",
+                "price": 13.0,
+                "unit_price": "\u00a31.62/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 5596.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2023-10-29",
+                "price": 14.5,
+                "unit_price": null,
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 5597.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-01-25",
+                "price": 8.2,
+                "unit_price": " \u00a320.50/kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 147206.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-02-22",
+                "price": 16.5,
+                "unit_price": "20.62 per kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 91732.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-03-23",
+                "price": 8.49,
+                "unit_price": "\u00a312.13 / kg",
+                "loyalty_price": null,
+                "original_price": 8.49,
+                "store_id": "Store 4",
+                "product_id": 21631.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-21",
+                "price": 13.5,
+                "unit_price": "16.88 per kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 188303.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-11-08",
+                "price": 7.5,
+                "unit_price": "12.5 / kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 42981.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-21",
+                "price": 9.25,
+                "unit_price": "23.12 / kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 74373.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-26",
+                "price": 18.0,
+                "unit_price": "22.5 / kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 159815.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-10",
+                "price": 18.0,
+                "unit_price": "22.5 / kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 158666.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-06-19",
+                "price": 13.5,
+                "unit_price": "\u00a316.88 / kg",
+                "loyalty_price": null,
+                "original_price": 13.5,
+                "store_id": "Store 6",
+                "product_id": 148476.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-11-08",
+                "price": 16.0,
+                "unit_price": "13.33 / kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 147819.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-18",
+                "price": 14.0,
+                "unit_price": "\u00a317.50 / kg",
+                "loyalty_price": null,
+                "original_price": 14.0,
+                "store_id": "Store 6",
+                "product_id": 41869.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-07-26",
+                "price": 14.0,
+                "unit_price": "\u00a317.50 / kg",
+                "loyalty_price": null,
+                "original_price": 14.0,
+                "store_id": "Store 6",
+                "product_id": 269975.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-18",
+                "price": 10.5,
+                "unit_price": "\u00a31.31/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6698.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-06-03",
+                "price": 18.0,
+                "unit_price": "\u00a322.50 / kg",
+                "loyalty_price": null,
+                "original_price": 18.0,
+                "store_id": "Store 6",
+                "product_id": 226650.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-07",
+                "price": 15.5,
+                "unit_price": "\u00a319.38 / kg",
+                "loyalty_price": null,
+                "original_price": 15.5,
+                "store_id": "Store 6",
+                "product_id": 48001.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-05-10",
+                "price": 8.4,
+                "unit_price": "\u00a321.00 / kg",
+                "loyalty_price": null,
+                "original_price": 8.4,
+                "store_id": "Store 6",
+                "product_id": 252390.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-27",
+                "price": 13.5,
+                "unit_price": "1.69 per 100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 128314.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-25",
+                "price": 18.0,
+                "unit_price": "\u00a32.25/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 18777.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-05-21",
+                "price": 13.5,
+                "unit_price": "\u00a31.69/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6692.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-04",
+                "price": 5.25,
+                "unit_price": "0.525 per 100ml",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 191208.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-07-14",
+                "price": 16.0,
+                "unit_price": "\u00a31.33/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 4690.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-29",
+                "price": 14.0,
+                "unit_price": "\u00a31.75/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 183490.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-07-19",
+                "price": 18.0,
+                "unit_price": "\u00a32.25/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6693.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-16",
+                "price": 10.5,
+                "unit_price": "\u00a313.13 / kg",
+                "loyalty_price": null,
+                "original_price": 10.5,
+                "store_id": "Store 6",
+                "product_id": 153254.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-02",
+                "price": 10.5,
+                "unit_price": "\u00a31.31/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6699.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-11-11",
+                "price": 18.0,
+                "unit_price": "\u00a32.25/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 18767.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-06-28",
+                "price": 10.5,
+                "unit_price": "1.31 per 100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 155514.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-07-05",
+                "price": 15.0,
+                "unit_price": "\u00a318.75 / kg",
+                "loyalty_price": null,
+                "original_price": 15.0,
+                "store_id": "Store 6",
+                "product_id": 170309.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-05-03",
+                "price": 17.5,
+                "unit_price": "\u00a32.19/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 169806.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-08-17",
+                "price": 8.0,
+                "unit_price": "1.9 per 100ml",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 81042.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-16",
+                "price": 7.95,
+                "unit_price": "99.4p/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 97796.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-24",
+                "price": 1.45,
+                "unit_price": "0.725 per 100ml",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 80755.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-11-06",
+                "price": 13.5,
+                "unit_price": "16.88 / kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 232458.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-21",
+                "price": 18.0,
+                "unit_price": "2.25 per 100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 43445.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-08-30",
+                "price": 7.95,
+                "unit_price": "0.994 per 100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 175413.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-05-09",
+                "price": 7.0,
+                "unit_price": "1.67 per 100ml",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 181399.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-07-22",
+                "price": 14.0,
+                "unit_price": "\u00a31.75/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6696.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-27",
+                "price": 18.0,
+                "unit_price": "\u00a322.50 / kg",
+                "loyalty_price": null,
+                "original_price": 18.0,
+                "store_id": "Store 6",
+                "product_id": 107394.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-15",
+                "price": 13.5,
+                "unit_price": "1.69 per 100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 173551.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-13",
+                "price": 18.0,
+                "unit_price": "\u00a32.25/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 57519.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-08-27",
+                "price": 12.0,
+                "unit_price": "\u00a310.00 / kg",
+                "loyalty_price": null,
+                "original_price": 12.0,
+                "store_id": "Store 6",
+                "product_id": 275936.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-15",
+                "price": 12.0,
+                "unit_price": "1.5 per 100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 211583.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-07-16",
+                "price": 9.25,
+                "unit_price": "\u00a323.13 / kg",
+                "loyalty_price": null,
+                "original_price": 9.25,
+                "store_id": "Store 6",
+                "product_id": 56077.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-11-04",
+                "price": 16.0,
+                "unit_price": "\u00a313.33 / kg",
+                "loyalty_price": null,
+                "original_price": 16.0,
+                "store_id": "Store 6",
+                "product_id": 142463.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-25",
+                "price": 9.25,
+                "unit_price": "\u00a32.31/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6133.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-03",
+                "price": 13.5,
+                "unit_price": "\u00a31.69/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6695.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-22",
+                "price": 8.49,
+                "unit_price": "\u00a39.43 / kg",
+                "loyalty_price": null,
+                "original_price": 8.49,
+                "store_id": "Store 4",
+                "product_id": 22221.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-06-26",
+                "price": 18.0,
+                "unit_price": "\u00a322.50 / kg",
+                "loyalty_price": null,
+                "original_price": 18.0,
+                "store_id": "Store 6",
+                "product_id": 83479.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-07-26",
+                "price": 10.5,
+                "unit_price": "\u00a313.13 / kg",
+                "loyalty_price": null,
+                "original_price": 10.5,
+                "store_id": "Store 6",
+                "product_id": 104869.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-11-11",
+                "price": 12.0,
+                "unit_price": "\u00a31.00/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 4089.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-04",
+                "price": 13.5,
+                "unit_price": "\u00a316.88 / kg",
+                "loyalty_price": null,
+                "original_price": 13.5,
+                "store_id": "Store 6",
+                "product_id": 116676.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-10-04",
+                "price": 18.0,
+                "unit_price": "22.5 / kg",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 5",
+                "product_id": 252728.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-09-02",
+                "price": 7.95,
+                "unit_price": "\u00a39.94 / kg",
+                "loyalty_price": null,
+                "original_price": 7.95,
+                "store_id": "Store 6",
+                "product_id": 183442.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-25",
+                "price": 13.5,
+                "unit_price": "\u00a316.88 / kg",
+                "loyalty_price": null,
+                "original_price": 13.5,
+                "store_id": "Store 6",
+                "product_id": 106880.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-04-12",
+                "price": 13.5,
+                "unit_price": "\u00a31.69/100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 1",
+                "product_id": 6675.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            },
+            {
+                "date": "2024-05-03",
+                "price": 13.5,
+                "unit_price": "1.69 per 100g",
+                "loyalty_price": null,
+                "original_price": null,
+                "store_id": "Store 3",
+                "product_id": 229482.0,
+                "cpi_id": 211816.0,
+                "cpi_name": "powdered baby formula 400-900g"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1096 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 500,
+            "continuousHeight": 300
+        }
+    },
+    "data": {
+        "name": "data-df95dc25520a27bbd3a3ac8d67f76657"
+    },
+    "mark": "line",
+    "encoding": {
+        "color": {
+            "field": "labels",
+            "type": "nominal",
+            "legend":null
+        },
+        "x": {
+            "field": "quote_date",
+            "type": "temporal",
+            "title":null
+        },
+        "y": {
+            "field": "price",
+            "type": "quantitative",
+            "title":"Average price (£)",
+            "scale":{"domain":[7,13]}
+        }
+    },
+    "title": {
+        "text": "Price Trend of Baby Powdered Formula in the U.K. 2010 - 2024",
+        "subtitle": "Source: Long Run Prices Database",
+        "anchor": "start"
+    },
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "datasets": {
+        "data-df95dc25520a27bbd3a3ac8d67f76657": [
+            {
+                "quote_date": "2010-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.412795680645162,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.475670055154638,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.53124348134715,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.5692783541237105,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.421302086458333,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.426834173366834,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.483195895360825,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.5693158368421045,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.57604065177665,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.563434329292929,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2010-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.4058000195,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.448367325510204,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.627900562430939,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.704739588541667,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.626994866839379,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.839072224742268,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.860051595360824,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 7.604477699502488,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.12050507020202,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.032350020500001,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.134422188442212,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.029545562626263,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2011-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.394088585221676,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.129695318781724,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.335257598969072,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.2393227953125,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.623368839037433,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.620841446534653,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.586715545588236,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.4760998635,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.644749850999998,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.300646647761194,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.715601934554973,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.434769091282051,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2012-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.586030772164948,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.590497356218906,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.385206057216495,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.640922926153845,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.685714142857142,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.625490101960784,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.56782169950495,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.674723525125627,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.861379209852217,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.796994989655172,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.889178657487923,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.872341372195121,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2013-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.876119305472637,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.882536523414634,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.900596954228856,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 8.897860654228856,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.17577656407767,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.238557544230769,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.230292548780488,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.21838368939394,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.199674282325581,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.271944291203702,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.25853063364929,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.246342484722222,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2014-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.196869063551402,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.116512686153845,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.108359657142856,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.12106782961165,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.07300438116592,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.078482037946427,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.072579077375565,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.155336224663678,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.241741002678571,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.262837795045044,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.188590880454546,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.230642185779816,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2015-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.233990812844038,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.224796328054298,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.144081574489796,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.089857092857143,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.087953439534884,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.091588742056075,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.214372053488372,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.249117602941176,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.211682196728972,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.234088836888889,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.26756875412844,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.585507169565217,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2016-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.71481814909091,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.721363607272728,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.6951979990099,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.772046490232556,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.77840373802817,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.679906521495328,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.68640185233645,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.664037539906104,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.667525236363636,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.764656850490196,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.919907819354838,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.910542970135745,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2017-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.903710390950227,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.895384599095022,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.913113187735847,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.9042253342723,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.892535192957746,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.899345773831776,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.910187771830985,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.768363591515152,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.745731654878048,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.71891716178344,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.963865953608247,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.982029678217822,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2018-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.923743817733989,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.895414337016575,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.089696943434344,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.93495047029703,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.047079183168316,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.006748743842365,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.069999974757282,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.061365827317074,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.088620662068966,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 9.978564332178218,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.09289213235294,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.057403820192308,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2019-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.179896891752577,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.059523784761904,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.05581728125,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.394940439880953,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.1249700251497,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.281063805851064,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.434048755609755,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.434951430582524,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.266981105660378,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.40009256574074,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.356313328110598,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.538407612738853,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2020-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.553187470625,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.527010851086956,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.382964793969848,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.251791011442787,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.530200980904523,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.797751446153846,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.812422656701031,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.835906973488372,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.68240565235849,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.705787021296295,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.80448596682243,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.612681803181818,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2021-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.815196078431374,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.522889895412844,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.222829254146342,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.935775378074867,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 10.900878025365854,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 11.253255793953487,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 11.105534866046511,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 11.383698611872145,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 11.175720914418603,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 11.403209296744187,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 11.758883927678571,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 11.970981299065421,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2022-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.054423064423077,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.079018677570094,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.141393018905472,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.442077281159419,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.636226420283018,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.397311339150944,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.65507044084507,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.767644214903846,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.745555548309179,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.682216973113206,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-10-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.68704759857143,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-11-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.713235274509804,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2023-12-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.615242697087378,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-01-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.544952359047619,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-02-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.245197999009902,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-03-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.20839799223301,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-04-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.056381813065327,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-05-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.146945721182266,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-06-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.07366326930693,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-07-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.059504853465347,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-08-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.09211045125628,
+                "labels": "Baby Powdered Formula"
+            },
+            {
+                "quote_date": "2024-09-01T00:00:00",
+                "item_id": 211816,
+                "price": 12.02546331804878,
+                "labels": "Baby Powdered Formula"
+            }
+        ]
+    }
+}
