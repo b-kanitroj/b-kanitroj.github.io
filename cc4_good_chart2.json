@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/cc4_thailand_budget_in_brief2024.csv"
+    },
+    "title": {
+      "text": ["Budget Appropriation by Budget Structure FY2020-24"],
+      "subtitle": ["Excluding Current Expenditures", ""]
+    },
+    "height": 200,
+    "width": 300,
+    "mark": {"type": "line"},
+    "transform": [
+      {
+        "calculate": "datum.Category !== 'Current Expenditures' ? 1 : 0",
+        "as": "notCurrentExpenditures"
+      },
+      {"filter": "datum.notCurrentExpenditures === 1"}
+    ],
+    "encoding": {
+      "y": {"field": "Percentage", "type": "quantitative", "title": null},
+      "x": {"field": "Year", "type": "temporal", "title": null},
+      "color": {
+        "field": "Category",
+        "sort": "y",
+        "legend": {
+          "orient": "bottom",
+          "labelExpr": "datum.label === 'Replenishment of Treasury Account Balance' ? 'Replenishment of Treasury Acc.' : datum.label",
+          "columns": 2
+        },
+        "title": "Budget Structure",
+        "scale": {
+          "domain": [
+            "Capital Expenditures",
+            "Principal Repayments",
+            "Replenishment of Treasury Account Balance",
+            "Replenishment of Reserve Fund"
+          ],
+          "range": ["lightgray", "yellowgreen", "orange", "#ff3333"]
+        }
+      },
+      "tooltip": [
+        {"field": "Category"},
+        {"field": "Percentage", "type": "quantitative", "format": ".2f"}
+      ]
+    }
+  }

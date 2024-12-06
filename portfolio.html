@@ -37,6 +37,7 @@
         </div>
         <div id="chartGrid">
             <figure id="Location1"></figure>
+            <figure id="Location2"></figure>
         </div>
     </section>
 
@@ -96,6 +97,7 @@
         
         <figure id="cc4_bad_chart"></figure>
         <figure id="cc4_good_chart"></figure>
+        <figure id="cc4_good_chart2"></figure>
     </div>
     <p>
         This chart aims to show the percentage of each spending type according to budget structure: current expenditures, 
@@ -120,6 +122,7 @@
             <h2>CC 5: Scraper. Implement a data scraper of your own</h2>
             <p>
                 I have scraped item name and price data from <a href="https://www.bigc.co.th/t">BigC Online</a>, focusing on products under the sections “Mom and baby” and “Elderly.” I built the scraper by generating links to access different pages, then used Beautiful Soup to parse and extract the data.
+                You can see my colab notebook <a href="https://colab.research.google.com/drive/1xm8JauWjj6VWnNhpAjMGawilktR4VrZN?usp=sharing">here</a>. 
             </p>
         </div>
         <figure id="cc5_bigC"></figure>
@@ -273,6 +276,7 @@
         vegaEmbed("#HousingTenure",'cc3_housing_tenure.json')
         vegaEmbed("#cc4_bad_chart",'cc4_bad_chart.json')
         vegaEmbed("#cc4_good_chart",'cc4_good_chart.json')
+        vegaEmbed("#cc4_good_chart2",'cc4_good_chart2.json')
         vegaEmbed("#cc5_bigC",'cc5_pricedensity_bigc.json') 
         vegaEmbed("#cc6_1below215","cc6_below215_chart.json")
         vegaEmbed("#cc6_2below365","cc6_below365_chart.json")
