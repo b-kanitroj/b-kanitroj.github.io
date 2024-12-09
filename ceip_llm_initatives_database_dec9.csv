@@ -1,36 +1,36 @@
 ﻿country,name,month-year,year,base,base base,base country,architecture,architecture country
-Regional,SeaLion v1,Dec-23,2023,Training from scratch,Training from scratch,SEA,MPT,USA
-Regional,SeaLion v2,Jul-24,2024,Llama 3,LlaMA,USA,Continue training,Continue training
-Regional,SeaLion v3,Nov-24,2024,Gemma 2,Gemma,USA,Continue training,Continue training
+Regional,SeaLion v1,Dec-23,2023,Training from scratch,Training from scratch,SEA,MPT,U.S.
+Regional,SeaLion v2,Jul-24,2024,Llama 3,LlaMA,U.S.,Continue training,Continue training
+Regional,SeaLion v3,Nov-24,2024,Gemma 2,Gemma,U.S.,Continue training,Continue training
 Regional,Sailor,Apr-24,2024,Qwen 1.5,Qwen,China,Continue training,Continue training
 Regional,Sailor2,Dec-24,2024,Qwen 2.5,Qwen,China,Continue training,Continue training
-Regional,SeaLLM v1,Dec-23,2023,Llama 2,LlaMA,USA,Continue training,Continue training
+Regional,SeaLLM v1,Dec-23,2023,Llama 2,LlaMA,U.S.,Continue training,Continue training
 Regional,SeaLLM v2,Feb-24,2024,Mistral 7B,Mistral,France,Continue training,Continue training
-Regional,SeaLLM v2.5,Apr-24,2024,Gemma 7B,Gemma,USA,Continue training,Continue training
+Regional,SeaLLM v2.5,Apr-24,2024,Gemma 7B,Gemma,U.S.,Continue training,Continue training
 Regional,SeaLLM v3,Jul-24,2024,Qwen 2,Qwen,China,Continue training,Continue training
-Indonesia,Cendol LLaMA,Apr-24,2024,Llama 2,LlaMA,USA,Continue training,Continue training
-Indonesia,Cendol mT5,Apr-24,2024,mT5,mT5,USA,Continue training,Continue training
-Indonesia,IndoBERT,Nov-20,2020,Training from scratch,Training from scratch,SEA,BERT,USA
-Indonesia,IndoBART,Apr-21,2021,Training from scratch,Training from scratch,SEA,mBART,USA
-Indonesia,IndoGPT,Apr-21,2021,Training from scratch,Training from scratch,SEA,GPT-2,USA
-Indonesia,Sundanese GPT,Apr-22,2022,Training from scratch,Training from scratch,SEA,GPT-2,USA
-Indonesia,SundaBERT,Apr-22,2022,Training from scratch,Training from scratch,SEA,BERT,USA
-Indonesia,SundaRoBERTa,Apr-22,2022,Training from scratch,Training from scratch,SEA,RoBERTa,USA
-Indonesia,Compass,Apr-24,2024,Training from scratch,Training from scratch,SEA,LlaMA,USA
+Indonesia,Cendol LLaMA,Apr-24,2024,Llama 2,LlaMA,U.S.,Continue training,Continue training
+Indonesia,Cendol mT5,Apr-24,2024,mT5,mT5,U.S.,Continue training,Continue training
+Indonesia,IndoBERT,Nov-20,2020,Training from scratch,Training from scratch,SEA,BERT,U.S.
+Indonesia,IndoBART,Apr-21,2021,Training from scratch,Training from scratch,SEA,mBART,U.S.
+Indonesia,IndoGPT,Apr-21,2021,Training from scratch,Training from scratch,SEA,GPT-2,U.S.
+Indonesia,Sundanese GPT,Apr-22,2022,Training from scratch,Training from scratch,SEA,GPT-2,U.S.
+Indonesia,SundaBERT,Apr-22,2022,Training from scratch,Training from scratch,SEA,BERT,U.S.
+Indonesia,SundaRoBERTa,Apr-22,2022,Training from scratch,Training from scratch,SEA,RoBERTa,U.S.
+Indonesia,Compass,Apr-24,2024,Training from scratch,Training from scratch,SEA,LlaMA,U.S.
 Indonesia,Sahabat-AI v1,Nov-24,2024,SeaLion v2,SeaLION,SEA,Continue training,Continue training
 Indonesia,Sahabat-AI v2,Nov-24,2024,SeaLion v3,SeaLION,SEA,Continue training,Continue training
 Malaysia,Malaysian Mistral,Jan-24,2024,Training from scratch,Training from scratch,SEA,Mistral,France
 Malaysia,MaLLaM,Jan-24,2024,Training from scratch,Training from scratch,SEA,Mistral,France
 Thailand,Typhoon,Dec-23,2023,Mistral 7B,Mistral,France,Continue training,Continue training
 Thailand,ThaLLE,Jun-24,2024,Qwen 2,Qwen,China,Continue training,Continue training
-Thailand,OpenThaiGPT v1,Apr-24,2024,LlaMA-2,LlaMA,USA,Continue training,Continue training
+Thailand,OpenThaiGPT v1,Apr-24,2024,LlaMA-2,LlaMA,U.S.,Continue training,Continue training
 Thailand,OpenThaiGPT v1.5,Sep-24,2024,Qwen 2.5,Qwen,China,Continue training,Continue training
 Thailand,WangchanLION,Mar-24,2024,SeaLion v1,SeaLION,SEA,Continue training,Continue training
 Thailand,WangchanLION v2,Dec-24,2024,SeaLion v3,SeaLION,SEA,Continue training,Continue training
-Thailand,WangchanBERTa,Jan-21,2021,Training from scratch,Training from scratch,SEA,RoBERTa,USA
+Thailand,WangchanBERTa,Jan-21,2021,Training from scratch,Training from scratch,SEA,RoBERTa,U.S.
 Vietnam,Lavy,Apr-24,2024,Vistral 7B,Vistral,Vietnam,Continue training,Continue training
 Vietnam,Vi-Mistral-X,Mar-24,2024,Mistral,Mistral,France,Continue training,Continue training
-Vietnam,PhoBERT,Mar-20,2020,Training from scratch,Training from scratch,SEA,RoBERTa,USA
+Vietnam,PhoBERT,Mar-20,2020,Training from scratch,Training from scratch,SEA,RoBERTa,U.S.
 Vietnam,PhoGPT,Nov-23,2023,Training from scratch,Training from scratch,SEA,customized,SEA
-Vietnam,VinaLLaMA,Dec-23,2023,Llama 2,LlaMA,USA,Continue training,Continue training
+Vietnam,VinaLLaMA,Dec-23,2023,Llama 2,LlaMA,U.S.,Continue training,Continue training
 Vietnam,Vietcuna,Aug-23,2023,BLOOMZ,BLOOMZ,Not classified,Continue training,Continue training
