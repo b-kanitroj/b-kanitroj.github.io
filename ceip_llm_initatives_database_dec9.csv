@@ -28,7 +28,7 @@ Thailand,OpenThaiGPT v1.5,Sep-24,2024,Qwen 2.5,Qwen,China,Continue training,Cont
 Thailand,WangchanLION,Mar-24,2024,SeaLion v1,SeaLION,SEA,Continue training,Continue training
 Thailand,WangchanLION v2,Dec-24,2024,SeaLion v3,SeaLION,SEA,Continue training,Continue training
 Thailand,WangchanBERTa,Jan-21,2021,Training from scratch,Training from scratch,SEA,RoBERTa,USA
-Vietnam,Lavy,Apr-24,2024,Vistral 7B,Vistral,,Continue training,Continue training
+Vietnam,Lavy,Apr-24,2024,Vistral 7B,Vistral,Vietnam,Continue training,Continue training
 Vietnam,Vi-Mistral-X,Mar-24,2024,Mistral,Mistral,France,Continue training,Continue training
 Vietnam,PhoBERT,Mar-20,2020,Training from scratch,Training from scratch,SEA,RoBERTa,USA
 Vietnam,PhoGPT,Nov-23,2023,Training from scratch,Training from scratch,SEA,customized,SEA
