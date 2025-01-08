@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html> 
-   
-<head>    
-    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+<html lang="en">
 
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
+<head>
     <link rel="stylesheet" type="text/css" href="Format3.css">
-    <title>My Project</title> <!-- The title displayed in the browser tab, not on the page itself -->
+    <title>Infrastructure Inequities: The Road to Welfare Reform</title>
 
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <!-- Link to Vega and Vega-Lite for embedding charts -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -17,24 +13,283 @@
     <style>
         #chartGrid {
             display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
         }
-        
+
+        .chart-description {
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #C73889;
+            font-weight: bold;
+        }
     </style>
 </head>
 
-<body> 
-<!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
-        <!-- This is a header, it is the largest text on the page -->
-        Project
-    </h1>
-    <p class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This page presents my Project
-    </p>
+<!-- Navigation Links -->
+<nav style="margin-bottom: 20px;">
+    <a href="index.html" style="margin-right: 15px; text-decoration: none; color: #007BFF;">Home</a>
+    <a href="portfolio.html" style="text-decoration: none; color: #007BFF;">Portfolio</a>
+</nav>
 
+<body>
+    <!-- Main Content -->
+    <h1 style="font-size: 2em;">Mapping Disparities: Infrastructure, Access, and Societal Challenges in Thailand</h1>
+    <p style="font-weight: bold; font-size: 1.2em; margin-top: 10px;">
+        How do disparities in infrastructure and healthcare access impact societal challenges across Thailand's
+        provinces?
+    </p>
+    <div
+        style="background-color: #f9f9f9; border: 1px solid #ccc; padding: 15px; margin-top: 15px; border-radius: 5px;">
+        <p style="margin: 0;">
+            <strong>Aim:</strong> This project investigates how disparities in infrastructure (e.g., road density) and
+            healthcare access (e.g.,
+            number of doctors per 10,000 population) affect societal challenges like health, education, and employment
+            issues. The goal is to identify patterns that highlight underserved provinces, offering actionable insights
+            for
+            policymakers. By linking these disparities to societal issues, the project seeks to provide evidence-based
+            recommendations for improving infrastructure and welfare programs according to the needs of the people.
+        </p>
+    </div>
+
+
+
+
+    <!-- Chart Section -->
+    <section>
+        <div class="chart-description">
+            <h2>Chart 1: Doctor Density Across Provinces</h2>
+        </div>
+        <div id="chartGrid">
+            <figure id="Location1"></figure>
+        </div>
+        <div>
+            <button class="toggle-button" data-target="descriptionChart1" style="margin-bottom: 10px; cursor: pointer;">Show Description</button>
+            <p id="descriptionChart1" class="chart-description-text" style="display: none;">
+                Healthcare access varies widely across Thailand's provinces, with some areas offering significantly
+                better doctor availability than others. The global standard of <a
+                    href="https://data.who.int/indicators/i/CCCEBB2/217795A" target="_blank">17.2 doctors per 10,000
+                    people</a>, serves as a benchmark—how does Thailand measure up?
+            </p>
+        </div>
+    </section>
+    
+    <section>
+        <div class="chart-description">
+            <h2>Chart 2: The Health Burden in Underserved Provinces</h2>
+        </div>
+        <div id="chartGrid">
+            <figure id="Location2"></figure>
+        </div>
+        <div>
+            <button class="toggle-button" data-target="descriptionChart2" style="margin-bottom: 10px; cursor: pointer;">Show Description</button>
+            <p id="descriptionChart2" class="chart-description-text" style="display: none;">
+                So what does the disparity mean for the people? This chart shows how doctor density impacts health
+                issues and
+                chronic disease prevalence. Provinces with fewer doctors face higher health challenges, with larger
+                bubbles
+                highlighting the dual strain of overall health issues and the long-term burden of chronic diseases in
+                underserved areas.
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="chart-description">
+            <h2>Chart 3: Road Density and Societal Issues</h2>
+        </div>
+        <div id="chartGrid">
+            <figure id="Location3"></figure>
+        </div>
+        <div>
+            <button class="toggle-button" data-target="descriptionChart3" style="margin-bottom: 10px; cursor: pointer;">Show Description</button>
+            <p id="descriptionChart3" class="chart-description-text" style="display: none;">
+                Expanding the perspective to infrastructure, this chart explores how road density correlates with key societal
+                issues such as employment and education challenges. Each panel compares one type of issue, with bubble sizes
+                representing the total population in each province. The visual highlights how larger populations may either
+                amplify or mitigate the impact of limited infrastructure. By juxtaposing these two societal dimensions, it
+                emphasizes the compounded challenges faced by underserved regions.
+            </p>
+        </div>
+    </section>
+    
+    <section>
+        <div class="chart-description">
+            <h2>Chart 4: Composite Impact of Road and Doctor Density on Societal Issues</h2>
+        </div>
+        <div id="chartGrid">
+            <figure id="Location4"></figure>
+        </div>
+        <div>
+            <button class="toggle-button" data-target="descriptionChart4" style="margin-bottom: 10px; cursor: pointer;">Show Description</button>
+            <p id="descriptionChart4" class="chart-description-text" style="display: none;">
+                This heatmap reveals the combined influence of road and healthcare access on societal challenges. Warmer colors
+                indicate higher issue intensity, pinpointing regions where limited infrastructure and healthcare access converge
+                to compound challenges. By layering these two critical dimensions, the chart underscores the interconnected
+                nature of infrastructure disparities and their profound effects on provincial well-being.
+            </p>
+        </div>
+    </section>
+    
+
+    <!-- Additional Context -->
+    <div
+        style="background-color: #f9f9f9; border: 1px solid #ccc; padding: 15px; margin-top: 15px; border-radius: 5px;">
+        <p style="margin: 0;">
+            <strong>Data Used and Access Methods:</strong> This project uses data from various sources to analyze
+            disparities and societal challenges:
+        </p>
+        <ul style="margin-top: 10px; padding-left: 20px;">
+            <li>
+                <strong>Infrastructure:</strong>
+                <ul>
+                    <li>
+                        <strong>Road Density:</strong> Calculated using road distance data from the
+                        <a href="https://www.otp.go.th/uploads/tiny_uploads/PDF/2566-11/25661106-TransportInfrastructureAnnualReport2022.pdf"
+                            target="_blank">Transport Infrastructure Annual Report 2022</a>,
+                        published by the Office of Transport and Traffic Policy and Planning, Ministry of Transport
+                        (2023),
+                        combined with
+                        <a href="https://www.nso.go.th/nsoweb/downloadFile/stat_impt/PM/file_xls_th"
+                            target="_blank">provincial area data</a> from the National Statistical Office of Thailand.
+                    </li>
+                    <li>
+                        <strong>Healthcare Access:</strong> Measured by
+                        <a href="https://moph.gdcatalog.go.th/dataset/5c80d96f-54bb-4d4d-ab90-ec4f50f22b79"
+                            target="_blank">doctors per 10,000 population, </a> Ministry of Public Health (2024).
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Societal Issues:</strong>
+                Counts of health, education, and employment issues were derived from MSO-Logbook, an individual-level
+                dataset documenting
+                the needs of over 900,000 people across Thailand's provinces. The raw data, available to ministry
+                personnel upon request
+                from the Ministry of Social Development and Human Security, required translation, parsing, and
+                aggregation to create province-level summaries.
+            </li>
+        </ul>
+        <p style="margin-top: 10px;">
+            Although the data does not utilize APIs or fully automated pipelines, Python scripts were developed for data
+            cleaning, aggregation,
+            and analysis. These scripts ensure replicability with future datasets and demonstrate the potential for
+            integrating disparate datasets.
+            This project highlights the value of open and standardized data practices, aiming to inspire broader
+            adoption of data-driven policymaking
+            in Thailand. You can see the data cleaning and processing steps in my
+            <a href="https://colab.research.google.com/drive/1iMXiGJg7m3tGojWwFoZ8olZLrhnAi2F4?usp=sharing"
+                target="_blank">Colab notebook</a>.
+        </p>
+    </div>
+
+    <div
+        style="background-color: #f9f9f9; border: 1px solid #ccc; padding: 15px; margin-top: 15px; border-radius: 5px;">
+        <p style="margin: 0;">
+            <strong>Challenges, Tools Used, and Limitations:</strong>
+        </p>
+        <ul style="margin-top: 10px; padding-left: 20px;">
+            <li>
+                <strong>Data Cleaning:</strong> Cleaning the dataset required addressing missing values, resolving
+                mismatched
+                province names, and correcting inconsistent formatting. With over a million data points, significant
+                effort
+                went into aggregating and standardizing individual-level information into province-level summaries.
+                Python's
+                <code>pandas</code> library was instrumental in preprocessing, translating, and parsing raw datasets
+                from Thai to ensure alignment across variables.
+            </li>
+            <li>
+                <strong>AI Assistance:</strong> Generative AI tools significantly streamlined formatting, converting,
+                and
+                standardizing dataset structures. While these tools provided efficiency, manual validation was essential
+                to
+                ensure the accuracy of data points.
+            </li>
+            <li>
+                <strong>MSO-Logbook Limitations:</strong> The data presented unique limitations. As it is collected
+                through human-administered questionnaires, the dataset contains missing entries and inconsistencies,
+                such as incorrectly formatted or incomplete data. Some provinces lack data entirely due to ongoing
+                reviews, leading to charts that do not fully represent all provinces.
+            </li>
+            <li>
+                The issues uncovered during this
+                analysis will be shared separately with the Ministry of Social Development and Human Security to
+                encourage improvements in data collection and management practices. Addressing these gaps is vital to
+                enhancing the utility of this rich but underutilized dataset, enabling it to better inform future policy
+                discussions and support evidence-based decision-making within the ministry.
+            </li>
+        </ul>
+    </div>
+
+    <div
+        style="background-color: #f9f9f9; border: 1px solid #ccc; padding: 15px; margin-top: 15px; border-radius: 5px;">
+        <p style="margin: 0;">
+            <strong>Conclusion: Infrastructure inequities deeply exacerbate societal challenges, leaving
+            underserved provinces to grapple with compounded burdens on health, education, and employment.</strong>
+        </p>
+        <p style="margin-top: 10px;">
+            Chart 1 establishes the baseline, revealing disparities in healthcare access across provinces. This
+            introduces the inequity that sets the stage for further analysis. Chart 2 demonstrates how inadequate
+            healthcare infrastructure directly impacts public health.
+        </p>
+        <p style="margin-top: 10px;">
+            Chart 3 expands the perspective to road density, showing how infrastructure disparities contribute to
+            broader societal challenges, such as education and employment issues. The patterns emphasize that
+            infrastructure inequities are not isolated but have effects on people’s well-being. Chart 4 reinforces this
+            interconnectedness, highlighting how the combined inadequacies of road and healthcare infrastructure
+            compound societal challenges, with the highest burdens seen in underserved provinces.
+        </p>
+        <p style="margin-top: 10px; font-weight: bold;">Policy Recommendations:</p>
+        <ol style="padding-left: 20px; margin-top: 0;">
+            <li><strong>Targeted Resource Allocation:</strong> Direct healthcare and infrastructure investments to
+                provinces with the most severe disparities to maximize impact where it's needed most.</li>
+            <li><strong>Integrated Planning:</strong> Address the interconnected nature of infrastructure and well-being
+                by coordinating improvements in healthcare access and road systems to tackle compounded challenges.</li>
+            <li><strong>Evaluate Welfare Policies:</strong> Current flat-rate monthly welfare may not account for
+                regional disparities in infrastructure. Future research should explore how these inequities affect
+                living costs and spending to inform more equitable welfare strategies.</li>
+        </ol>
+    </div>
+
+
+
+
+    <!-- Vega-Lite Chart Embedding -->
+    <script>
+        // Embed Chart 1: Doctor Density Across Provinces
+        let figure_1_spec = "01_doctor_divide.json"
+        vegaEmbed("#Location1", figure_1_spec)
+        let figure_2_spec = "02_health_burden.json"
+        vegaEmbed("#Location2", figure_2_spec)
+        let figure_3_spec = "03_road_density.json"
+        vegaEmbed("#Location3", figure_3_spec)
+        let figure_4_spec = "04_combined_infra.json"
+        vegaEmbed("#Location4", figure_4_spec)
 
     </script>
 
+    <script>
+        // Universal toggle functionality for all buttons
+        document.querySelectorAll(".toggle-button").forEach(button => {
+            button.addEventListener("click", function () {
+                const targetId = button.getAttribute("data-target");
+                const description = document.getElementById(targetId);
+
+                if (description.style.display === "none") {
+                    description.style.display = "block";
+                    button.innerText = "Hide Description";
+                } else {
+                    description.style.display = "none";
+                    button.innerText = "Show Description";
+                }
+            });
+        });
+    </script>
+
 </body>
-    
+
 </html>
