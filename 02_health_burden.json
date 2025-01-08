@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Relationship Between Doctor Density, Health Issues, and Chronic Diseases",
+    "title": {
+      "text": "The Burden: Doctor Density and Health Issues",
+      "subtitle": [
+        "Analyzing the relationship between doctor density, health issues, and chronic diseases",
+        "Data Source: MSO-Logbook (MSDHS), Ministry of Health", ""
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 300,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/00doctor_healthissue_province.csv"
+    },
+    "transform": [
+      {
+        "lookup": "province",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/chingchai/OpenGISData-Thailand/refs/heads/master/provinces.geojson",
+            "format": {"property": "features"}
+          },
+          "key": "properties.pro_th",
+          "fields": ["properties.pro_en"]
+        }
+      },
+      {
+        "filter": "datum.health_issues_count > 0"
+      }
+    ],
+    "mark": {"type": "circle", "filled": true},
+    "params": [
+      {
+        "name": "hover",
+        "select": {"type": "point", "on": "pointerover"}
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "value",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "title": "Doctors per 10,000 Population"
+      },
+      "y": {
+        "field": "health_issues_count",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "title": "Health Issue Count"
+      },
+      "size": {
+        "field": "chronic_diseases_count",
+        "type": "quantitative",
+        "title": "Chronic Disease Count",
+        "scale": {"range": [50, 900]}
+      },
+      "color": {
+        "value": "#84BADB",
+        "condition": {"param": "hover", "value": "#C73889", "empty": false}
+      },
+      "opacity": {
+        "value": 0.6,
+        "condition": {"param": "hover", "value": 1, "empty": false}
+      },
+      "tooltip": [
+        {"field": "properties.pro_en", "type": "nominal", "title": "Province"},
+        {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Doctors per 10,000",
+          "format": ".1f"
+        },
+        {
+          "field": "health_issues_count",
+          "type": "quantitative",
+          "title": "Health Issues Count",
+          "format": ","
+        },
+        {
+          "field": "chronic_diseases_count",
+          "type": "quantitative",
+          "title": "Chronic Diseases Count",
+          "format": ","
+        }
+      ]
+    }
+  }
+  

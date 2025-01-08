@@ -1,0 +1,138 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Faceted scatterplot showing the relationship between road density and societal issues with readable facet titles.",
+    "title": {
+      "text": "Road Density and Societal Issues Across Provinces",
+      "subtitle": [
+        "Exploring the relationship between road density and employment and education issues",
+        "Bubble size represents the total population in each province",
+        "Data Source: MSO-Logbook (MSDHS), Ministry of Transport",
+        ""
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 300,
+    "height": 300,
+    "facet": {
+      "field": "issue_type",
+      "type": "nominal",
+      "header": {
+        "title": null,
+        "labelExpr": "datum.value === 'education_issues_count' ? 'Education Issues' : 'Employment Issues'",
+        "labelFontSize": 14,
+        "labelFontWeight": "bold",
+        "labelColor": "black"
+      },
+      "columns": 2
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/00road_density.csv"
+    },
+    "transform": [
+      {
+        "lookup": "province",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/chingchai/OpenGISData-Thailand/refs/heads/master/provinces.geojson",
+            "format": {"property": "features"}
+          },
+          "key": "properties.pro_th",
+          "fields": ["properties.pro_en"]
+        }
+      },
+      {
+        "fold": [
+          "employment_income_issues_count",
+          "education_issues_count"
+        ],
+        "as": ["issue_type", "issue_count"]
+      }
+    ],
+    "spec": {
+      "layer": [
+        {
+          "mark": {"type": "point", "filled": true},
+          "params": [
+            {
+              "name": "hover",
+              "select": {"type": "point", "on": "pointerover"}
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "road_density",
+              "type": "quantitative",
+              "scale": {"zero": false},
+              "title": "Road Density (km/sqkm)"
+            },
+            "y": {
+              "field": "issue_count",
+              "type": "quantitative",
+              "scale": {"zero": false},
+              "title": "Issue Count"
+            },
+            "size": {
+              "field": "total_population",
+              "type": "quantitative",
+              "scale": {"type": "sqrt", "range": [10, 500]},
+              "title": "Total Population"
+            },
+            "color": {
+              "value": "#D0E181",
+              "condition": {"param": "hover", "value": "#C73889", "empty": false}
+            },
+            "opacity": {
+              "value": 0.6,
+              "condition": {"param": "hover", "value": 1, "empty": false}
+            },
+            "tooltip": [
+              {"field": "properties.pro_en", "type": "nominal", "title": "Province"},
+              {
+                "field": "road_density",
+                "type": "quantitative",
+                "title": "Road Density (km/sqkm)",
+                "format": ",.2f"
+              },
+              {
+                "field": "issue_count",
+                "type": "quantitative",
+                "title": "Issue Count",
+                "format": ","
+              },
+              {
+                "field": "total_population",
+                "type": "quantitative",
+                "title": "Total Population",
+                "format": ","
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {"regression": "issue_count", "on": "road_density"}
+          ],
+          "mark": {"type": "line", "color": "#f33ba3", "strokeWidth": 2},
+          "encoding": {
+            "x": {"field": "road_density", "type": "quantitative"},
+            "y": {"field": "issue_count", "type": "quantitative"}
+          }
+        }
+      ]
+    },
+    "resolve": {
+      "scale": {
+        "y": "independent"
+      }
+    },
+    "config": {
+      "axis": {
+        "gridColor": "#e0e0e0",
+        "gridOpacity": 0.4
+      }
+    }
+  }
+  

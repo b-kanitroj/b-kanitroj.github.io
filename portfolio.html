@@ -97,21 +97,24 @@
         
         <figure id="cc4_bad_chart"></figure>
         <figure id="cc4_good_chart"></figure>
-        <figure id="cc4_good_chart2"></figure>
     </div>
     <p>
         This chart aims to show the percentage of each spending type according to budget structure: current expenditures, 
         capital expenditures, replenishment of treasury accounts balance, principal repayments, and replenishment of reserve fund. 
         Knowing this appropriations would give the reader an overview of the government spending, giving insight into the priority, 
         objectives, and financial strategies. 
-        
+    </p>
+    
+    <p>
         The current chart is not very informative as the current expenditures take up the majority of the budget every year, 
         making it hard to see the changes in other spending categories. Additionally, the legend calling out the name of the 
         categories are also in the way making the already to sparse scale hard to read.
+    </p>
 
+    <p>
         I improved the chart by converting it into a stacked bar chart to visually represent the composition of the budget across different years. 
-        This format makes it easier to compare categories over time. Additionally, I added tooltips to improve readability and provide precise values on hover. 
-        To draw attention to critical areas, I highlighted specific categories in red, emphasizing the need for closer examination.
+        This format makes it easier to compare categories over time. Additionally, I added tooltips to improve readability and provide precise values on hover,
+        and added a checkbox for option to exclude current expenditures, allowing the reader to see other categories.
     </p>
     </section>
 
@@ -222,21 +225,21 @@
             </p>
         </div>
         <div id="chartGrid">
-            <figure id="scatterPlot"></figure>
-            <figure id="heatMap"></figure>
+            <figure id="cc9_healthburden"></figure>
+            <figure id="cc9_roaddensity"></figure>
         </div>
     </section>
 
     <section> <!-- WEEK10 -->
         <div class="chart-description">
-            <h2>CC 10: Machine Learning or Interactive Visualizations</h2>
+            <h2>CC 10: Interactive Visualizations</h2>
             <p>
-                Either apply two machine learning techniques (supervised and unsupervised learning) or create two interactive visualizations.
+                Two interactive visualizations.
             </p>
         </div>
         <div id="chartGrid">
-            <figure id="mlChart1"></figure>
-            <figure id="mlChart2"></figure>
+            <figure id="cc10_healthburden"></figure>
+            <figure id="cc10_roaddensity"></figure>
         </div>
     </section>
     
@@ -276,7 +279,6 @@
         vegaEmbed("#HousingTenure",'cc3_housing_tenure.json')
         vegaEmbed("#cc4_bad_chart",'cc4_bad_chart.json')
         vegaEmbed("#cc4_good_chart",'cc4_good_chart.json')
-        vegaEmbed("#cc4_good_chart2",'cc4_good_chart2.json')
         vegaEmbed("#cc5_bigC",'cc5_pricedensity_bigc.json') 
         vegaEmbed("#cc6_1below215","cc6_below215_chart.json")
         vegaEmbed("#cc6_2below365","cc6_below365_chart.json")
@@ -291,6 +293,8 @@
         vegaEmbed("#cc7_elderlymap","cc7_thailand_elderly2023.json")
         vegaEmbed("#cc8_babyformula_autoCPI","cc8_autoCPI_babyformula.json")
         vegaEmbed("#cc8_babyformula_trend", "cc8_baby_formula_trend.json")
+        vegaEmbed("#cc9_healthburden","02_health_burden.json")
+        vegaEmbed("#cc9_roaddensity","03_road_density.json")
 
     </script>
 </body>
