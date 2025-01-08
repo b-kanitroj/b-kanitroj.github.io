@@ -1,0 +1,99 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 400,
+    "title": {
+      "text": "Road Density and Gravel Road Percentage in Thailand",
+      "subtitle": [
+        "Visualization of road density and concrete road percentages.",
+        "Source: MSO-Logbook (MSDHS)"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/00roadtype_merged_data.csv"
+    },
+    "transform": [
+      {
+        "lookup": "pro_th",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/chingchai/OpenGISData-Thailand/refs/heads/master/provinces.geojson",
+            "format": {"property": "features"}
+          },
+          "key": "properties.pro_th",
+          "fields": ["type", "geometry", "properties"]
+        }
+      }
+    ],
+    "projection": {"type": "naturalEarth1"},
+    "layer": [
+      {
+        "mark": {
+          "type": "geoshape",
+          "stroke": "gray",
+          "strokeWidth": 0.1,
+          "opacity": 0.6
+        },
+        "encoding": {
+          "color": {
+            "field": "road_density",
+            "type": "quantitative",
+            "scale": { 
+              "range": ["#f9fff5", "#D0E181"]
+            },
+            "title": "Road Density (km/sqkm)"
+          },
+          "tooltip": [
+            {
+              "field": "properties.pro_en",
+              "type": "nominal",
+              "title": "Province"
+            },
+            {
+              "field": "road_density",
+              "type": "quantitative",
+              "title": "Road Density (km/sqkm)"
+            }
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "circle",
+          "opacity": 0.8,
+          "tooltip": true,
+          "fill":"#d85f26"
+        },
+        "encoding": {
+          "size": {
+            "field": "gravel_percentage",
+            "type": "quantitative",
+            "title": "Gravel Road (%)",
+            "scale": {"range": [10, 300]}
+          },
+          "latitude": {"field": "Latitude_y"},
+          "longitude": {"field": "Longitude_y"},
+          "tooltip": [
+            {"field": "properties.pro_en", "type": "nominal", "title": "Province"},
+            {
+              "field": "gravel_percentage",
+              "type": "quantitative",
+              "title": "Gravel Road (%)",
+              "format": ".2f"
+            },
+            {
+              "field": "road_density",
+              "type": "quantitative",
+              "title": "Road Density (km/sqkm)",
+              "format":".2f"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

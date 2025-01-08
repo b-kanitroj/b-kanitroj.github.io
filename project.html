@@ -96,10 +96,31 @@
         </div>
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>Chart 3: Mapping Health Issues Across Provinces</h2>
+        </div>
+        <div id="chartGrid">
+            <figure id="Location5"></figure>
+        </div>
+        <div>
+            <button class="toggle-button" data-target="descriptionChart3" style="margin-bottom: 10px; cursor: pointer;">
+                Show Description
+            </button>
+            <p id="descriptionChart3" class="chart-description-text" style="display: none;">
+                This map visualizes the distribution of health issues across provinces in Thailand. The intensity of color
+                represents the number of reported health issues in each province, allowing for easy identification of
+                regions with higher or lower health challenges. Use the dropdown filter to explore specific health issues,
+                or view all health issues combined to see the overall burden across the country.
+            </p>
+        </div>
+    </section>
+    
+
 
     <section>
         <div class="chart-description">
-            <h2>Chart 3: Road Density and Societal Issues</h2>
+            <h2>Chart 4: Road Density and Societal Issues</h2>
         </div>
         <div id="chartGrid">
             <figure id="Location3"></figure>
@@ -114,11 +135,12 @@
                 emphasizes the compounded challenges faced by underserved regions.
             </p>
         </div>
+        <figure id="Location6"></figure>
     </section>
     
     <section>
         <div class="chart-description">
-            <h2>Chart 4: Composite Impact of Road and Doctor Density on Societal Issues</h2>
+            <h2>Chart 5: Composite Impact of Road and Doctor Density on Societal Issues</h2>
         </div>
         <div id="chartGrid">
             <figure id="Location4"></figure>
@@ -237,9 +259,9 @@
             healthcare infrastructure directly impacts public health.
         </p>
         <p style="margin-top: 10px;">
-            Chart 3 expands the perspective to road density, showing how infrastructure disparities contribute to
+            Chart 4 expands the perspective to road density, showing how infrastructure disparities contribute to
             broader societal challenges, such as education and employment issues. The patterns emphasize that
-            infrastructure inequities are not isolated but have effects on people’s well-being. Chart 4 reinforces this
+            infrastructure inequities are not isolated but have effects on people’s well-being. Chart 5 reinforces this
             interconnectedness, highlighting how the combined inadequacies of road and healthcare infrastructure
             compound societal challenges, with the highest burdens seen in underserved provinces.
         </p>
@@ -269,6 +291,10 @@
         vegaEmbed("#Location3", figure_3_spec)
         let figure_4_spec = "04_combined_infra.json"
         vegaEmbed("#Location4", figure_4_spec)
+        let figure_5_spec = "05_province_health.json"
+        vegaEmbed("#Location5", figure_5_spec)
+        let figure_6_spec = "06_road_type.json"
+        vegaEmbed("#Location6", figure_6_spec)
 
     </script>
 
