@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Composite Impact of Road and Doctor Density",
+      "subtitle": [
+        "Analyzing how infrastructure and healthcare access combine to influence societal challenges.",
+        "Color intensity indicates issue prevalence.",
+        "Data Source: MSO-Logbook (MSDHS), Ministry of Transport, Ministry of Health",
+        ""
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/b-kanitroj/b-kanitroj.github.io/refs/heads/main/00merged_infra_data.csv"
+    },
+    "mark": "rect",
+    "width": 300,
+    "height": 300,
+    "encoding": {
+      "x": {
+        "field": "road_density",
+        "type": "quantitative",
+        "bin": {"maxbins": 20},
+        "title": "Road Density (km/sqkm)"
+      },
+      "y": {
+        "field": "doctor_density",
+        "type": "quantitative",
+        "bin": {"maxbins": 20},
+        "title": "Doctor Density (per 10,000 People)"
+      },
+      "color": {
+        "field": "total_issues",
+        "type": "quantitative",
+        "scale": {"scheme": "lightmulti"},
+        "legend": {"title": "Issue Intensity"}
+      },
+      "tooltip": [
+        {"field": "Province", "type": "nominal", "title": "Province"},
+        {
+          "field": "road_density",
+          "type": "quantitative",
+          "title": "Road Density",
+          "format": ",.2f"
+        },
+        {
+          "field": "doctor_density",
+          "type": "quantitative",
+          "title": "Doctor Density",
+          "format": ",.2f"
+        },
+        {
+          "field": "total_issues",
+          "type": "quantitative",
+          "title": "Total Issues",
+          "format": ","
+        }
+      ]
+    },
+    "config": {
+      "axis": {
+        "gridColor": "#e0e0e0",
+        "gridOpacity": 0.4
+      },
+      "view": {
+        "stroke": "transparent"
+      }
+    }
+  }
+  

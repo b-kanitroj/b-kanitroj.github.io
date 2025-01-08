@@ -20,11 +20,19 @@
 </head>
 
 <body>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Index</a>
+        <span>|</span>
+        <a href="project.html">Project</a>
+    </nav>
+
     <!-- Main Content -->
     <h1 class="big">Portfolio</h1>
     <p class="small">
         This page presents my portfolio of 10 coding challenges, each designed to demonstrate a range of data science skills, including data visualization, web development, and analysis. From building interactive charts and maps to implementing machine learning models and data scrapers, each task highlights a unique aspect of practical data analysis applied to real-world economic and policy topics.
     </p>
+</body>
 
     <!-- Week 1 -->
     <section>
@@ -226,7 +234,7 @@
         </div>
         <div id="chartGrid">
             <figure id="cc9_healthburden"></figure>
-            <figure id="cc9_roaddensity"></figure>
+            <figure id="cc9_combinedinfra"></figure>
         </div>
     </section>
 
@@ -238,7 +246,7 @@
             </p>
         </div>
         <div id="chartGrid">
-            <figure id="cc10_healthburden"></figure>
+            <figure id="cc10_doctordivide"></figure>
             <figure id="cc10_roaddensity"></figure>
         </div>
     </section>
@@ -294,7 +302,10 @@
         vegaEmbed("#cc8_babyformula_autoCPI","cc8_autoCPI_babyformula.json")
         vegaEmbed("#cc8_babyformula_trend", "cc8_baby_formula_trend.json")
         vegaEmbed("#cc9_healthburden","02_health_burden.json")
-        vegaEmbed("#cc9_roaddensity","03_road_density.json")
+        vegaEmbed("#cc9_combinedinfra","04_combined_infra.json")
+        vegaEmbed("#cc10_roaddensity","03_road_density.json")
+        vegaEmbed("#cc10_doctordivide","01_doctor_divide.json")
+
 
     </script>
 </body>
