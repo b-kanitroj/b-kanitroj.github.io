@@ -1,0 +1,840 @@
+province,health_issue,count
+กระบี่,Bedridden,87
+กระบี่,Chronic Illness,642
+กระบี่,Cognitive Decline in Elderly,107
+กระบี่,Dependent on Others for Daily Living,81
+กระบี่,Depression,7
+กระบี่,Impacted by AIDS,2
+กระบี่,Lack of Assistive Devices,25
+กระบี่,Living with HIV/AIDS,22
+กระบี่,Mental Health Issues,19
+กระบี่,No Access to Healthcare Rights,7
+กระบี่,No Access to Treatment or Rehabilitation,19
+กระบี่,Severe Illness,24
+กระบี่,Substance Abuse,11
+กระบี่,nan,20291
+กรุงเทพมหานคร,Bedridden,12
+กรุงเทพมหานคร,Chronic Illness,116
+กรุงเทพมหานคร,Cognitive Decline in Elderly,4
+กรุงเทพมหานคร,Dependent on Others for Daily Living,7
+กรุงเทพมหานคร,Depression,9
+กรุงเทพมหานคร,Impacted by AIDS,1
+กรุงเทพมหานคร,Lack of Assistive Devices,2
+กรุงเทพมหานคร,Living with HIV/AIDS,4
+กรุงเทพมหานคร,Mental Health Issues,9
+กรุงเทพมหานคร,No Access to Healthcare Rights,2
+กรุงเทพมหานคร,No Access to Treatment or Rehabilitation,1
+กรุงเทพมหานคร,Severe Illness,14
+กรุงเทพมหานคร,Substance Abuse,1
+กรุงเทพมหานคร,nan,1401
+กาฬสินธุ์,Bedridden,65
+กาฬสินธุ์,Chronic Illness,468
+กาฬสินธุ์,Cognitive Decline in Elderly,238
+กาฬสินธุ์,Dependent on Others for Daily Living,84
+กาฬสินธุ์,Depression,14
+กาฬสินธุ์,Impacted by AIDS,7
+กาฬสินธุ์,Lack of Assistive Devices,40
+กาฬสินธุ์,Living with HIV/AIDS,19
+กาฬสินธุ์,Mental Health Issues,48
+กาฬสินธุ์,No Access to Treatment or Rehabilitation,31
+กาฬสินธุ์,Severe Illness,19
+กาฬสินธุ์,Substance Abuse,34
+กาฬสินธุ์,nan,25548
+กำแพงเพชร,Bedridden,73
+กำแพงเพชร,Chronic Illness,586
+กำแพงเพชร,Cognitive Decline in Elderly,75
+กำแพงเพชร,Dependent on Others for Daily Living,72
+กำแพงเพชร,Depression,4
+กำแพงเพชร,Lack of Assistive Devices,26
+กำแพงเพชร,Living with HIV/AIDS,5
+กำแพงเพชร,Mental Health Issues,17
+กำแพงเพชร,No Access to Healthcare Rights,1
+กำแพงเพชร,No Access to Treatment or Rehabilitation,6
+กำแพงเพชร,Severe Illness,31
+กำแพงเพชร,Substance Abuse,2
+กำแพงเพชร,nan,11611
+จันทบุรี,Chronic Illness,11
+จันทบุรี,Depression,1
+จันทบุรี,Mental Health Issues,1
+จันทบุรี,Severe Illness,1
+จันทบุรี,nan,251
+ฉะเชิงเทรา,Bedridden,10
+ฉะเชิงเทรา,Chronic Illness,143
+ฉะเชิงเทรา,Cognitive Decline in Elderly,14
+ฉะเชิงเทรา,Dependent on Others for Daily Living,19
+ฉะเชิงเทรา,Lack of Assistive Devices,1
+ฉะเชิงเทรา,No Access to Treatment or Rehabilitation,3
+ฉะเชิงเทรา,Severe Illness,29
+ฉะเชิงเทรา,nan,8904
+ชลบุรี,Chronic Illness,15
+ชลบุรี,Cognitive Decline in Elderly,3
+ชลบุรี,Depression,1
+ชลบุรี,Lack of Assistive Devices,1
+ชลบุรี,nan,550
+ชัยนาท,Bedridden,44
+ชัยนาท,Chronic Illness,269
+ชัยนาท,Cognitive Decline in Elderly,93
+ชัยนาท,Dependent on Others for Daily Living,41
+ชัยนาท,Depression,2
+ชัยนาท,Lack of Assistive Devices,60
+ชัยนาท,Living with HIV/AIDS,2
+ชัยนาท,Mental Health Issues,16
+ชัยนาท,No Access to Healthcare Rights,2
+ชัยนาท,No Access to Treatment or Rehabilitation,11
+ชัยนาท,Severe Illness,8
+ชัยนาท,nan,9522
+ชัยภูมิ,Bedridden,48
+ชัยภูมิ,Chronic Illness,588
+ชัยภูมิ,Cognitive Decline in Elderly,235
+ชัยภูมิ,Dependent on Others for Daily Living,14
+ชัยภูมิ,Depression,1
+ชัยภูมิ,Impacted by AIDS,5
+ชัยภูมิ,Lack of Assistive Devices,2
+ชัยภูมิ,Living with HIV/AIDS,54
+ชัยภูมิ,Mental Health Issues,22
+ชัยภูมิ,No Access to Healthcare Rights,1
+ชัยภูมิ,No Access to Treatment or Rehabilitation,3
+ชัยภูมิ,Severe Illness,15
+ชัยภูมิ,Substance Abuse,4
+ชัยภูมิ,nan,20823
+ชุมพร,Bedridden,62
+ชุมพร,Chronic Illness,221
+ชุมพร,Cognitive Decline in Elderly,56
+ชุมพร,Dependent on Others for Daily Living,101
+ชุมพร,Depression,3
+ชุมพร,Impacted by AIDS,16
+ชุมพร,Lack of Assistive Devices,4
+ชุมพร,Living with HIV/AIDS,45
+ชุมพร,Mental Health Issues,7
+ชุมพร,No Access to Treatment or Rehabilitation,2
+ชุมพร,Severe Illness,25
+ชุมพร,Substance Abuse,2
+ชุมพร,nan,23186
+ตรัง,Bedridden,30
+ตรัง,Chronic Illness,181
+ตรัง,Cognitive Decline in Elderly,39
+ตรัง,Dependent on Others for Daily Living,41
+ตรัง,Depression,3
+ตรัง,Impacted by AIDS,3
+ตรัง,Lack of Assistive Devices,25
+ตรัง,Living with HIV/AIDS,1
+ตรัง,Mental Health Issues,10
+ตรัง,No Access to Healthcare Rights,1
+ตรัง,No Access to Treatment or Rehabilitation,8
+ตรัง,Severe Illness,20
+ตรัง,Substance Abuse,2
+ตรัง,nan,23345
+ตราด,Chronic Illness,1
+ตราด,nan,60
+ตาก,Bedridden,39
+ตาก,Chronic Illness,351
+ตาก,Cognitive Decline in Elderly,114
+ตาก,Dependent on Others for Daily Living,29
+ตาก,Depression,4
+ตาก,Lack of Assistive Devices,29
+ตาก,Living with HIV/AIDS,13
+ตาก,Mental Health Issues,20
+ตาก,No Access to Healthcare Rights,1
+ตาก,No Access to Treatment or Rehabilitation,2
+ตาก,Severe Illness,29
+ตาก,Substance Abuse,1
+ตาก,nan,28645
+นครนายก,Bedridden,26
+นครนายก,Chronic Illness,1928
+นครนายก,Cognitive Decline in Elderly,210
+นครนายก,Dependent on Others for Daily Living,18
+นครนายก,Impacted by AIDS,6
+นครนายก,Lack of Assistive Devices,3
+นครนายก,Living with HIV/AIDS,9
+นครนายก,Mental Health Issues,8
+นครนายก,No Access to Healthcare Rights,8
+นครนายก,No Access to Treatment or Rehabilitation,1
+นครนายก,Severe Illness,12
+นครนายก,nan,40453
+นครปฐม,Chronic Illness,5
+นครปฐม,Cognitive Decline in Elderly,2
+นครปฐม,Dependent on Others for Daily Living,2
+นครปฐม,Living with HIV/AIDS,11
+นครปฐม,Severe Illness,2
+นครปฐม,nan,4854
+นครพนม,Bedridden,33
+นครพนม,Chronic Illness,476
+นครพนม,Cognitive Decline in Elderly,257
+นครพนม,Dependent on Others for Daily Living,58
+นครพนม,Depression,13
+นครพนม,Impacted by AIDS,1
+นครพนม,Lack of Assistive Devices,26
+นครพนม,Living with HIV/AIDS,9
+นครพนม,Mental Health Issues,27
+นครพนม,No Access to Healthcare Rights,4
+นครพนม,No Access to Treatment or Rehabilitation,12
+นครพนม,Severe Illness,32
+นครพนม,Substance Abuse,2
+นครพนม,nan,21143
+นครราชสีมา,Chronic Illness,5
+นครราชสีมา,nan,302
+นครศรีธรรมราช,Bedridden,18
+นครศรีธรรมราช,Chronic Illness,143
+นครศรีธรรมราช,Cognitive Decline in Elderly,90
+นครศรีธรรมราช,Dependent on Others for Daily Living,48
+นครศรีธรรมราช,Depression,3
+นครศรีธรรมราช,Impacted by AIDS,6
+นครศรีธรรมราช,Lack of Assistive Devices,2
+นครศรีธรรมราช,Living with HIV/AIDS,39
+นครศรีธรรมราช,Mental Health Issues,7
+นครศรีธรรมราช,No Access to Healthcare Rights,1
+นครศรีธรรมราช,No Access to Treatment or Rehabilitation,1
+นครศรีธรรมราช,Severe Illness,10
+นครศรีธรรมราช,Substance Abuse,1
+นครศรีธรรมราช,nan,53313
+นครสวรรค์,Bedridden,82
+นครสวรรค์,Chronic Illness,1375
+นครสวรรค์,Cognitive Decline in Elderly,208
+นครสวรรค์,Dependent on Others for Daily Living,38
+นครสวรรค์,Depression,7
+นครสวรรค์,Impacted by AIDS,1
+นครสวรรค์,Lack of Assistive Devices,11
+นครสวรรค์,Living with HIV/AIDS,4
+นครสวรรค์,Mental Health Issues,15
+นครสวรรค์,No Access to Treatment or Rehabilitation,1
+นครสวรรค์,Severe Illness,17
+นครสวรรค์,Substance Abuse,2
+นครสวรรค์,nan,33676
+นนทบุรี,Bedridden,80
+นนทบุรี,Chronic Illness,667
+นนทบุรี,Cognitive Decline in Elderly,144
+นนทบุรี,Dependent on Others for Daily Living,57
+นนทบุรี,Depression,11
+นนทบุรี,Impacted by AIDS,3
+นนทบุรี,Lack of Assistive Devices,30
+นนทบุรี,Living with HIV/AIDS,46
+นนทบุรี,Mental Health Issues,31
+นนทบุรี,No Access to Healthcare Rights,6
+นนทบุรี,No Access to Treatment or Rehabilitation,23
+นนทบุรี,Severe Illness,17
+นนทบุรี,Substance Abuse,1
+นนทบุรี,nan,12672
+นราธิวาส,Bedridden,2
+นราธิวาส,Chronic Illness,23
+นราธิวาส,Cognitive Decline in Elderly,5
+นราธิวาส,Dependent on Others for Daily Living,9
+นราธิวาส,Depression,1
+นราธิวาส,Lack of Assistive Devices,3
+นราธิวาส,Mental Health Issues,8
+นราธิวาส,No Access to Treatment or Rehabilitation,3
+นราธิวาส,Severe Illness,2
+นราธิวาส,nan,1967
+น่าน,Bedridden,126
+น่าน,Chronic Illness,832
+น่าน,Cognitive Decline in Elderly,202
+น่าน,Dependent on Others for Daily Living,209
+น่าน,Depression,25
+น่าน,Impacted by AIDS,4
+น่าน,Lack of Assistive Devices,11
+น่าน,Living with HIV/AIDS,17
+น่าน,Mental Health Issues,41
+น่าน,No Access to Healthcare Rights,3
+น่าน,No Access to Treatment or Rehabilitation,34
+น่าน,Severe Illness,184
+น่าน,Substance Abuse,7
+น่าน,nan,12716
+บึงกาฬ,Bedridden,45
+บึงกาฬ,Chronic Illness,448
+บึงกาฬ,Cognitive Decline in Elderly,80
+บึงกาฬ,Dependent on Others for Daily Living,31
+บึงกาฬ,Depression,4
+บึงกาฬ,Impacted by AIDS,2
+บึงกาฬ,Lack of Assistive Devices,16
+บึงกาฬ,Living with HIV/AIDS,68
+บึงกาฬ,Mental Health Issues,21
+บึงกาฬ,No Access to Healthcare Rights,2
+บึงกาฬ,No Access to Treatment or Rehabilitation,5
+บึงกาฬ,Severe Illness,19
+บึงกาฬ,Substance Abuse,8
+บึงกาฬ,nan,13235
+บุรีรัมย์,Chronic Illness,7
+บุรีรัมย์,Cognitive Decline in Elderly,3
+บุรีรัมย์,Lack of Assistive Devices,3
+บุรีรัมย์,nan,2528
+ปทุมธานี,Bedridden,279
+ปทุมธานี,Chronic Illness,1558
+ปทุมธานี,Cognitive Decline in Elderly,323
+ปทุมธานี,Dependent on Others for Daily Living,137
+ปทุมธานี,Depression,30
+ปทุมธานี,Impacted by AIDS,153
+ปทุมธานี,Lack of Assistive Devices,36
+ปทุมธานี,Living with HIV/AIDS,491
+ปทุมธานี,Mental Health Issues,118
+ปทุมธานี,No Access to Healthcare Rights,22
+ปทุมธานี,No Access to Treatment or Rehabilitation,28
+ปทุมธานี,Severe Illness,70
+ปทุมธานี,Substance Abuse,10
+ปทุมธานี,nan,18036
+ประจวบคีรีขันธ์,Bedridden,45
+ประจวบคีรีขันธ์,Chronic Illness,637
+ประจวบคีรีขันธ์,Cognitive Decline in Elderly,129
+ประจวบคีรีขันธ์,Dependent on Others for Daily Living,40
+ประจวบคีรีขันธ์,Depression,2
+ประจวบคีรีขันธ์,Impacted by AIDS,1
+ประจวบคีรีขันธ์,Lack of Assistive Devices,3
+ประจวบคีรีขันธ์,Living with HIV/AIDS,12
+ประจวบคีรีขันธ์,Mental Health Issues,4
+ประจวบคีรีขันธ์,Severe Illness,24
+ประจวบคีรีขันธ์,Substance Abuse,2
+ประจวบคีรีขันธ์,nan,5416
+ปราจีนบุรี,Bedridden,5
+ปราจีนบุรี,Chronic Illness,31
+ปราจีนบุรี,Cognitive Decline in Elderly,13
+ปราจีนบุรี,Dependent on Others for Daily Living,5
+ปราจีนบุรี,Depression,6
+ปราจีนบุรี,Lack of Assistive Devices,6
+ปราจีนบุรี,Living with HIV/AIDS,1
+ปราจีนบุรี,No Access to Healthcare Rights,2
+ปราจีนบุรี,No Access to Treatment or Rehabilitation,1
+ปราจีนบุรี,Severe Illness,2
+ปราจีนบุรี,nan,3336
+ปัตตานี,Bedridden,27
+ปัตตานี,Chronic Illness,225
+ปัตตานี,Cognitive Decline in Elderly,78
+ปัตตานี,Dependent on Others for Daily Living,17
+ปัตตานี,Depression,4
+ปัตตานี,Living with HIV/AIDS,4
+ปัตตานี,Mental Health Issues,21
+ปัตตานี,No Access to Healthcare Rights,2
+ปัตตานี,No Access to Treatment or Rehabilitation,2
+ปัตตานี,Severe Illness,5
+ปัตตานี,Substance Abuse,6
+ปัตตานี,nan,26344
+พระนครศรีอยุธยา,Bedridden,73
+พระนครศรีอยุธยา,Chronic Illness,788
+พระนครศรีอยุธยา,Cognitive Decline in Elderly,104
+พระนครศรีอยุธยา,Dependent on Others for Daily Living,62
+พระนครศรีอยุธยา,Depression,2
+พระนครศรีอยุธยา,Lack of Assistive Devices,16
+พระนครศรีอยุธยา,Living with HIV/AIDS,1
+พระนครศรีอยุธยา,Mental Health Issues,21
+พระนครศรีอยุธยา,No Access to Healthcare Rights,1
+พระนครศรีอยุธยา,No Access to Treatment or Rehabilitation,4
+พระนครศรีอยุธยา,Severe Illness,15
+พระนครศรีอยุธยา,Substance Abuse,4
+พระนครศรีอยุธยา,nan,13211
+พะเยา,Bedridden,87
+พะเยา,Chronic Illness,860
+พะเยา,Cognitive Decline in Elderly,255
+พะเยา,Dependent on Others for Daily Living,116
+พะเยา,Depression,10
+พะเยา,Impacted by AIDS,5
+พะเยา,Lack of Assistive Devices,69
+พะเยา,Living with HIV/AIDS,94
+พะเยา,Mental Health Issues,64
+พะเยา,No Access to Healthcare Rights,12
+พะเยา,No Access to Treatment or Rehabilitation,73
+พะเยา,Severe Illness,70
+พะเยา,Substance Abuse,5
+พะเยา,nan,14868
+พังงา,Bedridden,43
+พังงา,Chronic Illness,577
+พังงา,Cognitive Decline in Elderly,76
+พังงา,Dependent on Others for Daily Living,65
+พังงา,Depression,18
+พังงา,Impacted by AIDS,1
+พังงา,Lack of Assistive Devices,7
+พังงา,Living with HIV/AIDS,17
+พังงา,Mental Health Issues,25
+พังงา,No Access to Treatment or Rehabilitation,10
+พังงา,Severe Illness,23
+พังงา,Substance Abuse,1
+พังงา,nan,10032
+พัทลุง,Bedridden,22
+พัทลุง,Chronic Illness,104
+พัทลุง,Cognitive Decline in Elderly,35
+พัทลุง,Dependent on Others for Daily Living,174
+พัทลุง,Depression,4
+พัทลุง,Lack of Assistive Devices,5
+พัทลุง,Living with HIV/AIDS,9
+พัทลุง,Mental Health Issues,15
+พัทลุง,No Access to Treatment or Rehabilitation,5
+พัทลุง,Severe Illness,7
+พัทลุง,Substance Abuse,2
+พัทลุง,nan,18078
+พิจิตร,Bedridden,52
+พิจิตร,Chronic Illness,627
+พิจิตร,Cognitive Decline in Elderly,162
+พิจิตร,Dependent on Others for Daily Living,48
+พิจิตร,Depression,1
+พิจิตร,Lack of Assistive Devices,21
+พิจิตร,Living with HIV/AIDS,11
+พิจิตร,Mental Health Issues,33
+พิจิตร,No Access to Treatment or Rehabilitation,4
+พิจิตร,Severe Illness,26
+พิจิตร,Substance Abuse,3
+พิจิตร,nan,14059
+พิษณุโลก,Bedridden,72
+พิษณุโลก,Chronic Illness,1321
+พิษณุโลก,Cognitive Decline in Elderly,172
+พิษณุโลก,Dependent on Others for Daily Living,70
+พิษณุโลก,Depression,1
+พิษณุโลก,Lack of Assistive Devices,6
+พิษณุโลก,Living with HIV/AIDS,58
+พิษณุโลก,Mental Health Issues,14
+พิษณุโลก,No Access to Treatment or Rehabilitation,21
+พิษณุโลก,Severe Illness,12
+พิษณุโลก,Substance Abuse,2
+พิษณุโลก,nan,27492
+ภูเก็ต,Bedridden,36
+ภูเก็ต,Chronic Illness,308
+ภูเก็ต,Cognitive Decline in Elderly,30
+ภูเก็ต,Dependent on Others for Daily Living,30
+ภูเก็ต,Depression,10
+ภูเก็ต,Impacted by AIDS,17
+ภูเก็ต,Lack of Assistive Devices,10
+ภูเก็ต,Living with HIV/AIDS,108
+ภูเก็ต,Mental Health Issues,15
+ภูเก็ต,No Access to Healthcare Rights,1
+ภูเก็ต,No Access to Treatment or Rehabilitation,4
+ภูเก็ต,Severe Illness,30
+ภูเก็ต,Substance Abuse,6
+ภูเก็ต,nan,11378
+มหาสารคาม,Bedridden,14
+มหาสารคาม,Chronic Illness,69
+มหาสารคาม,Cognitive Decline in Elderly,23
+มหาสารคาม,Dependent on Others for Daily Living,9
+มหาสารคาม,Depression,4
+มหาสารคาม,Impacted by AIDS,1
+มหาสารคาม,Lack of Assistive Devices,1
+มหาสารคาม,Living with HIV/AIDS,55
+มหาสารคาม,Mental Health Issues,9
+มหาสารคาม,No Access to Treatment or Rehabilitation,1
+มหาสารคาม,Severe Illness,3
+มหาสารคาม,Substance Abuse,5
+มหาสารคาม,nan,27242
+มุกดาหาร,Bedridden,30
+มุกดาหาร,Chronic Illness,119
+มุกดาหาร,Cognitive Decline in Elderly,106
+มุกดาหาร,Dependent on Others for Daily Living,12
+มุกดาหาร,Depression,6
+มุกดาหาร,Impacted by AIDS,1
+มุกดาหาร,Lack of Assistive Devices,14
+มุกดาหาร,Living with HIV/AIDS,3
+มุกดาหาร,Mental Health Issues,15
+มุกดาหาร,No Access to Healthcare Rights,1
+มุกดาหาร,No Access to Treatment or Rehabilitation,4
+มุกดาหาร,Severe Illness,24
+มุกดาหาร,Substance Abuse,2
+มุกดาหาร,nan,15251
+ยะลา,Bedridden,37
+ยะลา,Chronic Illness,258
+ยะลา,Cognitive Decline in Elderly,130
+ยะลา,Dependent on Others for Daily Living,26
+ยะลา,Depression,3
+ยะลา,Impacted by AIDS,1
+ยะลา,Lack of Assistive Devices,2
+ยะลา,Living with HIV/AIDS,1
+ยะลา,Mental Health Issues,13
+ยะลา,No Access to Treatment or Rehabilitation,2
+ยะลา,Severe Illness,8
+ยะลา,Substance Abuse,5
+ยะลา,nan,17824
+ยโสธร,Bedridden,6
+ยโสธร,Chronic Illness,120
+ยโสธร,Cognitive Decline in Elderly,124
+ยโสธร,Dependent on Others for Daily Living,20
+ยโสธร,Lack of Assistive Devices,3
+ยโสธร,Mental Health Issues,2
+ยโสธร,No Access to Treatment or Rehabilitation,3
+ยโสธร,Severe Illness,3
+ยโสธร,nan,1779
+ระนอง,Bedridden,10
+ระนอง,Chronic Illness,104
+ระนอง,Cognitive Decline in Elderly,3
+ระนอง,Dependent on Others for Daily Living,111
+ระนอง,Depression,3
+ระนอง,Lack of Assistive Devices,1
+ระนอง,Living with HIV/AIDS,5
+ระนอง,Mental Health Issues,6
+ระนอง,Severe Illness,2
+ระนอง,nan,14569
+ระยอง,Bedridden,3
+ระยอง,Chronic Illness,34
+ระยอง,Cognitive Decline in Elderly,23
+ระยอง,Dependent on Others for Daily Living,2
+ระยอง,Depression,1
+ระยอง,Impacted by AIDS,1
+ระยอง,Lack of Assistive Devices,3
+ระยอง,Living with HIV/AIDS,52
+ระยอง,Mental Health Issues,7
+ระยอง,No Access to Treatment or Rehabilitation,2
+ระยอง,Severe Illness,4
+ระยอง,nan,4839
+ร้อยเอ็ด,Bedridden,27
+ร้อยเอ็ด,Chronic Illness,1577
+ร้อยเอ็ด,Cognitive Decline in Elderly,677
+ร้อยเอ็ด,Dependent on Others for Daily Living,93
+ร้อยเอ็ด,Depression,18
+ร้อยเอ็ด,Impacted by AIDS,6
+ร้อยเอ็ด,Lack of Assistive Devices,29
+ร้อยเอ็ด,Living with HIV/AIDS,27
+ร้อยเอ็ด,Mental Health Issues,48
+ร้อยเอ็ด,No Access to Treatment or Rehabilitation,4
+ร้อยเอ็ด,Severe Illness,28
+ร้อยเอ็ด,Substance Abuse,12
+ร้อยเอ็ด,nan,36933
+ลพบุรี,Bedridden,72
+ลพบุรี,Chronic Illness,689
+ลพบุรี,Cognitive Decline in Elderly,149
+ลพบุรี,Dependent on Others for Daily Living,93
+ลพบุรี,Depression,8
+ลพบุรี,Impacted by AIDS,44
+ลพบุรี,Lack of Assistive Devices,19
+ลพบุรี,Living with HIV/AIDS,64
+ลพบุรี,Mental Health Issues,41
+ลพบุรี,No Access to Healthcare Rights,1
+ลพบุรี,No Access to Treatment or Rehabilitation,2
+ลพบุรี,Severe Illness,29
+ลพบุรี,Substance Abuse,7
+ลพบุรี,nan,19602
+ลำปาง,Bedridden,79
+ลำปาง,Chronic Illness,1642
+ลำปาง,Cognitive Decline in Elderly,282
+ลำปาง,Dependent on Others for Daily Living,104
+ลำปาง,Depression,17
+ลำปาง,Impacted by AIDS,5
+ลำปาง,Lack of Assistive Devices,37
+ลำปาง,Living with HIV/AIDS,51
+ลำปาง,Mental Health Issues,58
+ลำปาง,No Access to Healthcare Rights,5
+ลำปาง,No Access to Treatment or Rehabilitation,10
+ลำปาง,Severe Illness,12
+ลำปาง,Substance Abuse,14
+ลำปาง,nan,21728
+ลำพูน,Bedridden,203
+ลำพูน,Chronic Illness,1108
+ลำพูน,Cognitive Decline in Elderly,281
+ลำพูน,Dependent on Others for Daily Living,186
+ลำพูน,Depression,37
+ลำพูน,Impacted by AIDS,7
+ลำพูน,Lack of Assistive Devices,44
+ลำพูน,Living with HIV/AIDS,139
+ลำพูน,Mental Health Issues,98
+ลำพูน,No Access to Treatment or Rehabilitation,9
+ลำพูน,Severe Illness,67
+ลำพูน,Substance Abuse,5
+ลำพูน,nan,20514
+ศรีสะเกษ,nan,3334
+สกลนคร,Bedridden,50
+สกลนคร,Chronic Illness,476
+สกลนคร,Cognitive Decline in Elderly,149
+สกลนคร,Dependent on Others for Daily Living,66
+สกลนคร,Depression,17
+สกลนคร,Impacted by AIDS,17
+สกลนคร,Lack of Assistive Devices,18
+สกลนคร,Living with HIV/AIDS,236
+สกลนคร,Mental Health Issues,52
+สกลนคร,No Access to Treatment or Rehabilitation,11
+สกลนคร,Severe Illness,33
+สกลนคร,Substance Abuse,8
+สกลนคร,nan,36259
+สงขลา,Bedridden,87
+สงขลา,Chronic Illness,834
+สงขลา,Cognitive Decline in Elderly,123
+สงขลา,Dependent on Others for Daily Living,86
+สงขลา,Depression,19
+สงขลา,Impacted by AIDS,1
+สงขลา,Lack of Assistive Devices,18
+สงขลา,Living with HIV/AIDS,102
+สงขลา,Mental Health Issues,37
+สงขลา,No Access to Healthcare Rights,2
+สงขลา,No Access to Treatment or Rehabilitation,16
+สงขลา,Severe Illness,28
+สงขลา,Substance Abuse,8
+สงขลา,nan,39767
+สตูล,Bedridden,99
+สตูล,Chronic Illness,833
+สตูล,Cognitive Decline in Elderly,99
+สตูล,Dependent on Others for Daily Living,58
+สตูล,Depression,31
+สตูล,Impacted by AIDS,6
+สตูล,Lack of Assistive Devices,9
+สตูล,Living with HIV/AIDS,35
+สตูล,Mental Health Issues,59
+สตูล,No Access to Healthcare Rights,3
+สตูล,No Access to Treatment or Rehabilitation,2
+สตูล,Severe Illness,96
+สตูล,Substance Abuse,28
+สตูล,nan,19488
+สมุทรปราการ,Bedridden,16
+สมุทรปราการ,Chronic Illness,254
+สมุทรปราการ,Cognitive Decline in Elderly,14
+สมุทรปราการ,Dependent on Others for Daily Living,21
+สมุทรปราการ,Depression,3
+สมุทรปราการ,Lack of Assistive Devices,5
+สมุทรปราการ,Living with HIV/AIDS,7
+สมุทรปราการ,Mental Health Issues,3
+สมุทรปราการ,No Access to Treatment or Rehabilitation,3
+สมุทรปราการ,Severe Illness,6
+สมุทรปราการ,Substance Abuse,1
+สมุทรปราการ,nan,14572
+สมุทรสงคราม,Bedridden,4
+สมุทรสงคราม,Chronic Illness,54
+สมุทรสงคราม,Cognitive Decline in Elderly,1
+สมุทรสงคราม,Dependent on Others for Daily Living,10
+สมุทรสงคราม,Lack of Assistive Devices,1
+สมุทรสงคราม,Living with HIV/AIDS,1
+สมุทรสงคราม,Mental Health Issues,1
+สมุทรสงคราม,Severe Illness,14
+สมุทรสงคราม,nan,3568
+สมุทรสาคร,Bedridden,5
+สมุทรสาคร,Chronic Illness,132
+สมุทรสาคร,Cognitive Decline in Elderly,6
+สมุทรสาคร,Dependent on Others for Daily Living,12
+สมุทรสาคร,Impacted by AIDS,2
+สมุทรสาคร,Lack of Assistive Devices,1
+สมุทรสาคร,Living with HIV/AIDS,2
+สมุทรสาคร,Mental Health Issues,1
+สมุทรสาคร,No Access to Treatment or Rehabilitation,104
+สมุทรสาคร,Severe Illness,8
+สมุทรสาคร,nan,5355
+สระบุรี,Bedridden,140
+สระบุรี,Chronic Illness,1858
+สระบุรี,Cognitive Decline in Elderly,147
+สระบุรี,Dependent on Others for Daily Living,167
+สระบุรี,Depression,9
+สระบุรี,Impacted by AIDS,7
+สระบุรี,Lack of Assistive Devices,27
+สระบุรี,Living with HIV/AIDS,54
+สระบุรี,Mental Health Issues,40
+สระบุรี,No Access to Healthcare Rights,1
+สระบุรี,No Access to Treatment or Rehabilitation,7
+สระบุรี,Severe Illness,33
+สระบุรี,Substance Abuse,1
+สระบุรี,nan,12467
+สระแก้ว,Bedridden,22
+สระแก้ว,Chronic Illness,203
+สระแก้ว,Cognitive Decline in Elderly,36
+สระแก้ว,Dependent on Others for Daily Living,6
+สระแก้ว,Lack of Assistive Devices,8
+สระแก้ว,Mental Health Issues,10
+สระแก้ว,No Access to Treatment or Rehabilitation,1
+สระแก้ว,Severe Illness,4
+สระแก้ว,nan,4220
+สิงห์บุรี,Bedridden,15
+สิงห์บุรี,Chronic Illness,198
+สิงห์บุรี,Cognitive Decline in Elderly,21
+สิงห์บุรี,Dependent on Others for Daily Living,5
+สิงห์บุรี,Depression,2
+สิงห์บุรี,Lack of Assistive Devices,6
+สิงห์บุรี,Living with HIV/AIDS,1
+สิงห์บุรี,Mental Health Issues,11
+สิงห์บุรี,Severe Illness,5
+สิงห์บุรี,nan,5142
+สุราษฎร์ธานี,Bedridden,107
+สุราษฎร์ธานี,Chronic Illness,2386
+สุราษฎร์ธานี,Cognitive Decline in Elderly,210
+สุราษฎร์ธานี,Dependent on Others for Daily Living,109
+สุราษฎร์ธานี,Depression,8
+สุราษฎร์ธานี,Impacted by AIDS,4
+สุราษฎร์ธานี,Lack of Assistive Devices,21
+สุราษฎร์ธานี,Living with HIV/AIDS,11
+สุราษฎร์ธานี,Mental Health Issues,25
+สุราษฎร์ธานี,No Access to Healthcare Rights,9
+สุราษฎร์ธานี,No Access to Treatment or Rehabilitation,9
+สุราษฎร์ธานี,Severe Illness,25
+สุราษฎร์ธานี,Substance Abuse,4
+สุราษฎร์ธานี,nan,64331
+สุรินทร์,Bedridden,62
+สุรินทร์,Chronic Illness,344
+สุรินทร์,Cognitive Decline in Elderly,217
+สุรินทร์,Dependent on Others for Daily Living,178
+สุรินทร์,Depression,45
+สุรินทร์,Impacted by AIDS,3
+สุรินทร์,Lack of Assistive Devices,1135
+สุรินทร์,Mental Health Issues,21
+สุรินทร์,No Access to Treatment or Rehabilitation,1
+สุรินทร์,Severe Illness,2
+สุรินทร์,Substance Abuse,3
+สุรินทร์,nan,13118
+สุโขทัย,Bedridden,84
+สุโขทัย,Chronic Illness,1435
+สุโขทัย,Cognitive Decline in Elderly,285
+สุโขทัย,Dependent on Others for Daily Living,118
+สุโขทัย,Depression,27
+สุโขทัย,Impacted by AIDS,2
+สุโขทัย,Lack of Assistive Devices,22
+สุโขทัย,Living with HIV/AIDS,19
+สุโขทัย,Mental Health Issues,38
+สุโขทัย,No Access to Healthcare Rights,1
+สุโขทัย,No Access to Treatment or Rehabilitation,14
+สุโขทัย,Severe Illness,62
+สุโขทัย,Substance Abuse,2
+สุโขทัย,nan,35235
+หนองคาย,Bedridden,31
+หนองคาย,Chronic Illness,237
+หนองคาย,Cognitive Decline in Elderly,121
+หนองคาย,Dependent on Others for Daily Living,34
+หนองคาย,Depression,2
+หนองคาย,Impacted by AIDS,3
+หนองคาย,Lack of Assistive Devices,22
+หนองคาย,Living with HIV/AIDS,10
+หนองคาย,Mental Health Issues,18
+หนองคาย,No Access to Healthcare Rights,2
+หนองคาย,No Access to Treatment or Rehabilitation,20
+หนองคาย,Severe Illness,31
+หนองคาย,Substance Abuse,5
+หนองคาย,nan,12619
+อำนาจเจริญ,Bedridden,35
+อำนาจเจริญ,Chronic Illness,295
+อำนาจเจริญ,Cognitive Decline in Elderly,62
+อำนาจเจริญ,Dependent on Others for Daily Living,18
+อำนาจเจริญ,Depression,16
+อำนาจเจริญ,Lack of Assistive Devices,18
+อำนาจเจริญ,Living with HIV/AIDS,3
+อำนาจเจริญ,Mental Health Issues,16
+อำนาจเจริญ,No Access to Treatment or Rehabilitation,9
+อำนาจเจริญ,Severe Illness,7
+อำนาจเจริญ,Substance Abuse,3
+อำนาจเจริญ,nan,8064
+อุตรดิตถ์,Bedridden,53
+อุตรดิตถ์,Chronic Illness,600
+อุตรดิตถ์,Cognitive Decline in Elderly,139
+อุตรดิตถ์,Dependent on Others for Daily Living,50
+อุตรดิตถ์,Depression,11
+อุตรดิตถ์,Impacted by AIDS,4
+อุตรดิตถ์,Lack of Assistive Devices,9
+อุตรดิตถ์,Living with HIV/AIDS,16
+อุตรดิตถ์,Mental Health Issues,35
+อุตรดิตถ์,No Access to Healthcare Rights,1
+อุตรดิตถ์,No Access to Treatment or Rehabilitation,5
+อุตรดิตถ์,Severe Illness,12
+อุตรดิตถ์,Substance Abuse,5
+อุตรดิตถ์,nan,16561
+อุทัยธานี,Bedridden,75
+อุทัยธานี,Chronic Illness,1455
+อุทัยธานี,Cognitive Decline in Elderly,362
+อุทัยธานี,Dependent on Others for Daily Living,71
+อุทัยธานี,Depression,5
+อุทัยธานี,Impacted by AIDS,20
+อุทัยธานี,Lack of Assistive Devices,6
+อุทัยธานี,Living with HIV/AIDS,57
+อุทัยธานี,Mental Health Issues,43
+อุทัยธานี,No Access to Treatment or Rehabilitation,7
+อุทัยธานี,Severe Illness,23
+อุทัยธานี,Substance Abuse,3
+อุทัยธานี,nan,11303
+อุบลราชธานี,Bedridden,41
+อุบลราชธานี,Chronic Illness,2032
+อุบลราชธานี,Cognitive Decline in Elderly,143
+อุบลราชธานี,Dependent on Others for Daily Living,53
+อุบลราชธานี,Depression,7
+อุบลราชธานี,Impacted by AIDS,2
+อุบลราชธานี,Lack of Assistive Devices,14
+อุบลราชธานี,Mental Health Issues,14
+อุบลราชธานี,No Access to Healthcare Rights,3
+อุบลราชธานี,No Access to Treatment or Rehabilitation,9
+อุบลราชธานี,Severe Illness,22
+อุบลราชธานี,Substance Abuse,1
+อุบลราชธานี,nan,36863
+อ่างทอง,Bedridden,69
+อ่างทอง,Chronic Illness,1012
+อ่างทอง,Cognitive Decline in Elderly,57
+อ่างทอง,Dependent on Others for Daily Living,67
+อ่างทอง,Depression,13
+อ่างทอง,Impacted by AIDS,2
+อ่างทอง,Lack of Assistive Devices,13
+อ่างทอง,Living with HIV/AIDS,60
+อ่างทอง,Mental Health Issues,42
+อ่างทอง,No Access to Treatment or Rehabilitation,5
+อ่างทอง,Severe Illness,48
+อ่างทอง,Substance Abuse,14
+อ่างทอง,nan,16337
+เชียงราย,Bedridden,193
+เชียงราย,Chronic Illness,1596
+เชียงราย,Cognitive Decline in Elderly,674
+เชียงราย,Dependent on Others for Daily Living,298
+เชียงราย,Depression,25
+เชียงราย,Impacted by AIDS,238
+เชียงราย,Lack of Assistive Devices,100
+เชียงราย,Living with HIV/AIDS,490
+เชียงราย,Mental Health Issues,54
+เชียงราย,No Access to Healthcare Rights,3
+เชียงราย,No Access to Treatment or Rehabilitation,48
+เชียงราย,Severe Illness,171
+เชียงราย,Substance Abuse,6
+เชียงราย,nan,32199
+เชียงใหม่,Bedridden,140
+เชียงใหม่,Chronic Illness,971
+เชียงใหม่,Cognitive Decline in Elderly,445
+เชียงใหม่,Dependent on Others for Daily Living,215
+เชียงใหม่,Depression,43
+เชียงใหม่,Impacted by AIDS,122
+เชียงใหม่,Lack of Assistive Devices,67
+เชียงใหม่,Living with HIV/AIDS,606
+เชียงใหม่,Mental Health Issues,73
+เชียงใหม่,No Access to Healthcare Rights,8
+เชียงใหม่,No Access to Treatment or Rehabilitation,30
+เชียงใหม่,Severe Illness,60
+เชียงใหม่,Substance Abuse,9
+เชียงใหม่,nan,52533
+เพชรบุรี,Bedridden,34
+เพชรบุรี,Chronic Illness,439
+เพชรบุรี,Cognitive Decline in Elderly,479
+เพชรบุรี,Dependent on Others for Daily Living,13
+เพชรบุรี,Depression,1
+เพชรบุรี,Impacted by AIDS,1
+เพชรบุรี,Lack of Assistive Devices,3
+เพชรบุรี,Living with HIV/AIDS,2
+เพชรบุรี,Mental Health Issues,2
+เพชรบุรี,No Access to Treatment or Rehabilitation,2
+เพชรบุรี,Severe Illness,10
+เพชรบุรี,nan,6289
+เพชรบูรณ์,Bedridden,145
+เพชรบูรณ์,Chronic Illness,668
+เพชรบูรณ์,Cognitive Decline in Elderly,329
+เพชรบูรณ์,Dependent on Others for Daily Living,152
+เพชรบูรณ์,Depression,17
+เพชรบูรณ์,Impacted by AIDS,7
+เพชรบูรณ์,Lack of Assistive Devices,19
+เพชรบูรณ์,Living with HIV/AIDS,24
+เพชรบูรณ์,Mental Health Issues,99
+เพชรบูรณ์,No Access to Treatment or Rehabilitation,5
+เพชรบูรณ์,Severe Illness,60
+เพชรบูรณ์,Substance Abuse,3
+เพชรบูรณ์,nan,19087
+เลย,Bedridden,24
+เลย,Chronic Illness,192
+เลย,Cognitive Decline in Elderly,109
+เลย,Dependent on Others for Daily Living,43
+เลย,Depression,4
+เลย,Impacted by AIDS,1
+เลย,Lack of Assistive Devices,3
+เลย,Living with HIV/AIDS,56
+เลย,Mental Health Issues,44
+เลย,Severe Illness,18
+เลย,Substance Abuse,5
+เลย,nan,10744
+แพร่,Bedridden,47
+แพร่,Chronic Illness,1092
+แพร่,Cognitive Decline in Elderly,631
+แพร่,Dependent on Others for Daily Living,29
+แพร่,Depression,2
+แพร่,Impacted by AIDS,3
+แพร่,Lack of Assistive Devices,4
+แพร่,Living with HIV/AIDS,11
+แพร่,Mental Health Issues,7
+แพร่,No Access to Healthcare Rights,5
+แพร่,No Access to Treatment or Rehabilitation,2
+แพร่,Severe Illness,51
+แพร่,Substance Abuse,1
+แพร่,nan,8015
+แม่ฮ่องสอน,Bedridden,36
+แม่ฮ่องสอน,Chronic Illness,483
+แม่ฮ่องสอน,Cognitive Decline in Elderly,120
+แม่ฮ่องสอน,Dependent on Others for Daily Living,74
+แม่ฮ่องสอน,Depression,13
+แม่ฮ่องสอน,Impacted by AIDS,3
+แม่ฮ่องสอน,Lack of Assistive Devices,5
+แม่ฮ่องสอน,Living with HIV/AIDS,38
+แม่ฮ่องสอน,Mental Health Issues,23
+แม่ฮ่องสอน,No Access to Healthcare Rights,2
+แม่ฮ่องสอน,Severe Illness,16
+แม่ฮ่องสอน,Substance Abuse,3
+แม่ฮ่องสอน,nan,8606
